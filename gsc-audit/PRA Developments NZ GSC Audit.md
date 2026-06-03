@@ -67,11 +67,20 @@ This comprehensive audit executes the Search Behaviour Operating System blueprin
 
 ### D. Content Investment System
 **Purpose:** Tell the business WHAT content to create next based on commercial opportunity.
-**Build these 4 pages next:**
+
+**Build these 4 Core Hub Pages next:**
 1. `/property-investment-christchurch/` (Targeting the massive Page 3 impression pool).
 2. `/first-home-buyers-christchurch/` (Segmenting intent away from investors).
 3. `/turnkey-homes-christchurch/` (Targeting specific build styles).
 4. `/townhouses-for-sale-christchurch/` (Consider 301 redirecting your current `/townhouses-in-christchurch` to this exact match intent URL, or building out a specific silo).
+
+**Recommended Blog / Article Titles (Content Gap Attack):**
+To capture top-of-funnel traffic and support the core hubs above, publish these highly-searched informational hybrids:
+1. *Is Christchurch a Good Place to Invest in Property in 2026? (Yields & Growth)*
+2. *First Home Buyer Guide: How Much Deposit Do I Need for a Townhouse in NZ?*
+3. *Turnkey vs. Off-the-Plan Builds: What Every Christchurch Buyer Needs to Know*
+4. *Top 5 Suburbs to Buy a Townhouse in Christchurch (Riccarton, Merivale & More)*
+5. *New Build Tax Exemptions NZ: Why Investors Are Buying Townhouses*
 
 ### E. Authority Flow System & Semantic Link Modelling
 **Purpose:** Redistribute ranking power strategically.
