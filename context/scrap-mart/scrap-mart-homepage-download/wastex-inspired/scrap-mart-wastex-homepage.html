@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cash for Scrap Metal Disposal NZ | Scrap Mart</title>
+  <meta name="description" content="Get cash for scrap metal disposal with Scrap Mart. View weekly scrap metal prices, see what metals we buy, and visit our Auckland or Christchurch yards.">
+  <style>
+    :root {
+      --red: #e30613;
+      --red-dark: #95000a;
+      --green: #1f6b4a;
+      --ink: #17211d;
+      --muted: #5b6a63;
+      --paper: #f4f7f3;
+      --white: #ffffff;
+      --line: #dce4df;
+      --dark: #141b1d;
+      --soft-red: #fff1f2;
+      --gold: #c89936;
+      --shadow: 0 22px 54px rgba(20, 32, 28, 0.14);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.5;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(1200px, calc(100% - 32px)); margin: 0 auto; }
+
+    .topbar {
+      background: var(--dark);
+      color: #eef6f1;
+      font-size: 14px;
+    }
+    .topbar .wrap {
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .topbar-links { display: flex; gap: 16px; flex-wrap: wrap; font-weight: 800; }
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background: rgba(255,255,255,0.97);
+      border-bottom: 1px solid var(--line);
+      box-shadow: 0 10px 28px rgba(20,32,28,0.08);
+      backdrop-filter: blur(12px);
+    }
+    .header .wrap {
+      min-height: 84px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 190px;
+      font-weight: 900;
+    }
+    .brand img {
+      width: 58px;
+      height: 58px;
+      object-fit: contain;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      padding: 4px;
+    }
+    .brand span { display: block; color: var(--muted); font-size: 13px; margin-top: 2px; }
+    .nav { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-weight: 800; font-size: 14px; }
+    .nav a { min-height: 42px; display: inline-flex; align-items: center; padding: 0 8px; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 20px;
+      border-radius: 4px;
+      border: 1px solid var(--line);
+      background: #fff;
+      font-size: 14px;
+      font-weight: 900;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .btn-primary {
+      background: var(--red);
+      border-color: var(--red);
+      color: #fff;
+      box-shadow: 0 12px 26px rgba(227,6,19,0.24);
+    }
+    .btn-dark { background: var(--dark); border-color: var(--dark); color: #fff; }
+    .btn-light { background: #fff; color: var(--ink); }
+
+    .hero {
+      position: relative;
+      min-height: 780px;
+      color: #fff;
+      overflow: hidden;
+      background:
+        linear-gradient(90deg, rgba(20,27,29,0.96) 0%, rgba(20,27,29,0.78) 48%, rgba(20,27,29,0.35) 100%),
+        url("../assets/generated/scrap-yard-hero.png") center / cover;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(180deg, transparent 72%, rgba(244,247,243,1) 72%),
+        radial-gradient(circle at 78% 26%, rgba(227,6,19,0.22), transparent 26%);
+      pointer-events: none;
+    }
+    .hero .wrap {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 410px;
+      gap: 42px;
+      align-items: center;
+      min-height: 780px;
+      padding: 70px 0 120px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: #ffe2e4;
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      margin-bottom: 14px;
+    }
+    .eyebrow::before { content: ""; width: 34px; height: 3px; background: var(--red); border-radius: 99px; }
+    h1 {
+      font-size: clamp(44px, 7vw, 90px);
+      line-height: .92;
+      letter-spacing: 0;
+      margin: 0;
+      max-width: 820px;
+    }
+    .hero-intro {
+      max-width: 720px;
+      color: #edf5f0;
+      font-size: 19px;
+      margin: 22px 0 0;
+    }
+    .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
+    .hero-proof {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0,1fr));
+      gap: 12px;
+      margin-top: 34px;
+      max-width: 900px;
+    }
+    .proof-pill {
+      min-height: 110px;
+      padding: 16px;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.20);
+      border-radius: 6px;
+      backdrop-filter: blur(8px);
+    }
+    .proof-pill strong { display: block; margin-bottom: 6px; }
+    .proof-pill span { color: #ffe5e7; font-size: 13px; }
+
+    .quote-card {
+      background: #fff;
+      color: var(--ink);
+      border-radius: 8px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+      border-top: 6px solid var(--red);
+      animation: rise 700ms ease both;
+    }
+    .quote-card h2 { margin: 0 0 8px; font-size: 30px; line-height: 1.05; }
+    .quote-card p { color: var(--muted); margin: 0 0 16px; font-size: 15px; }
+    .form { display: grid; gap: 10px; }
+    .form label { font-size: 13px; font-weight: 900; }
+    .form input, .form select, .form textarea {
+      width: 100%;
+      min-height: 44px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      font: inherit;
+      color: var(--ink);
+      background: #fff;
+    }
+    .form textarea { min-height: 96px; resize: vertical; }
+
+    .feature-row {
+      position: relative;
+      z-index: 5;
+      margin-top: -70px;
+    }
+    .feature-row .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap: 20px;
+    }
+    .feature-card {
+      min-height: 190px;
+      padding: 26px;
+      border-radius: 8px;
+      color: #fff;
+      background: var(--dark);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      position: relative;
+    }
+    .feature-card:nth-child(2) { background: var(--red); }
+    .feature-card:nth-child(3) { background: var(--green); }
+    .feature-card h3 { margin: 0 0 10px; font-size: 24px; }
+    .feature-card p { margin: 0; color: rgba(255,255,255,0.88); }
+    .feature-card a { display: inline-block; margin-top: 16px; font-weight: 900; }
+
+    section { padding: 82px 0; }
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0,.9fr) minmax(300px,.6fr);
+      gap: 34px;
+      align-items: end;
+      margin-bottom: 30px;
+    }
+    h2 {
+      margin: 0;
+      font-size: clamp(32px, 4.4vw, 56px);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+    .section-head p, .section-copy { color: var(--muted); font-size: 17px; margin: 0; }
+
+    .price-section { background: #fff; border-bottom: 1px solid var(--line); }
+    .price-layout { display: grid; grid-template-columns: minmax(0,1fr) 340px; gap: 24px; align-items: start; }
+    .price-table {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: var(--shadow);
+    }
+    .price-row { display: grid; grid-template-columns: 1.2fr .8fr .8fr; min-height: 64px; border-bottom: 1px solid var(--line); align-items: center; }
+    .price-row:last-child { border-bottom: 0; }
+    .price-row > div { padding: 14px 16px; }
+    .price-row.header { min-height: 52px; background: var(--dark); color: #fff; font-weight: 900; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
+    .placeholder { display: inline-flex; min-height: 30px; align-items: center; justify-content: center; padding: 0 10px; border-radius: 4px; background: var(--soft-red); color: var(--red-dark); font-weight: 900; font-size: 13px; }
+    .note-card {
+      padding: 24px;
+      background: #f9faf8;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+    .note-card h3 { margin: 0 0 10px; font-size: 24px; }
+    .note-card p { color: var(--muted); margin: 0 0 14px; }
+
+    .cards-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 18px; }
+    .cards-grid.four { grid-template-columns: repeat(4, minmax(0,1fr)); }
+    .card {
+      min-height: 210px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 10px 28px rgba(20,32,28,0.05);
+      transition: transform 170ms ease, box-shadow 170ms ease;
+    }
+    .card:hover { transform: translateY(-5px); box-shadow: var(--shadow); }
+    .card h3 { margin: 0 0 10px; font-size: 22px; line-height: 1.18; }
+    .card p { margin: 0; color: var(--muted); }
+    .card a { display: inline-block; margin-top: 16px; color: var(--red-dark); font-weight: 900; }
+    .metal-mark {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-weight: 900;
+      background: var(--dark);
+      margin-bottom: 16px;
+    }
+    .copper { background: #a85c2e; }
+    .red { background: var(--red); }
+    .gold { background: var(--gold); color: var(--ink); }
+    .green { background: var(--green); }
+
+    .image-band {
+      background: var(--dark);
+      color: #fff;
+      overflow: hidden;
+    }
+    .image-band .section-head p, .image-band .card p { color: #dce8e1; }
+    .image-band .card {
+      background: rgba(255,255,255,0.08);
+      border-color: rgba(255,255,255,0.14);
+      box-shadow: none;
+      color: #fff;
+    }
+    .split {
+      display: grid;
+      grid-template-columns: minmax(320px,.75fr) minmax(0,1fr);
+      gap: 34px;
+      align-items: start;
+    }
+    .split-image {
+      min-height: 520px;
+      border-radius: 8px;
+      background: url("../assets/generated/tradie-scrap-dropoff.png") center / cover;
+      position: sticky;
+      top: 108px;
+      box-shadow: var(--shadow);
+    }
+    .services-image { background-image: url("../assets/generated/scrap-yard-hero.png"); }
+    .trust-image { background-image: url("../assets/generated/battery-recycling.png"); }
+
+    .process-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 16px; }
+    .step {
+      min-height: 230px;
+      padding: 24px;
+      border-radius: 8px;
+      background: #fff;
+      border: 1px solid var(--line);
+      box-shadow: 0 10px 28px rgba(20,32,28,0.05);
+    }
+    .step-number {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--red);
+      color: #fff;
+      font-weight: 900;
+      margin-bottom: 16px;
+    }
+    .step h3 { margin: 0 0 10px; font-size: 20px; }
+    .step p { margin: 0; color: var(--muted); }
+
+    .locations { background: #fff; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .location-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 20px; }
+    .location-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: var(--shadow);
+    }
+    .location-head {
+      min-height: 118px;
+      padding: 24px;
+      background: var(--dark);
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      gap: 16px;
+    }
+    .location-head h3 { margin: 0; font-size: 28px; line-height: 1.08; }
+    .location-head span { background: var(--red); padding: 6px 10px; border-radius: 4px; font-size: 12px; font-weight: 900; text-transform: uppercase; }
+    .location-body { padding: 24px; }
+    .detail { display: grid; grid-template-columns: 92px minmax(0,1fr); gap: 12px; margin-bottom: 12px; }
+    .detail strong { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
+    .detail span { color: var(--muted); }
+
+    .household { background: var(--soft-red); border-top: 1px solid #ffd4d8; border-bottom: 1px solid #ffd4d8; }
+    .household-layout { display: grid; grid-template-columns: minmax(0,1fr) 390px; gap: 28px; align-items: center; }
+    .ticks { margin: 20px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+    .ticks li { color: var(--muted); display: flex; gap: 10px; align-items: start; }
+    .ticks li::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--red); margin-top: 8px; flex: 0 0 auto; }
+
+    .cta-strip {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 20px;
+      margin-top: 26px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #fff;
+      box-shadow: 0 10px 28px rgba(20,32,28,0.06);
+    }
+    .cta-strip strong { display: block; font-size: 19px; line-height: 1.2; }
+    .cta-strip span { display: block; color: var(--muted); font-size: 14px; margin-top: 4px; }
+    .image-band .cta-strip { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.14); }
+    .image-band .cta-strip span { color: #dce8e1; }
+
+    .faq-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 16px; }
+    .faq {
+      padding: 22px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .faq h3 { margin: 0 0 9px; font-size: 19px; }
+    .faq p { margin: 0; color: var(--muted); }
+
+    .final {
+      background:
+        linear-gradient(90deg, rgba(20,27,29,.96), rgba(20,27,29,.82)),
+        url("../assets/generated/scrap-yard-hero.png") center / cover;
+      color: #fff;
+    }
+    .final-box { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 24px; align-items: center; }
+    .final p { color: #dce8e1; max-width: 760px; font-size: 18px; }
+    footer { padding: 28px 0; background: #fff; color: var(--muted); border-top: 1px solid var(--line); font-size: 14px; }
+    footer .wrap { display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+    .draft-note { color: var(--red-dark); font-weight: 900; }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(22px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (max-width: 1040px) {
+      .hero .wrap,
+      .section-head,
+      .price-layout,
+      .split,
+      .household-layout,
+      .final-box {
+        grid-template-columns: 1fr;
+      }
+      .split-image { position: static; min-height: 360px; }
+      .cards-grid.four,
+      .process-grid,
+      .hero-proof { grid-template-columns: repeat(2, minmax(0,1fr)); }
+      .feature-row { margin-top: 0; padding-top: 28px; }
+    }
+    @media (max-width: 700px) {
+      .topbar .wrap,
+      .header .wrap,
+      .cta-strip,
+      .final-box {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      .header-actions,
+      .hero-actions,
+      .cta-actions { width: 100%; }
+      .btn { width: 100%; }
+      .cards-grid,
+      .cards-grid.four,
+      .feature-row .grid,
+      .process-grid,
+      .hero-proof,
+      .location-grid,
+      .faq-grid { grid-template-columns: 1fr; }
+      .price-row { grid-template-columns: 1fr; padding: 12px 0; }
+      .price-row.header { display: none; }
+      .price-row > div { padding: 5px 14px; }
+      h1 { font-size: 42px; }
+      section { padding: 56px 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <div>Weekly scrap metal prices, certified weighing and same-day payment.</div>
+      <div class="topbar-links">
+        <a href="tel:099417162">Auckland: 09 941 7162</a>
+        <a href="tel:02041234569">Christchurch: 02041234569</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="Scrap Mart homepage">
+        <img src="../assets/scrap-mart-logo.jpg" alt="Scrap Mart logo">
+        <span><strong>Scrap Mart</strong><span>Auckland and Christchurch</span></span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#what-we-buy">What we buy</a>
+        <a href="#services">Services</a>
+        <a href="#customers">Customers</a>
+        <a href="#locations">Locations</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-light" href="#locations">Find a yard</a>
+        <a class="btn btn-primary" href="#prices">View prices</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap">
+        <div>
+          <span class="eyebrow">Cash for scrap metal disposal in NZ</span>
+          <h1 id="hero-title">Get Cash for Scrap Metal Disposal in NZ</h1>
+          <p class="hero-intro">Scrap Mart buys scrap metal from tradies, businesses and households, with clear weekly prices, certified weighing and fast same-day payment through our Auckland and Christchurch yards. Drop off at Onehunga or Hillsborough, or talk to us about commercial pickup for larger volumes.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#prices">View scrap metal prices</a>
+            <a class="btn btn-light" href="#quote-form">Get a scrap metal quote</a>
+          </div>
+          <div class="hero-proof">
+            <div class="proof-pill"><strong>Weekly prices by grade</strong><span>Useful rates before you visit or enquire.</span></div>
+            <div class="proof-pill"><strong>Same-day payment</strong><span>Cash or bank transfer after inspection.</span></div>
+            <div class="proof-pill"><strong>Certified weighing</strong><span>Clear grading before final payment.</span></div>
+            <div class="proof-pill"><strong>Two branch locations</strong><span>Onehunga and Hillsborough, Christchurch.</span></div>
+          </div>
+        </div>
+
+        <aside class="quote-card" aria-label="Scrap metal quote form">
+          <h2>Get a scrap metal quote</h2>
+          <p>Send us your scrap details and choose the branch that suits you. The team can confirm next steps for drop-off, pricing or suitable commercial collection.</p>
+          <form id="quote-form" class="form" action="#" method="post">
+            <label for="quote-name">Name</label>
+            <input id="quote-name" name="name" type="text" placeholder="Your name">
+            <label for="quote-contact">Phone or email</label>
+            <input id="quote-contact" name="contact" type="text" placeholder="Best contact details">
+            <label for="quote-location">Preferred location</label>
+            <select id="quote-location" name="location">
+              <option>Select a location</option>
+              <option>Auckland - Onehunga</option>
+              <option>Christchurch - Hillsborough</option>
+            </select>
+            <label for="quote-type">Type of scrap</label>
+            <select id="quote-type" name="type">
+              <option>Select scrap type</option>
+              <option>Household scrap</option>
+              <option>Commercial scrap</option>
+              <option>Tradie scrap</option>
+              <option>Batteries</option>
+              <option>Copper or cable</option>
+            </select>
+            <label for="quote-details">Scrap details</label>
+            <textarea id="quote-details" name="details" placeholder="Tell us what metal you have, estimated volume and whether you need drop-off or pickup."></textarea>
+            <button class="btn btn-primary" type="submit">Send enquiry</button>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section id="customers" class="feature-row" aria-label="Customer paths">
+      <div class="wrap">
+        <div class="grid">
+          <article class="feature-card">
+            <h3>Household Scrap</h3>
+            <p>For your household scrap metal, use our free scrap metal drop-off service at 11 Edinburgh St, Onehunga. We will dispose or recycle your domestic scrap metal at no cost for total convenience.</p>
+            <a href="#quote-form">READ MORE</a>
+          </article>
+          <article class="feature-card">
+            <h3>Commercial Scrap</h3>
+            <p>Get rid of your commercial scrap metal and make money at the same time. You can drop off at our Onehunga yard, or our reliable commercial scrap metal collection service is available for Auckland businesses.</p>
+            <a href="#quote-form">READ MORE</a>
+          </article>
+          <article class="feature-card">
+            <h3>Tradie Scrap</h3>
+            <p>From roofing iron to copper piping and air con units, if you have tradie scrap metal that needs to be disposed of or recycled, Scrap Mart offers same-day payments - drop off or ask about our collection service.</p>
+            <a href="#quote-form">READ MORE</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="prices" class="price-section" aria-labelledby="prices-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Price-led enquiries</span>
+            <h2 id="prices-title">Check current scrap metal prices</h2>
+          </div>
+          <p>Prices change with metal markets, grade, quantity and cleanliness. Scrap Mart shows weekly rates so customers can check common scrap metal prices before visiting the yard or requesting commercial pickup.</p>
+        </div>
+        <div class="price-layout">
+          <div class="price-table" role="table" aria-label="Scrap metal price preview">
+            <div class="price-row header" role="row"><div>Material</div><div>Auckland</div><div>Christchurch</div></div>
+            <div class="price-row" role="row"><div><strong>Copper</strong></div><div><span class="placeholder">Pull from price manager</span></div><div><span class="placeholder">Pull from price manager</span></div></div>
+            <div class="price-row" role="row"><div><strong>Copper cable</strong></div><div><span class="placeholder">Pull from price manager</span></div><div><span class="placeholder">Pull from price manager</span></div></div>
+            <div class="price-row" role="row"><div><strong>Batteries</strong></div><div><span class="placeholder">Pull from price manager</span></div><div><span class="placeholder">Pull from price manager</span></div></div>
+            <div class="price-row" role="row"><div><strong>Aluminium</strong></div><div><span class="placeholder">Pull from price manager</span></div><div><span class="placeholder">Pull from price manager</span></div></div>
+            <div class="price-row" role="row"><div><strong>Brass</strong></div><div><span class="placeholder">Pull from price manager</span></div><div><span class="placeholder">Pull from price manager</span></div></div>
+            <div class="price-row" role="row"><div><strong>Electric motors</strong></div><div><span class="placeholder">Pull from price manager</span></div><div><span class="placeholder">Pull from price manager</span></div></div>
+          </div>
+          <aside class="note-card">
+            <h3>Price note</h3>
+            <p>Final payment is confirmed after your material is inspected, weighed and graded at the yard. Separating clean materials from mixed or dirty materials can help you get a stronger return.</p>
+            <p>Prices are indicative and subject to change without notice. Prices may vary by location, quantity, cleanliness and market conditions.</p>
+            <a class="btn btn-primary" href="#final">View all scrap metal prices</a>
+          </aside>
+        </div>
+        <div class="cta-strip">
+          <div><strong>Need a price before you visit?</strong><span>Send your metal details or call the nearest Scrap Mart branch.</span></div>
+          <div class="hero-actions"><a class="btn btn-primary" href="#quote-form">Send enquiry</a><a class="btn" href="tel:099417162">Call Auckland</a><a class="btn" href="tel:02041234569">Call Christchurch</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="questions-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="eyebrow">Before you visit</span><h2 id="questions-title">Not sure what your scrap is worth?</h2></div>
+          <p>These are the two questions customers usually need answered before they bring scrap in or ask about a commercial collection.</p>
+        </div>
+        <div class="faq-grid">
+          <article class="faq"><h3>How do I know if I am getting the right price?</h3><p>Your final payment depends on the metal grade, weight, cleanliness and inspection at the yard. Scrap Mart weighs and grades material before payment, so clean separated copper, cable, aluminium, brass and batteries can be priced more accurately than mixed or contaminated loads.</p></article>
+          <article class="faq"><h3>What if I am not sure what metal or grade I have?</h3><p>Call your nearest branch or send details before visiting. The team can help identify common grades such as bright copper, PVC copper wire, aluminium extrusion, stainless steel, brass, electric motors, lead batteries and mixed steel.</p></article>
+        </div>
+        <div class="cta-strip">
+          <div><strong>Not sure about the grade?</strong><span>Use the enquiry form and include photos or a short description when the site is connected.</span></div>
+          <div class="hero-actions"><a class="btn btn-primary" href="#quote-form">Ask the team</a><a class="btn" href="tel:099417162">Call Auckland</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="what-we-buy" aria-labelledby="materials-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="eyebrow">Accepted metals</span><h2 id="materials-title">Scrap metal we buy</h2></div>
+          <p>Scrap Mart buys common and high-value scrap metals from trades, workshops, factories, demolition sites, households and regular commercial suppliers.</p>
+        </div>
+        <div class="cards-grid">
+          <article class="card"><div class="metal-mark copper">Cu</div><h3>Copper</h3><p>Bright copper, No.1 copper, No.2 copper, domestic copper, copper radiators and other copper grades.</p><a href="#prices">Copper scrap prices</a></article>
+          <article class="card"><div class="metal-mark copper">Wi</div><h3>Copper Wire And Cable</h3><p>PVC copper wire, electrical cable, automotive wiring looms and wire grades based on copper recovery.</p><a href="#prices">Copper cable prices</a></article>
+          <article class="card"><div class="metal-mark">Al</div><h3>Aluminium</h3><p>Aluminium extrusion, wheels, clean sheet, cast aluminium, domestic aluminium, cans, swarf and radiators.</p><a href="#prices">Aluminium scrap prices</a></article>
+          <article class="card"><div class="metal-mark red">Pb</div><h3>Batteries And Lead</h3><p>Lead car and industrial batteries, gel and AGM batteries, soft lead and lead wheel weights.</p><a href="#prices">Battery scrap prices</a></article>
+          <article class="card"><div class="metal-mark gold">Br</div><h3>Brass</h3><p>Mixed brass, irony brass and brass swarf from trade, plumbing, workshop and commercial scrap loads.</p><a href="#prices">Brass scrap prices</a></article>
+          <article class="card"><div class="metal-mark">Ss</div><h3>Stainless Steel</h3><p>Stainless steel 304, stainless steel swarf and other stainless material accepted after grading.</p><a href="#prices">Stainless scrap prices</a></article>
+          <article class="card"><div class="metal-mark green">Fe</div><h3>Steel And Iron</h3><p>HMS insize, HMS oversize, clean light gauge steel, dirty light gauge steel and mixed steel loads.</p><a href="#prices">Steel scrap prices</a></article>
+          <article class="card"><div class="metal-mark green">Mo</div><h3>Motors And Compressors</h3><p>Electric motors, starter motors, alternators, fridge compressors and related recoverable components.</p><a href="#prices">Motor scrap prices</a></article>
+          <article class="card"><div class="metal-mark">Ra</div><h3>Radiators, Cylinders And Zinc</h3><p>Radiators, air conditioners, heat pumps, hot water cylinders, clean zinc sheet and zinc anodes.</p><a href="#prices">Component scrap prices</a></article>
+        </div>
+        <div class="cta-strip">
+          <div><strong>Have one of these metals to sell?</strong><span>Check prices first, then send an enquiry or bring it to your nearest branch.</span></div>
+          <div class="hero-actions"><a class="btn btn-primary" href="#quote-form">Send enquiry</a><a class="btn" href="#prices">View prices</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="image-band" aria-labelledby="services-title">
+      <div class="wrap split">
+        <div class="split-image services-image" aria-hidden="true"></div>
+        <div>
+          <div class="section-head">
+            <div><span class="eyebrow">Commercial and trade scrap</span><h2 id="services-title">Scrap metal services for businesses and tradies</h2></div>
+            <p>Scrap Mart helps trade and commercial customers clear valuable scrap metal, organise suitable collections, and keep regular material moving through the yard.</p>
+          </div>
+          <div class="cards-grid four">
+            <article class="card"><h3>Scrap Metal Buyers</h3><p>Sell accepted scrap metal by grade at Scrap Mart, with certified weighing and same-day payment after inspection.</p></article>
+            <article class="card"><h3>Scrap Metal Collection</h3><p>Collection enquiries for suitable scrap volumes, depending on material type, quantity, access and location.</p></article>
+            <article class="card"><h3>Commercial Scrap Buyers</h3><p>Support for businesses, workshops and repeat suppliers with regular copper, aluminium, battery, motor or mixed metal loads.</p></article>
+            <article class="card"><h3>Battery Recycling</h3><p>Scrap Mart buys scrap batteries at both Auckland and Christchurch, including lead car, industrial, gel and AGM batteries.</p></article>
+          </div>
+          <div class="cta-strip">
+            <div><strong>Choose the right customer path.</strong><span>Household, commercial and tradie enquiries can all start with the same quote form.</span></div>
+            <div class="hero-actions"><a class="btn btn-primary" href="#quote-form">Request commercial pickup</a><a class="btn btn-light" href="#locations">Choose a branch</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="process-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="eyebrow">Simple process</span><h2 id="process-title">How to sell scrap metal to Scrap Mart</h2></div>
+          <p>Customers need to know what to do, what to bring and how payment is confirmed. This section keeps the process clear before they call or visit.</p>
+        </div>
+        <div class="process-grid">
+          <article class="step"><div class="step-number">1</div><h3>Check prices or ask the team</h3><p>View current scrap metal prices online, call your nearest branch, or send details if you are unsure what grade you have.</p></article>
+          <article class="step"><div class="step-number">2</div><h3>Drop off or request pickup</h3><p>Bring your scrap metal to Onehunga or Hillsborough. Commercial pickup depends on material type, volume and location.</p></article>
+          <article class="step"><div class="step-number">3</div><h3>Weigh and grade the material</h3><p>Your scrap is inspected, weighed and graded so the final price matches the material, cleanliness and quantity.</p></article>
+          <article class="step"><div class="step-number">4</div><h3>Get paid</h3><p>Once the material is confirmed, Scrap Mart pays the agreed amount on the same day by cash or bank transfer.</p></article>
+        </div>
+        <div class="cta-strip">
+          <div><strong>Ready to start?</strong><span>Send the details now or call ahead before loading your scrap.</span></div>
+          <div class="hero-actions"><a class="btn btn-primary" href="#quote-form">Send enquiry</a><a class="btn" href="tel:099417162">Call Auckland</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="locations" class="locations" aria-labelledby="locations-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="eyebrow">Two branch locations</span><h2 id="locations-title">Visit Scrap Mart in Auckland or Christchurch</h2></div>
+          <p>Choose the branch closest to you, or contact the team if you have commercial scrap that may need pickup.</p>
+        </div>
+        <div class="location-grid">
+          <article class="location-card">
+            <div class="location-head"><h3>Scrap Mart Onehunga</h3><span>Auckland</span></div>
+            <div class="location-body">
+              <div class="detail"><strong>Address</strong><span>11 Edinburgh Street, Onehunga, Auckland</span></div>
+              <div class="detail"><strong>Hours</strong><span>Monday to Friday, 8:00am to 4:30pm</span></div>
+              <div class="detail"><strong>Phone</strong><span>09 941 7162</span></div>
+              <p>Supports trade, commercial and household scrap metal customers from Onehunga, Penrose, Mt Roskill, Mount Eden, Greenlane, Mangere, Manukau, East Tamaki, South Auckland, New Lynn, Henderson, West Auckland and nearby areas.</p>
+            </div>
+          </article>
+          <article class="location-card">
+            <div class="location-head"><h3>Scrap Mart Hillsborough</h3><span>Christchurch</span></div>
+            <div class="location-body">
+              <div class="detail"><strong>Address</strong><span>48 Curries Road, Hillsborough, Christchurch 8022</span></div>
+              <div class="detail"><strong>Hours</strong><span>Monday to Friday, 8:00am to 4:30pm</span></div>
+              <div class="detail"><strong>Phone</strong><span>02041234569</span></div>
+              <p>Supports scrap metal customers across Hillsborough, Woolston, Sydenham, Hornby, Bromley, Ferrymead, Linwood, Riccarton and wider Christchurch.</p>
+            </div>
+          </article>
+        </div>
+        <div class="cta-strip">
+          <div><strong>Choose your nearest branch.</strong><span>Call ahead or send an enquiry with your location and scrap details.</span></div>
+          <div class="hero-actions"><a class="btn btn-primary" href="#quote-form">Send enquiry</a><a class="btn" href="tel:099417162">Call Auckland</a><a class="btn" href="tel:02041234569">Call Christchurch</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="image-band" aria-labelledby="trust-title">
+      <div class="wrap split">
+        <div class="split-image trust-image" aria-hidden="true"></div>
+        <div>
+          <div class="section-head">
+            <div><span class="eyebrow">Proof and trust</span><h2 id="trust-title">Why sell your scrap metal to Scrap Mart?</h2></div>
+            <p>Scrap metal prices matter, but so does trust. Scrap Mart focuses on clear grading, certified weighing, fast payment and practical service for people who bring in scrap regularly.</p>
+          </div>
+          <div class="cards-grid">
+            <article class="card"><h3>Established scrap metal experience</h3><p>Scrap Mart has operated since 2019, with owner Ash Sampath working in the recycling industry since 2011.</p></article>
+            <article class="card"><h3>Clear weekly pricing</h3><p>Check current scrap metal prices by grade before you visit, with branch pricing managed through the website.</p></article>
+            <article class="card"><h3>Certified weighing</h3><p>Materials are weighed and graded before payment so customers understand how the final amount is calculated.</p></article>
+            <article class="card"><h3>Same-day payment</h3><p>Once material is inspected and confirmed, Scrap Mart pays on the same day by cash or bank transfer.</p></article>
+            <article class="card"><h3>Trade-friendly service</h3><p>The team supports electricians, plumbers, workshops, mechanics, factories, construction teams and regular suppliers.</p></article>
+            <article class="card"><h3>Responsible metal recycling</h3><p>Scrap Mart helps recover useful metal from trade, commercial and household sources so it can be recycled through proper channels.</p></article>
+          </div>
+          <div class="cta-strip">
+            <div><strong>Want a clear next step?</strong><span>Tell us what scrap you have and which branch suits you.</span></div>
+            <div class="hero-actions"><a class="btn btn-primary" href="#quote-form">Send enquiry</a><a class="btn btn-light" href="#locations">View branches</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="household" aria-labelledby="household-title">
+      <div class="wrap household-layout">
+        <div>
+          <span class="eyebrow">Secondary customer path</span>
+          <h2 id="household-title">Household scrap metal drop-off</h2>
+          <p class="section-copy">Scrap Mart mainly supports trade and commercial scrap metal customers, but household customers can also drop off accepted metal items at the Auckland and Christchurch yards.</p>
+          <ul class="ticks">
+            <li>Whiteware and household appliances where accepted</li>
+            <li>Aluminium, steel and mixed household metal</li>
+            <li>Copper, cable, lead acid batteries and hot water cylinders</li>
+          </ul>
+        </div>
+        <aside class="note-card">
+          <h3>Free scrap metal drop-off for household appliances.</h3>
+          <p>Some items cannot be accepted, including asbestos, oil, lithium batteries, alkaline batteries, bio waste, gas bottles and flammable liquids.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#quote-form">Ask before drop-off</a><a class="btn" href="tel:099417162">Call Auckland</a></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="faq-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="eyebrow">Common questions</span><h2 id="faq-title">Scrap metal questions</h2></div>
+          <p>Useful answers for Google search, AI-search visibility and customers who need a quick decision before calling.</p>
+        </div>
+        <div class="faq-grid">
+          <article class="faq"><h3>What scrap metal does Scrap Mart buy?</h3><p>Scrap Mart buys copper, copper cable, batteries, lead, aluminium, brass, stainless steel, steel, electric motors, radiators, hot water cylinders, air conditioners, heat pumps, zinc and other accepted metal grades.</p></article>
+          <article class="faq"><h3>Does Scrap Mart show scrap metal prices online?</h3><p>Yes. Scrap Mart shows scrap metal prices by material and grade, with pricing managed through the website and updated regularly.</p></article>
+          <article class="faq"><h3>Can I get paid the same day?</h3><p>Yes. Once your material has been inspected, weighed and confirmed, Scrap Mart offers same-day payment by cash or bank transfer.</p></article>
+          <article class="faq"><h3>Can Scrap Mart pick up scrap metal?</h3><p>Scrap Mart can help with pickup enquiries for suitable commercial volumes. Collection depends on material type, quantity, location, access and commercial value.</p></article>
+          <article class="faq"><h3>Where is Scrap Mart located?</h3><p>Scrap Mart has an Auckland yard at 11 Edinburgh Street, Onehunga, and a Christchurch branch at 48 Curries Road, Hillsborough, Christchurch 8022.</p></article>
+          <article class="faq"><h3>Does Scrap Mart buy scrap batteries?</h3><p>Yes. Scrap Mart buys scrap batteries at both Auckland and Christchurch. Used batteries are sold only from the Auckland branch.</p></article>
+        </div>
+        <div class="cta-strip">
+          <div><strong>Still have a question?</strong><span>Send an enquiry with your location and scrap details.</span></div>
+          <div class="hero-actions"><a class="btn btn-primary" href="#quote-form">Send enquiry</a><a class="btn" href="tel:02041234569">Call Christchurch</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="final" class="final" aria-labelledby="final-title">
+      <div class="wrap final-box">
+        <div>
+          <span class="eyebrow">Next step</span>
+          <h2 id="final-title">Ready to sell your scrap metal?</h2>
+          <p>Check current scrap metal prices, visit your nearest Scrap Mart yard, or send an enquiry if you have commercial scrap metal that may need pickup.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#prices">View scrap metal prices</a>
+          <a class="btn btn-light" href="tel:099417162">Call Auckland</a>
+          <a class="btn btn-light" href="tel:02041234569">Call Christchurch</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>Scrap Mart homepage preview | Draft prepared for website build. FAQ</div>
+      <div class="draft-note">Pending final prices, photos, testimonials and licence/logo approvals.</div>
+    </div>
+  </footer>
+</body>
+</html>
