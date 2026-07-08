@@ -18,6 +18,7 @@ Scrap Mart is a New Zealand scrap metal buyer and recycler. The existing website
 
 - Lead with commercial, trade, copper, batteries, scrap prices, and local yard convenience.
 - The homepage should position Scrap Mart as a scrap metal buyer for Auckland and Christchurch, with Onehunga and Hillsborough as the two main branches.
+- Battery Recycling should be treated as a key homepage, service, What We Buy, location-page, and price-content route. Use the dedicated Auckland and Christchurch Battery Recycling pages where location-specific copy or links are needed.
 - Give Auckland and Christchurch equal strategic weight in navigation, homepage sections, price pages, local SEO, and conversion paths.
 - Build for Google search, local search, AI-search visibility, and conversion.
 - Pricing must be easy for non-technical staff to update weekly.
