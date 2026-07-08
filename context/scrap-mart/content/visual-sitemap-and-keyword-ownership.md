@@ -10,6 +10,7 @@ This is the cleaner website structure to use for the client approval stage.
 - Location pages: own Auckland and Christchurch city terms at launch. Suburb terms are supporting proof inside those pages, not standalone pages yet.
 - Price pages: own price-related search terms.
 - What We Buy pages: own metal/category/grade search terms.
+- Battery Recycling: elevated as a priority homepage and service route because the client says it is common among NZ people.
 - Service pages: own collection, pickup, commercial, industrial, factory, construction/demolition, recurring-contract, and household drop-off search terms.
 - Resources: answer common questions and support SEO/AI-search visibility.
 - Bin services: removed from the current structure as requested by the client on 24 June 2026.
@@ -77,5 +78,5 @@ This is the cleaner website structure to use for the client approval stage.
 | Christchurch location page | scrap metal buyers Christchurch, scrap metal recycling Christchurch, scrap yard Christchurch | Auckland or NZ-wide terms |
 | What We Buy hub | what scrap metals do you buy, metals we buy, scrap metal accepted | City buyer terms |
 | Metal pages | copper scrap buyers, aluminium scrap buyers, scrap battery buyers, zinc scrap buyers, etc. | City terms unless used naturally |
-| Service pages | commercial scrap metal recycling, scrap metal collection, scrap metal pick-up, household scrap drop-off | Metal-grade terms |
+| Service pages | commercial scrap metal recycling, scrap metal collection, scrap metal pick-up, household scrap drop-off, Battery Recycling | Metal-grade terms |
 | Price pages | scrap metal prices Auckland, scrap metal prices Christchurch | General service terms |
