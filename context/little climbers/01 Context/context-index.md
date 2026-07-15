@@ -35,6 +35,7 @@ This folder gives the Digital Neighbour team a single source of working context 
 
 - `content/website-structure-and-keyword-map.md`: recommended sitemap and keyword ownership.
 - `content/page-briefs.md`: page-by-page content briefs.
+- `content/internal-linking-structure.md`: internal linking map for centre, kindergarten, home-based, and supporting pages.
 - `content/faq-and-ai-answer-bank.md`: answer-first content for Google, AI search, and parents.
 - `content/blog-content-plan.md`: blog and guide roadmap.
 
