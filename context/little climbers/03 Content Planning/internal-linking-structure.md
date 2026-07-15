@@ -25,6 +25,18 @@ The top-level menu should remain:
 | Transition | `/transition/` |
 | Contact Us | `/contact-us/` |
 
+## Resources Dropdown
+
+The Resources dropdown should include the approved supporting and information pages:
+
+| Dropdown item | URL |
+|---|---|
+| FAQs | `/faqs/` |
+| Our Curriculum | `/our-curriculum/` |
+| Creative Workshops | `/creative-workshops/` |
+| Careers | `/careers/` |
+| Book A Visit | `/book-a-visit/` |
+
 ## Locations Dropdown
 
 The Locations dropdown should include the four physical centre pages:
@@ -53,10 +65,11 @@ Use descriptive anchor text. Avoid generic anchors like "click here" or "read mo
 | Hub page | URL | Role | Must link to |
 |---|---|---|---|
 | Homepage | `/` | Main entry and brand page | all four childcare centres, childcare centres hub, About Us, Our Curriculum, Transition, Contact Us |
-| Childcare Centres | `/childcare-centres/` | Location hub | all four childcare centre pages, Book A Visit, Contact Us |
-| Kindergarten Auckland | `/kindergarten-in-auckland/` | Kindergarten hub | all four kindergarten location pages, Transition, Our Curriculum, Book A Visit |
-| Home-Based Childcare Auckland | `/home-based-childcare-in-auckland/` | Home-based care hub | Home-Based Kindergarten Auckland, Contact Us, Book A Visit |
-| Home-Based Kindergarten Auckland | `/home-based-kindergarten-in-auckland/` | Home-based kindergarten hub | Home-Based Childcare Auckland, Contact Us, Book A Visit |
+| Childcare Centres | `/childcare-centres/` | Location hub | all four childcare centre pages, FAQs, Book A Visit, Contact Us |
+| FAQs | `/faqs/` | Parent concern and answer hub | all four childcare centre pages, Kindergarten Auckland, Home-Based Childcare Auckland, Our Curriculum, Transition, Contact Us |
+| Kindergarten Auckland | `/kindergarten-in-auckland/` | Kindergarten hub | all four kindergarten location pages, FAQs, Transition, Our Curriculum, Book A Visit |
+| Home-Based Childcare Auckland | `/home-based-childcare-in-auckland/` | Home-based care hub | Home-Based Kindergarten Auckland, FAQs, Contact Us, Book A Visit |
+| Home-Based Kindergarten Auckland | `/home-based-kindergarten-in-auckland/` | Home-based kindergarten hub | Home-Based Childcare Auckland, FAQs, Contact Us, Book A Visit |
 
 ## Childcare Location Pages
 
@@ -64,10 +77,10 @@ Each childcare location page should strengthen the real physical centre and guid
 
 | Page | URL | Primary internal links | Anchor text examples |
 |---|---|---|---|
-| East Tamaki Childcare Centre | `/childcare-centre-in-east-tamaki/` | `/childcare-centres/`, `/kindergarten-in-east-tamaki/`, `/our-curriculum/`, `/transition/`, `/book-a-visit/`, `/contact-us/` | our East Tamaki childcare centre, kindergarten in East Tamaki, our play-based curriculum, transition to school support, book a visit |
-| Otara Childcare Centre | `/childcare-centre-in-otara/` | `/childcare-centres/`, `/kindergarten-in-otara/`, `/our-curriculum/`, `/transition/`, `/book-a-visit/`, `/contact-us/` | our Otara childcare centre, kindergarten in Otara, early learning approach, transition support, book a visit |
-| Mangere Childcare Centre | `/childcare-centre-in-mangere/` | `/childcare-centres/`, `/kindergarten-in-mangere/`, `/our-curriculum/`, `/transition/`, `/book-a-visit/`, `/contact-us/` | our Mangere childcare centre, kindergarten in Mangere, play-based learning, school readiness support, book a visit |
-| Pukekohe Childcare Centre | `/childcare-centre-in-pukekohe/` | `/childcare-centres/`, `/kindergarten-in-pukekohe/`, `/our-curriculum/`, `/transition/`, `/book-a-visit/`, `/contact-us/` | our Pukekohe childcare centre, kindergarten in Pukekohe, our curriculum, transition support, book a visit |
+| East Tamaki Childcare Centre | `/childcare-centre-in-east-tamaki/` | `/childcare-centres/`, `/kindergarten-in-east-tamaki/`, `/our-curriculum/`, `/transition/`, `/faqs/`, `/book-a-visit/`, `/contact-us/` | our East Tamaki childcare centre, kindergarten in East Tamaki, our play-based curriculum, transition to school support, childcare FAQs, book a visit |
+| Otara Childcare Centre | `/childcare-centre-in-otara/` | `/childcare-centres/`, `/kindergarten-in-otara/`, `/our-curriculum/`, `/transition/`, `/faqs/`, `/book-a-visit/`, `/contact-us/` | our Otara childcare centre, kindergarten in Otara, early learning approach, transition support, childcare FAQs, book a visit |
+| Mangere Childcare Centre | `/childcare-centre-in-mangere/` | `/childcare-centres/`, `/kindergarten-in-mangere/`, `/our-curriculum/`, `/transition/`, `/faqs/`, `/book-a-visit/`, `/contact-us/` | our Mangere childcare centre, kindergarten in Mangere, play-based learning, school readiness support, childcare FAQs, book a visit |
+| Pukekohe Childcare Centre | `/childcare-centre-in-pukekohe/` | `/childcare-centres/`, `/kindergarten-in-pukekohe/`, `/our-curriculum/`, `/transition/`, `/faqs/`, `/book-a-visit/`, `/contact-us/` | our Pukekohe childcare centre, kindergarten in Pukekohe, our curriculum, transition support, childcare FAQs, book a visit |
 
 ### Childcare Location Page Link Placement
 
@@ -77,7 +90,8 @@ For each childcare centre page, place links in this order:
 2. learning or curriculum section: link to `/our-curriculum/`
 3. school-readiness or settling section: link to `/transition/`
 4. preschool/kindergarten section: link to the matching kindergarten page
-5. final CTA: link to `/book-a-visit/` and `/contact-us/`
+5. parent concern section: link to `/faqs/`
+6. final CTA: link to `/book-a-visit/` and `/contact-us/`
 
 ## Kindergarten Pages
 
@@ -87,11 +101,11 @@ Use "kindergarten" as parent search language, but frame the content around early
 
 | Page | URL | Primary internal links | Anchor text examples |
 |---|---|---|---|
-| Kindergarten Auckland | `/kindergarten-in-auckland/` | `/kindergarten-in-east-tamaki/`, `/kindergarten-in-otara/`, `/kindergarten-in-mangere/`, `/kindergarten-in-pukekohe/`, `/transition/`, `/our-curriculum/`, `/book-a-visit/` | kindergarten in East Tamaki, kindergarten in Otara, kindergarten in Mangere, kindergarten in Pukekohe, school readiness, play-based curriculum, book a visit |
-| Kindergarten East Tamaki | `/kindergarten-in-east-tamaki/` | `/childcare-centre-in-east-tamaki/`, `/kindergarten-in-auckland/`, `/transition/`, `/our-curriculum/`, `/book-a-visit/` | East Tamaki childcare centre, kindergarten Auckland, school readiness support, play-based curriculum, book a visit |
-| Kindergarten Otara | `/kindergarten-in-otara/` | `/childcare-centre-in-otara/`, `/kindergarten-in-auckland/`, `/transition/`, `/our-curriculum/`, `/book-a-visit/` | Otara childcare centre, kindergarten Auckland, transition support, early learning curriculum, book a visit |
-| Kindergarten Mangere | `/kindergarten-in-mangere/` | `/childcare-centre-in-mangere/`, `/kindergarten-in-auckland/`, `/transition/`, `/our-curriculum/`, `/book-a-visit/` | Mangere childcare centre, kindergarten Auckland, school readiness, play-based learning, book a visit |
-| Kindergarten Pukekohe | `/kindergarten-in-pukekohe/` | `/childcare-centre-in-pukekohe/`, `/kindergarten-in-auckland/`, `/transition/`, `/our-curriculum/`, `/book-a-visit/` | Pukekohe childcare centre, kindergarten Auckland, transition support, curriculum, book a visit |
+| Kindergarten Auckland | `/kindergarten-in-auckland/` | `/kindergarten-in-east-tamaki/`, `/kindergarten-in-otara/`, `/kindergarten-in-mangere/`, `/kindergarten-in-pukekohe/`, `/transition/`, `/our-curriculum/`, `/faqs/`, `/book-a-visit/` | kindergarten in East Tamaki, kindergarten in Otara, kindergarten in Mangere, kindergarten in Pukekohe, school readiness, play-based curriculum, childcare FAQs, book a visit |
+| Kindergarten East Tamaki | `/kindergarten-in-east-tamaki/` | `/childcare-centre-in-east-tamaki/`, `/kindergarten-in-auckland/`, `/transition/`, `/our-curriculum/`, `/faqs/`, `/book-a-visit/` | East Tamaki childcare centre, kindergarten Auckland, school readiness support, play-based curriculum, childcare FAQs, book a visit |
+| Kindergarten Otara | `/kindergarten-in-otara/` | `/childcare-centre-in-otara/`, `/kindergarten-in-auckland/`, `/transition/`, `/our-curriculum/`, `/faqs/`, `/book-a-visit/` | Otara childcare centre, kindergarten Auckland, transition support, early learning curriculum, childcare FAQs, book a visit |
+| Kindergarten Mangere | `/kindergarten-in-mangere/` | `/childcare-centre-in-mangere/`, `/kindergarten-in-auckland/`, `/transition/`, `/our-curriculum/`, `/faqs/`, `/book-a-visit/` | Mangere childcare centre, kindergarten Auckland, school readiness, play-based learning, childcare FAQs, book a visit |
+| Kindergarten Pukekohe | `/kindergarten-in-pukekohe/` | `/childcare-centre-in-pukekohe/`, `/kindergarten-in-auckland/`, `/transition/`, `/our-curriculum/`, `/faqs/`, `/book-a-visit/` | Pukekohe childcare centre, kindergarten Auckland, transition support, curriculum, childcare FAQs, book a visit |
 
 ### Kindergarten Page Link Placement
 
@@ -101,7 +115,8 @@ For each kindergarten location page, place links in this order:
 2. location or comparison section: link back to `/kindergarten-in-auckland/`
 3. school-readiness section: link to `/transition/`
 4. learning section: link to `/our-curriculum/`
-5. final CTA: link to `/book-a-visit/`
+5. parent questions section: link to `/faqs/`
+6. final CTA: link to `/book-a-visit/`
 
 ## Home-Based Care Pages
 
@@ -109,8 +124,8 @@ Home-based care should remain separate from the centre-based pathway unless Litt
 
 | Page | URL | Primary internal links | Anchor text examples |
 |---|---|---|---|
-| Home-Based Childcare Auckland | `/home-based-childcare-in-auckland/` | `/home-based-kindergarten-in-auckland/`, `/contact-us/`, `/book-a-visit/`, `/about-us/` | home-based kindergarten Auckland, contact our team, enquire today, about Little Climbers |
-| Home-Based Kindergarten Auckland | `/home-based-kindergarten-in-auckland/` | `/home-based-childcare-in-auckland/`, `/contact-us/`, `/book-a-visit/`, `/about-us/` | home-based childcare Auckland, contact our team, enquire today, about Little Climbers |
+| Home-Based Childcare Auckland | `/home-based-childcare-in-auckland/` | `/home-based-kindergarten-in-auckland/`, `/faqs/`, `/contact-us/`, `/book-a-visit/`, `/about-us/` | home-based kindergarten Auckland, childcare FAQs, contact our team, enquire today, about Little Climbers |
+| Home-Based Kindergarten Auckland | `/home-based-kindergarten-in-auckland/` | `/home-based-childcare-in-auckland/`, `/faqs/`, `/contact-us/`, `/book-a-visit/`, `/about-us/` | home-based childcare Auckland, childcare FAQs, contact our team, enquire today, about Little Climbers |
 
 ## Supporting Pages Linking Back
 
@@ -119,6 +134,7 @@ Home-based care should remain separate from the centre-based pathway unless Litt
 | About Us | `/about-us/` | `/childcare-centres/`, all four childcare centre pages, `/our-curriculum/`, `/book-a-visit/` |
 | Our Curriculum | `/our-curriculum/` | all four childcare centre pages, `/kindergarten-in-auckland/`, `/transition/`, `/book-a-visit/` |
 | Transition | `/transition/` | all four childcare centre pages, `/kindergarten-in-auckland/`, `/our-curriculum/`, `/book-a-visit/` |
+| FAQs | `/faqs/` | all four childcare centre pages, `/childcare-centres/`, `/kindergarten-in-auckland/`, `/home-based-childcare-in-auckland/`, `/our-curriculum/`, `/transition/`, `/contact-us/` |
 | Contact Us | `/contact-us/` | all four childcare centre pages, `/book-a-visit/` |
 | Book A Visit | `/book-a-visit/` | all four childcare centre pages, `/contact-us/` |
 | Creative Workshops | `/creative-workshops/` | `/our-curriculum/`, `/transition/`, all four childcare centre pages, `/book-a-visit/` |
@@ -135,31 +151,37 @@ Home-based care should remain separate from the centre-based pathway unless Litt
 | `/` | `/childcare-centre-in-pukekohe/` | Pukekohe childcare centre |
 | `/` | `/our-curriculum/` | our play-based curriculum |
 | `/` | `/transition/` | settling and school readiness support |
+| `/` | `/faqs/` | childcare FAQs |
 | `/` | `/contact-us/` | talk to our team |
 | `/childcare-centres/` | `/childcare-centre-in-east-tamaki/` | East Tamaki childcare centre |
 | `/childcare-centres/` | `/childcare-centre-in-otara/` | Otara childcare centre |
 | `/childcare-centres/` | `/childcare-centre-in-mangere/` | Mangere childcare centre |
 | `/childcare-centres/` | `/childcare-centre-in-pukekohe/` | Pukekohe childcare centre |
+| `/childcare-centres/` | `/faqs/` | childcare centre FAQs |
 | `/childcare-centres/` | `/book-a-visit/` | book a centre visit |
 | `/childcare-centre-in-east-tamaki/` | `/childcare-centres/` | our Auckland childcare centres |
 | `/childcare-centre-in-east-tamaki/` | `/kindergarten-in-east-tamaki/` | kindergarten in East Tamaki |
 | `/childcare-centre-in-east-tamaki/` | `/our-curriculum/` | play-based early learning |
 | `/childcare-centre-in-east-tamaki/` | `/transition/` | transition to school support |
+| `/childcare-centre-in-east-tamaki/` | `/faqs/` | childcare FAQs |
 | `/childcare-centre-in-east-tamaki/` | `/book-a-visit/` | book a visit |
 | `/childcare-centre-in-otara/` | `/childcare-centres/` | our Auckland childcare centres |
 | `/childcare-centre-in-otara/` | `/kindergarten-in-otara/` | kindergarten in Otara |
 | `/childcare-centre-in-otara/` | `/our-curriculum/` | early learning curriculum |
 | `/childcare-centre-in-otara/` | `/transition/` | transition support |
+| `/childcare-centre-in-otara/` | `/faqs/` | childcare FAQs |
 | `/childcare-centre-in-otara/` | `/book-a-visit/` | book a visit |
 | `/childcare-centre-in-mangere/` | `/childcare-centres/` | our Auckland childcare centres |
 | `/childcare-centre-in-mangere/` | `/kindergarten-in-mangere/` | kindergarten in Mangere |
 | `/childcare-centre-in-mangere/` | `/our-curriculum/` | play-based learning |
 | `/childcare-centre-in-mangere/` | `/transition/` | school readiness support |
+| `/childcare-centre-in-mangere/` | `/faqs/` | childcare FAQs |
 | `/childcare-centre-in-mangere/` | `/book-a-visit/` | book a visit |
 | `/childcare-centre-in-pukekohe/` | `/childcare-centres/` | our Auckland childcare centres |
 | `/childcare-centre-in-pukekohe/` | `/kindergarten-in-pukekohe/` | kindergarten in Pukekohe |
 | `/childcare-centre-in-pukekohe/` | `/our-curriculum/` | our curriculum |
 | `/childcare-centre-in-pukekohe/` | `/transition/` | transition support |
+| `/childcare-centre-in-pukekohe/` | `/faqs/` | childcare FAQs |
 | `/childcare-centre-in-pukekohe/` | `/book-a-visit/` | book a visit |
 | `/kindergarten-in-auckland/` | `/kindergarten-in-east-tamaki/` | kindergarten in East Tamaki |
 | `/kindergarten-in-auckland/` | `/kindergarten-in-otara/` | kindergarten in Otara |
@@ -167,32 +189,39 @@ Home-based care should remain separate from the centre-based pathway unless Litt
 | `/kindergarten-in-auckland/` | `/kindergarten-in-pukekohe/` | kindergarten in Pukekohe |
 | `/kindergarten-in-auckland/` | `/transition/` | school readiness support |
 | `/kindergarten-in-auckland/` | `/our-curriculum/` | play-based curriculum |
+| `/kindergarten-in-auckland/` | `/faqs/` | childcare and kindergarten FAQs |
 | `/kindergarten-in-auckland/` | `/book-a-visit/` | book a visit |
 | `/kindergarten-in-east-tamaki/` | `/childcare-centre-in-east-tamaki/` | East Tamaki childcare centre |
 | `/kindergarten-in-east-tamaki/` | `/kindergarten-in-auckland/` | kindergarten Auckland |
 | `/kindergarten-in-east-tamaki/` | `/transition/` | school readiness support |
 | `/kindergarten-in-east-tamaki/` | `/our-curriculum/` | play-based curriculum |
+| `/kindergarten-in-east-tamaki/` | `/faqs/` | childcare FAQs |
 | `/kindergarten-in-east-tamaki/` | `/book-a-visit/` | book a visit |
 | `/kindergarten-in-otara/` | `/childcare-centre-in-otara/` | Otara childcare centre |
 | `/kindergarten-in-otara/` | `/kindergarten-in-auckland/` | kindergarten Auckland |
 | `/kindergarten-in-otara/` | `/transition/` | transition support |
 | `/kindergarten-in-otara/` | `/our-curriculum/` | early learning curriculum |
+| `/kindergarten-in-otara/` | `/faqs/` | childcare FAQs |
 | `/kindergarten-in-otara/` | `/book-a-visit/` | book a visit |
 | `/kindergarten-in-mangere/` | `/childcare-centre-in-mangere/` | Mangere childcare centre |
 | `/kindergarten-in-mangere/` | `/kindergarten-in-auckland/` | kindergarten Auckland |
 | `/kindergarten-in-mangere/` | `/transition/` | school readiness support |
 | `/kindergarten-in-mangere/` | `/our-curriculum/` | play-based learning |
+| `/kindergarten-in-mangere/` | `/faqs/` | childcare FAQs |
 | `/kindergarten-in-mangere/` | `/book-a-visit/` | book a visit |
 | `/kindergarten-in-pukekohe/` | `/childcare-centre-in-pukekohe/` | Pukekohe childcare centre |
 | `/kindergarten-in-pukekohe/` | `/kindergarten-in-auckland/` | kindergarten Auckland |
 | `/kindergarten-in-pukekohe/` | `/transition/` | transition support |
 | `/kindergarten-in-pukekohe/` | `/our-curriculum/` | our curriculum |
+| `/kindergarten-in-pukekohe/` | `/faqs/` | childcare FAQs |
 | `/kindergarten-in-pukekohe/` | `/book-a-visit/` | book a visit |
 | `/home-based-childcare-in-auckland/` | `/home-based-kindergarten-in-auckland/` | home-based kindergarten Auckland |
+| `/home-based-childcare-in-auckland/` | `/faqs/` | childcare FAQs |
 | `/home-based-childcare-in-auckland/` | `/contact-us/` | contact our team |
 | `/home-based-childcare-in-auckland/` | `/book-a-visit/` | enquire today |
 | `/home-based-childcare-in-auckland/` | `/about-us/` | about Little Climbers |
 | `/home-based-kindergarten-in-auckland/` | `/home-based-childcare-in-auckland/` | home-based childcare Auckland |
+| `/home-based-kindergarten-in-auckland/` | `/faqs/` | childcare FAQs |
 | `/home-based-kindergarten-in-auckland/` | `/contact-us/` | contact our team |
 | `/home-based-kindergarten-in-auckland/` | `/book-a-visit/` | enquire today |
 | `/home-based-kindergarten-in-auckland/` | `/about-us/` | about Little Climbers |
