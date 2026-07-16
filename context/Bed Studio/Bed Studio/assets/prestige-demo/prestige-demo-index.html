@@ -1,0 +1,1353 @@
+<!doctype html>
+<html lang="en-NZ">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bed Studio Prestige Homepage Demo</title>
+    <meta name="description" content="Prestige-inspired Shopify homepage mockup for Bed Studio, using BedStudio branding and selected Budget Beds product imagery.">
+    <style>
+      :root {
+        --navy: #07162d;
+        --ink: #121820;
+        --gold: #c99b51;
+        --gold-soft: #f0dba8;
+        --ivory: #fbf7ef;
+        --linen: #f1eadf;
+        --sage: #b7c3a5;
+        --teal: #123b45;
+        --clay: #b7654e;
+        --mist: #e8edf0;
+        --white: #ffffff;
+        --radius: 8px;
+        --shadow: 0 18px 50px rgba(7, 22, 45, 0.16);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--ivory);
+        font-family: Inter, Avenir, "Segoe UI", Arial, sans-serif;
+        line-height: 1.5;
+        overflow-x: hidden;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .top-offer {
+        background: var(--teal);
+        color: var(--white);
+        font-size: 13px;
+        letter-spacing: 0;
+      }
+
+      .top-offer__inner,
+      .nav,
+      .section-inner,
+      .footer-inner {
+        width: min(1200px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      .top-offer__inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 18px;
+        padding: 9px 0;
+      }
+
+      .nav-wrap {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: rgba(251, 247, 239, 0.94);
+        border-bottom: 1px solid rgba(7, 22, 45, 0.1);
+        backdrop-filter: blur(14px);
+      }
+
+      .nav {
+        min-height: 78px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        min-width: 210px;
+      }
+
+      .brand img {
+        width: 164px;
+        height: 58px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        box-shadow: 0 10px 24px rgba(7, 22, 45, 0.14);
+      }
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        color: rgba(18, 24, 32, 0.82);
+        font-size: 14px;
+      }
+
+      .nav-actions {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .icon-button,
+      .button {
+        border: 1px solid rgba(7, 22, 45, 0.12);
+        background: var(--white);
+        color: var(--ink);
+        min-height: 42px;
+        border-radius: 999px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 0 18px;
+        font-weight: 700;
+        font-size: 13px;
+        white-space: nowrap;
+      }
+
+      .icon-button {
+        width: 42px;
+        padding: 0;
+      }
+
+      .button--dark {
+        background: var(--navy);
+        color: var(--white);
+        border-color: var(--navy);
+      }
+
+      .button--gold {
+        background: var(--gold);
+        color: var(--navy);
+        border-color: var(--gold);
+      }
+
+      .hero {
+        background:
+          radial-gradient(circle at 14% 24%, rgba(201, 155, 81, 0.16), transparent 28%),
+          linear-gradient(125deg, var(--navy) 0%, #0b1f3e 50%, #101725 100%);
+        color: var(--white);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        inset: 0 auto 0 43%;
+        width: 220px;
+        border-left: 2px solid rgba(201, 155, 81, 0.7);
+        border-radius: 50%;
+        transform: scaleX(0.7);
+        pointer-events: none;
+      }
+
+      .hero-inner {
+        width: min(1300px, calc(100% - 40px));
+        margin: 0 auto;
+        min-height: calc(100vh - 116px);
+        display: grid;
+        grid-template-columns: 0.92fr 1.08fr;
+        align-items: stretch;
+        gap: 34px;
+        padding: 52px 0 34px;
+        position: relative;
+        z-index: 1;
+      }
+
+      .hero-copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 24px 0 52px;
+        min-width: 0;
+      }
+
+      .eyebrow {
+        color: var(--gold-soft);
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.13em;
+        margin: 0 0 16px;
+      }
+
+      .hero h1,
+      .display-title,
+      .section-title {
+        font-family: Georgia, "Times New Roman", serif;
+        font-weight: 500;
+        letter-spacing: 0;
+      }
+
+      .hero h1 {
+        font-size: clamp(52px, 8vw, 108px);
+        line-height: 0.9;
+        margin: 0;
+        max-width: 720px;
+      }
+
+      .hero h1 span {
+        color: var(--gold-soft);
+      }
+
+      .hero p {
+        max-width: 550px;
+        color: rgba(255, 255, 255, 0.82);
+        font-size: 18px;
+        margin: 24px 0 0;
+      }
+
+      .hero-actions {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+      }
+
+      .hero-proof {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 42px;
+        max-width: 610px;
+      }
+
+      .proof-pill {
+        border: 1px solid rgba(240, 219, 168, 0.28);
+        background: rgba(255, 255, 255, 0.06);
+        border-radius: var(--radius);
+        padding: 14px;
+      }
+
+      .proof-pill strong {
+        display: block;
+        color: var(--white);
+        font-size: 15px;
+      }
+
+      .proof-pill span {
+        color: rgba(255, 255, 255, 0.67);
+        display: block;
+        font-size: 12px;
+        margin-top: 4px;
+      }
+
+      .hero-media {
+        position: relative;
+        min-height: 620px;
+        align-self: end;
+      }
+
+      .hero-photo {
+        height: 100%;
+        min-height: 620px;
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: 0 30px 90px rgba(0, 0, 0, 0.45);
+        border: 1px solid rgba(240, 219, 168, 0.25);
+      }
+
+      .hero-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .hero-card {
+        position: absolute;
+        left: -28px;
+        bottom: 48px;
+        width: min(370px, 80%);
+        background: rgba(251, 247, 239, 0.98);
+        color: var(--ink);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: 22px;
+        border: 1px solid rgba(201, 155, 81, 0.28);
+      }
+
+      .hero-card .finance-badge {
+        margin-bottom: 12px;
+      }
+
+      .hero-card .eyebrow {
+        color: var(--clay);
+      }
+
+      .hero-card p {
+        color: #5f6974;
+      }
+
+      .price-row {
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+        margin: 10px 0 12px;
+      }
+
+      .price-row del {
+        color: #7d848c;
+      }
+
+      .price-row strong {
+        font-size: 24px;
+      }
+
+      .trust-bar {
+        background: var(--white);
+        border-bottom: 1px solid rgba(7, 22, 45, 0.1);
+      }
+
+      .trust-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .trust-item {
+        padding: 22px 20px;
+        border-left: 1px solid rgba(7, 22, 45, 0.08);
+      }
+
+      .trust-item:first-child {
+        border-left: 0;
+      }
+
+      .trust-item b {
+        display: block;
+        color: var(--navy);
+      }
+
+      .trust-item span {
+        color: #69717c;
+        font-size: 13px;
+      }
+
+      section {
+        padding: 78px 0;
+      }
+
+      .section-kicker {
+        color: var(--clay);
+        font-size: 12px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        margin: 0 0 10px;
+      }
+
+      .section-head {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 28px;
+        margin-bottom: 32px;
+      }
+
+      .section-title {
+        font-size: clamp(34px, 5vw, 62px);
+        line-height: 1;
+        margin: 0;
+        color: var(--navy);
+      }
+
+      .section-copy {
+        color: #5f6974;
+        max-width: 520px;
+        margin: 0;
+      }
+
+      .category-grid {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr 0.8fr;
+        gap: 18px;
+      }
+
+      .category-card {
+        min-height: 360px;
+        position: relative;
+        overflow: hidden;
+        border-radius: var(--radius);
+        background: var(--navy);
+        color: var(--white);
+      }
+
+      .category-card img {
+        width: 100%;
+        height: 100%;
+        min-height: 360px;
+        object-fit: cover;
+        opacity: 0.8;
+        transition: transform 0.4s ease;
+      }
+
+      .category-card:hover img {
+        transform: scale(1.04);
+      }
+
+      .category-card::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, transparent 20%, rgba(7, 22, 45, 0.88) 100%);
+      }
+
+      .category-content {
+        position: absolute;
+        z-index: 1;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+      }
+
+      .category-content h3 {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 32px;
+        line-height: 1;
+        margin: 0 0 8px;
+      }
+
+      .category-content p {
+        margin: 0;
+        color: rgba(255, 255, 255, 0.78);
+      }
+
+      .colour-band {
+        background: linear-gradient(90deg, var(--sage), var(--linen) 40%, #ead6c4 100%);
+        padding: 54px 0;
+      }
+
+      .finder {
+        display: grid;
+        grid-template-columns: 0.76fr 1.24fr;
+        gap: 28px;
+        align-items: center;
+      }
+
+      .finder-panel {
+        background: var(--navy);
+        color: var(--white);
+        border-radius: var(--radius);
+        padding: 34px;
+      }
+
+      .finder-panel h2 {
+        margin: 0 0 14px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 42px;
+        line-height: 1;
+        font-weight: 500;
+      }
+
+      .finder-options {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .option-card {
+        background: rgba(255, 255, 255, 0.82);
+        border: 1px solid rgba(7, 22, 45, 0.08);
+        border-radius: var(--radius);
+        padding: 18px;
+        min-height: 130px;
+      }
+
+      .option-card b {
+        color: var(--navy);
+      }
+
+      .option-card span {
+        color: #5f6974;
+        display: block;
+        font-size: 13px;
+        margin-top: 8px;
+      }
+
+      .products {
+        background: var(--white);
+      }
+
+      .product-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .product-card {
+        background: var(--ivory);
+        border: 1px solid rgba(7, 22, 45, 0.09);
+        border-radius: var(--radius);
+        overflow: hidden;
+      }
+
+      .product-media {
+        position: relative;
+        aspect-ratio: 1 / 1.05;
+        background: var(--mist);
+      }
+
+      .product-media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .product-badges {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .badge,
+      .finance-badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        min-height: 28px;
+        padding: 6px 9px;
+        font-size: 11px;
+        line-height: 1;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      .badge {
+        background: var(--gold);
+        color: var(--navy);
+      }
+
+      .badge--dark {
+        background: var(--navy);
+        color: var(--white);
+      }
+
+      .finance-badge {
+        background: #6f35b4;
+        color: var(--white);
+        width: 72px;
+        height: 64px;
+        flex-direction: column;
+        font-size: 11px;
+        box-shadow: 0 12px 22px rgba(111, 53, 180, 0.22);
+      }
+
+      .finance-badge strong {
+        font-size: 24px;
+        line-height: 0.9;
+      }
+
+      .product-info {
+        padding: 18px;
+      }
+
+      .product-title {
+        min-height: 48px;
+        color: var(--navy);
+        font-weight: 800;
+        margin: 0 0 8px;
+      }
+
+      .rating {
+        color: #d89a19;
+        font-size: 13px;
+        margin-bottom: 10px;
+      }
+
+      .product-info .price-row {
+        margin: 0 0 12px;
+      }
+
+      .product-note {
+        color: #5f6974;
+        font-size: 13px;
+        min-height: 40px;
+      }
+
+      .showroom {
+        background: var(--navy);
+        color: var(--white);
+      }
+
+      .showroom-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+        align-items: center;
+      }
+
+      .showroom .section-title {
+        color: var(--white);
+      }
+
+      .showroom .section-copy {
+        color: rgba(255, 255, 255, 0.76);
+      }
+
+      .showroom-photo {
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: 0 25px 80px rgba(0, 0, 0, 0.36);
+      }
+
+      .showroom-photo img {
+        width: 100%;
+        height: 570px;
+        object-fit: cover;
+      }
+
+      .showroom-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        margin: 28px 0;
+      }
+
+      .showroom-list div {
+        border: 1px solid rgba(240, 219, 168, 0.22);
+        border-radius: var(--radius);
+        padding: 16px;
+      }
+
+      .showroom-list b {
+        display: block;
+      }
+
+      .showroom-list span {
+        display: block;
+        color: rgba(255, 255, 255, 0.66);
+        font-size: 13px;
+        margin-top: 5px;
+      }
+
+      .product-preview {
+        background: var(--linen);
+      }
+
+      .pdp {
+        display: grid;
+        grid-template-columns: 1fr 0.9fr;
+        gap: 30px;
+        align-items: start;
+      }
+
+      .pdp-gallery {
+        display: grid;
+        grid-template-columns: 0.3fr 1fr;
+        gap: 12px;
+      }
+
+      .thumbs {
+        display: grid;
+        gap: 12px;
+      }
+
+      .thumbs img,
+      .pdp-main {
+        border-radius: var(--radius);
+        border: 1px solid rgba(7, 22, 45, 0.1);
+        background: var(--white);
+      }
+
+      .thumbs img {
+        aspect-ratio: 1;
+        object-fit: cover;
+      }
+
+      .pdp-main {
+        overflow: hidden;
+      }
+
+      .pdp-main img {
+        width: 100%;
+        height: 100%;
+        min-height: 610px;
+        object-fit: cover;
+      }
+
+      .pdp-info {
+        background: var(--white);
+        border-radius: var(--radius);
+        padding: 30px;
+        border: 1px solid rgba(7, 22, 45, 0.08);
+        position: sticky;
+        top: 112px;
+      }
+
+      .pdp-info h2 {
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--navy);
+        font-size: 42px;
+        line-height: 1;
+        margin: 8px 0 16px;
+        font-weight: 500;
+      }
+
+      .swatches,
+      .size-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 16px 0 22px;
+      }
+
+      .swatch {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: 2px solid var(--white);
+        box-shadow: 0 0 0 1px rgba(7, 22, 45, 0.16);
+      }
+
+      .size-row button {
+        min-height: 38px;
+        border-radius: 999px;
+        border: 1px solid rgba(7, 22, 45, 0.14);
+        background: var(--ivory);
+        padding: 0 15px;
+        font-weight: 700;
+      }
+
+      .tabs {
+        border-top: 1px solid rgba(7, 22, 45, 0.1);
+        margin-top: 24px;
+      }
+
+      details {
+        border-bottom: 1px solid rgba(7, 22, 45, 0.1);
+        padding: 14px 0;
+      }
+
+      summary {
+        cursor: pointer;
+        font-weight: 800;
+        color: var(--navy);
+      }
+
+      details p {
+        color: #5f6974;
+        margin-bottom: 0;
+      }
+
+      .journal {
+        background: var(--ivory);
+      }
+
+      .journal-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .journal-card {
+        background: var(--white);
+        border-radius: var(--radius);
+        overflow: hidden;
+        border: 1px solid rgba(7, 22, 45, 0.08);
+      }
+
+      .journal-card img {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+      }
+
+      .journal-card div {
+        padding: 20px;
+      }
+
+      .journal-card h3 {
+        margin: 0 0 10px;
+        color: var(--navy);
+      }
+
+      .journal-card p {
+        color: #5f6974;
+        margin: 0;
+      }
+
+      .footer {
+        background: #06101f;
+        color: rgba(255, 255, 255, 0.78);
+        padding: 42px 0;
+      }
+
+      .footer-inner {
+        display: grid;
+        grid-template-columns: 1.1fr repeat(3, 1fr);
+        gap: 28px;
+      }
+
+      .footer h3,
+      .footer b {
+        color: var(--white);
+      }
+
+      .footer-logo {
+        width: 180px;
+        border-radius: 6px;
+        margin-bottom: 18px;
+      }
+
+      .footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 12px 0 0;
+      }
+
+      .footer li {
+        margin: 8px 0;
+      }
+
+      @media (max-width: 980px) {
+        .nav-links {
+          display: none;
+        }
+
+        .hero-inner,
+        .finder,
+        .showroom-layout,
+        .pdp,
+        .footer-inner {
+          grid-template-columns: 1fr;
+        }
+
+        .hero-inner {
+          min-height: auto;
+        }
+
+        .hero-media,
+        .hero-photo,
+        .hero-photo img {
+          min-height: 500px;
+        }
+
+        .category-grid,
+        .product-grid,
+        .journal-grid,
+        .trust-grid,
+        .finder-options {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .pdp-info {
+          position: static;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .top-offer__inner {
+          flex-direction: column;
+          gap: 4px;
+        }
+
+        .nav {
+          min-height: 70px;
+        }
+
+        .brand img {
+          width: 132px;
+          height: 48px;
+        }
+
+        .brand {
+          min-width: auto;
+        }
+
+        .nav-actions .icon-button,
+        .nav-actions .button {
+          display: none;
+        }
+
+        .hero h1 {
+          font-size: 42px;
+          max-width: 330px;
+        }
+
+        .hero p,
+        .hero-proof {
+          width: 100%;
+          max-width: 330px;
+        }
+
+        .hero-card {
+          position: static;
+          width: auto;
+          margin-top: 18px;
+        }
+
+        .hero-media,
+        .hero-photo,
+        .hero-photo img {
+          min-height: 380px;
+        }
+
+        .hero-proof,
+        .category-grid,
+        .product-grid,
+        .journal-grid,
+        .trust-grid,
+        .finder-options,
+        .showroom-list,
+        .pdp-gallery {
+          grid-template-columns: 1fr;
+        }
+
+        .section-head {
+          display: block;
+        }
+
+        .section-copy {
+          margin-top: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-offer">
+      <div class="top-offer__inner">
+        <span>Newmarket showroom opening soon</span>
+        <span>24 months interest-free options on selected premium beds</span>
+        <span>Expert advice, NZ-made quality and custom fabric choices</span>
+      </div>
+    </div>
+
+    <header class="nav-wrap">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#">
+          <img src="../../assets/branding/bedstudio-logo.png" alt="Bed Studio">
+        </a>
+        <div class="nav-links" aria-label="Shop categories">
+          <a href="#shop">Mattresses</a>
+          <a href="#shop">Beds</a>
+          <a href="#shop">Headboards</a>
+          <a href="#showroom">Newmarket showroom</a>
+          <a href="#guides">Buying guides</a>
+        </div>
+        <div class="nav-actions">
+          <a class="icon-button" href="#" aria-label="Search">S</a>
+          <a class="icon-button" href="#" aria-label="Cart">B</a>
+          <a class="button button--dark" href="#showroom">Book showroom visit</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Bed Studio Newmarket</p>
+            <h1>Better sleep, <span>made personal.</span></h1>
+            <p>Premium NZ-made mattresses, storage beds, headboards and drawer bases, guided by a showroom team that helps you choose the right comfort, size and fabric.</p>
+            <div class="hero-actions">
+              <a class="button button--gold" href="#shop">Shop premium beds</a>
+              <a class="button" href="#finder">Find my bed style</a>
+            </div>
+            <div class="hero-proof" aria-label="Bed Studio trust signals">
+              <div class="proof-pill">
+                <strong>NZ made quality</strong>
+                <span>Built for local homes</span>
+              </div>
+              <div class="proof-pill">
+                <strong>200+ fabric choices</strong>
+                <span>Custom showroom finishes</span>
+              </div>
+              <div class="proof-pill">
+                <strong>Expert advice</strong>
+                <span>Try before you decide</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-media">
+            <div class="hero-photo">
+              <img src="https://www.budgetbeds.co.nz/cdn/shop/files/lifestyle-shot-3ba18365-7252-4aff-ba02-ed1fc5f26928_98d35f17-2228-476a-b45a-77795be66949.jpg?v=1763698701" alt="Premium bed and mattress styled in a bedroom">
+            </div>
+            <aside class="hero-card" aria-label="Featured product deal">
+              <span class="finance-badge"><strong>24</strong> Months interest free</span>
+              <p class="eyebrow">Featured showroom offer</p>
+              <h2 class="product-title">Night Therapy King Bed</h2>
+              <div class="price-row">
+                <del>$4,098</del>
+                <strong>$1,699</strong>
+              </div>
+              <p class="product-note">Plush pillow-top comfort with pocket springs, gel memory and latex foam layers.</p>
+              <a class="button button--dark" href="#product-preview">View product style</a>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <div class="trust-bar">
+        <div class="section-inner trust-grid">
+          <div class="trust-item">
+            <b>Showroom-led buying</b>
+            <span>Try the feel before you commit.</span>
+          </div>
+          <div class="trust-item">
+            <b>Premium finance options</b>
+            <span>Interest-free labels on selected beds.</span>
+          </div>
+          <div class="trust-item">
+            <b>Custom fabric guidance</b>
+            <span>Match beds and headboards to the room.</span>
+          </div>
+          <div class="trust-item">
+            <b>Delivery clarity</b>
+            <span>Auckland and nationwide options explained early.</span>
+          </div>
+        </div>
+      </div>
+
+      <section id="shop">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Shop by room need</p>
+              <h2 class="section-title">A cleaner path to the right bed.</h2>
+            </div>
+            <p class="section-copy">These category sections are where BedStudio can rank for beds, mattresses, storage beds and headboards while still feeling premium and easy to browse.</p>
+          </div>
+          <div class="category-grid">
+            <a class="category-card" href="#">
+              <img src="https://www.budgetbeds.co.nz/cdn/shop/files/lifestyle-shot-5e02f181-4497-4654-a027-836e91184da6_1024x.jpg?v=1763524838" alt="Premium mattress and base">
+              <div class="category-content">
+                <h3>Mattresses</h3>
+                <p>Firm, plush, hybrid and pocket spring options.</p>
+              </div>
+            </a>
+            <a class="category-card" href="#">
+              <img src="https://www.budgetbeds.co.nz/cdn/shop/files/Dreamline1_700x700.jpg?v=1762912853" alt="Adjustable bed base">
+              <div class="category-content">
+                <h3>Adjustable bases</h3>
+                <p>Comfort positions, massage and one-touch control.</p>
+              </div>
+            </a>
+            <a class="category-card" href="#">
+              <img src="https://cdn.shopify.com/s/files/1/0593/6467/1638/files/Headboard_1800x1000_c1bf30a2-8232-45a3-a38d-c6f75b7434f3.webp" alt="Headboard and upholstered bedroom setting">
+              <div class="category-content">
+                <h3>Headboards</h3>
+                <p>Custom fabrics, premium finishes and sizes.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="finder" class="colour-band">
+        <div class="section-inner finder">
+          <div class="finder-panel">
+            <p class="eyebrow">Guided shopping</p>
+            <h2>Choose by comfort, not just price.</h2>
+            <p>BedStudio can use a simple selector to turn visitors from Google Ads and SEO into better-qualified product views.</p>
+            <a class="button button--gold" href="#product-preview">Start with premium picks</a>
+          </div>
+          <div class="finder-options">
+            <div class="option-card">
+              <b>Support</b>
+              <span>Firm and medium-firm mattresses for stronger posture feel.</span>
+            </div>
+            <div class="option-card">
+              <b>Storage</b>
+              <span>Drawer bases and lift-up storage for compact rooms.</span>
+            </div>
+            <div class="option-card">
+              <b>Comfort</b>
+              <span>Plush, hybrid and pillow-top styles for deeper rest.</span>
+            </div>
+            <div class="option-card">
+              <b>Fabric</b>
+              <span>Custom headboards and bases with 200+ fabric choices.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Selected from Budget Beds range</p>
+              <h2 class="section-title">Premium products, BedStudio presentation.</h2>
+            </div>
+            <p class="section-copy">The product data comes from Budget Beds-style products, but the card design is more premium, with clearer savings, finance stickers and showroom cues.</p>
+          </div>
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-media">
+                <img src="https://www.budgetbeds.co.nz/cdn/shop/files/lifestyle-shot-3ba18365-7252-4aff-ba02-ed1fc5f26928_98d35f17-2228-476a-b45a-77795be66949_700x700.jpg?v=1763698701" alt="Night Therapy King Bed">
+                <div class="product-badges">
+                  <span class="finance-badge"><strong>24</strong> Months interest free</span>
+                  <span class="badge">Save 59%</span>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">Night Therapy King Bed</h3>
+                <div class="rating">5.0 rating - 2 reviews</div>
+                <div class="price-row"><del>$4,098</del><strong>$1,699</strong></div>
+                <p class="product-note">A plush pillow-top hybrid bed for premium comfort and reduced partner disturbance.</p>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-media">
+                <img src="https://www.budgetbeds.co.nz/cdn/shop/files/lifestyle-shot-5e02f181-4497-4654-a027-836e91184da6_1024x.jpg?v=1763524838" alt="CoreAlign firm bed">
+                <div class="product-badges">
+                  <span class="badge badge--dark">NZ made base</span>
+                  <span class="badge">Save up to 40%</span>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">CoreAlign Firm Bed</h3>
+                <div class="rating">5.0 rating - 2 reviews</div>
+                <div class="price-row"><del>$1,948</del><strong>From $1,199</strong></div>
+                <p class="product-note">Medium-firm support with pocket springs and breathable designer fabric.</p>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-media">
+                <img src="https://www.budgetbeds.co.nz/cdn/shop/files/Dreamline1_700x700.jpg?v=1762912853" alt="DreamLine Adjustable Bed Base">
+                <div class="product-badges">
+                  <span class="finance-badge"><strong>12</strong> Months interest free</span>
+                  <span class="badge">Low stock</span>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">DreamLine Adjustable Base</h3>
+                <div class="rating">Showroom recommendation</div>
+                <div class="price-row"><del>$2,500</del><strong>From $1,499</strong></div>
+                <p class="product-note">Adjustable back and foot positions, massage, USB ports and 5-year warranty.</p>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-media">
+                <img src="https://www.budgetbeds.co.nz/cdn/shop/files/BudgetBedsNightTherapyBed_95197bf1-9e32-4fa2-b4b1-435f39fcdebf_900x700.jpg?v=1763698701" alt="Premium mattress and bed base">
+                <div class="product-badges">
+                  <span class="badge badge--dark">Showroom pick</span>
+                  <span class="badge">Premium comfort</span>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">Premium Bed and Base Set</h3>
+                <div class="rating">Bundle-ready product</div>
+                <div class="price-row"><del>$3,099</del><strong>From $1,399</strong></div>
+                <p class="product-note">Use this card style for mattress, base and headboard bundle recommendations.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="showroom" class="showroom">
+        <div class="section-inner showroom-layout">
+          <div>
+            <p class="eyebrow">Newmarket showroom</p>
+            <h2 class="section-title">A premium showroom section for local SEO and trust.</h2>
+            <p class="section-copy">This section gives BedStudio a clear Newmarket signal while helping customers understand why they should visit before choosing a higher-value bed.</p>
+            <div class="showroom-list">
+              <div>
+                <b>25B Broadway</b>
+                <span>Newmarket, Auckland</span>
+              </div>
+              <div>
+                <b>Fabric wall</b>
+                <span>Compare colour, texture and finish in person.</span>
+              </div>
+              <div>
+                <b>Sleep advice</b>
+                <span>Match comfort feel to body, room and budget.</span>
+              </div>
+              <div>
+                <b>Custom options</b>
+                <span>Headboards, drawer bases and storage styles.</span>
+              </div>
+            </div>
+            <a class="button button--gold" href="#">Get directions</a>
+          </div>
+          <div class="showroom-photo">
+            <img src="https://cdn.shopify.com/s/files/1/0593/6467/1638/files/Headboard_1800x1000_c1bf30a2-8232-45a3-a38d-c6f75b7434f3.webp" alt="Premium bed headboard and styled bedroom">
+          </div>
+        </div>
+      </section>
+
+      <section id="product-preview" class="product-preview">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Product page preview</p>
+              <h2 class="section-title">How a product page could feel in Prestige.</h2>
+            </div>
+            <p class="section-copy">This layout shows the structure BedStudio needs for ranking and conversion: photos, price, badges, options, delivery, warranty, FAQs and related products.</p>
+          </div>
+          <div class="pdp">
+            <div class="pdp-gallery">
+              <div class="thumbs">
+                <img src="https://www.budgetbeds.co.nz/cdn/shop/files/lifestyle-shot-3ba18365-7252-4aff-ba02-ed1fc5f26928_98d35f17-2228-476a-b45a-77795be66949_700x700.jpg?v=1763698701" alt="Night Therapy product thumbnail">
+                <img src="https://www.budgetbeds.co.nz/cdn/shop/files/pro-shot-377fa16b-33c8-4d99-aafe-5160d9d05daf_1db03a5a-8f25-43cc-97ba-bb6032a43340_700x700.jpg?v=1763698701" alt="Night Therapy mattress thumbnail">
+                <img src="https://www.budgetbeds.co.nz/cdn/shop/files/PocketSpringcopy_2c05e7ae-a9ea-4186-b580-eb712dcca75d_778x700.jpg?v=1763698701" alt="Pocket spring layer thumbnail">
+              </div>
+              <div class="pdp-main">
+                <img src="https://www.budgetbeds.co.nz/cdn/shop/files/lifestyle-shot-3ba18365-7252-4aff-ba02-ed1fc5f26928_98d35f17-2228-476a-b45a-77795be66949.jpg?v=1763698701" alt="Night Therapy King Bed styled product image">
+              </div>
+            </div>
+            <aside class="pdp-info">
+              <p class="eyebrow">Premium showroom range</p>
+              <h2>Night Therapy King Bed</h2>
+              <div class="rating">5.0 rating - 2 reviews</div>
+              <div class="price-row"><del>$4,098</del><strong>$1,699</strong></div>
+              <div class="product-badges" style="position: static; margin-bottom: 18px;">
+                <span class="finance-badge"><strong>24</strong> Months interest free</span>
+                <span class="badge">Save 59%</span>
+                <span class="badge badge--dark">NZ made base</span>
+              </div>
+              <p>Premium pillow-top hybrid comfort with pocket springs, gel memory, latex foam layers and a made-in-NZ base option.</p>
+              <b>Choose size</b>
+              <div class="size-row">
+                <button>Queen</button>
+                <button>King</button>
+                <button>Super King</button>
+              </div>
+              <b>Fabric direction</b>
+              <div class="swatches" aria-label="Fabric colour options">
+                <span class="swatch" style="background:#13233b"></span>
+                <span class="swatch" style="background:#c1aa86"></span>
+                <span class="swatch" style="background:#6f7770"></span>
+                <span class="swatch" style="background:#9b4f3d"></span>
+                <span class="swatch" style="background:#222"></span>
+              </div>
+              <a class="button button--dark" href="#">Add to cart</a>
+              <a class="button" href="#showroom">View in showroom</a>
+              <div class="tabs">
+                <details open>
+                  <summary>Comfort and support</summary>
+                  <p>Independent pocket springs reduce partner disturbance, with responsive comfort layers for hips and shoulders.</p>
+                </details>
+                <details>
+                  <summary>Dimensions and options</summary>
+                  <p>Use this tab for size tables, base options, fabric options and product-specific variations.</p>
+                </details>
+                <details>
+                  <summary>Delivery and warranty</summary>
+                  <p>Show Auckland delivery, nationwide delivery, custom order lead times and warranty details clearly.</p>
+                </details>
+                <details>
+                  <summary>FAQs</summary>
+                  <p>Answer firmness, showroom trial, finance, delivery and customisation questions on the product page.</p>
+                </details>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="guides" class="journal">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">SEO and AI-search sections</p>
+              <h2 class="section-title">Guides that help customers choose.</h2>
+            </div>
+            <p class="section-copy">These are content sections we can build into Prestige without making the homepage feel like a blog page.</p>
+          </div>
+          <div class="journal-grid">
+            <article class="journal-card">
+              <img src="https://www.budgetbeds.co.nz/cdn/shop/files/Dreamline._700x700.jpg?v=1762912853" alt="Adjustable bed base guide image">
+              <div>
+                <h3>Adjustable beds: who are they best for?</h3>
+                <p>Support Google searches around adjustable beds, comfort positions and premium sleep solutions.</p>
+              </div>
+            </article>
+            <article class="journal-card">
+              <img src="https://www.budgetbeds.co.nz/cdn/shop/files/lifestyle-shot-5e02f181-4497-4654-a027-836e91184da6_1024x.jpg?v=1763524838" alt="Mattress comfort guide image">
+              <div>
+                <h3>Firm, medium or plush mattress?</h3>
+                <p>Help shoppers understand comfort before they visit the Newmarket showroom.</p>
+              </div>
+            </article>
+            <article class="journal-card">
+              <img src="https://cdn.shopify.com/s/files/1/0593/6467/1638/files/Headboard_1800x1000_c1bf30a2-8232-45a3-a38d-c6f75b7434f3.webp" alt="Fabric and headboard guide image">
+              <div>
+                <h3>How to choose a headboard fabric</h3>
+                <p>Rank for custom headboards and fabric choices while supporting showroom visits.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <img class="footer-logo" src="../../assets/branding/bedstudio-logo.png" alt="Bed Studio">
+          <p>NZ made quality, designed for better living. Premium beds, mattresses, headboards and storage solutions from Newmarket, Auckland.</p>
+        </div>
+        <div>
+          <b>Shop</b>
+          <ul>
+            <li>Mattresses</li>
+            <li>Storage beds</li>
+            <li>Headboards</li>
+            <li>Drawer bases</li>
+          </ul>
+        </div>
+        <div>
+          <b>Showroom</b>
+          <ul>
+            <li>25B Broadway</li>
+            <li>Newmarket, Auckland</li>
+            <li>Book a visit</li>
+            <li>Get directions</li>
+          </ul>
+        </div>
+        <div>
+          <b>Support</b>
+          <ul>
+            <li>Delivery</li>
+            <li>Warranty</li>
+            <li>Finance options</li>
+            <li>Fabric choices</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
