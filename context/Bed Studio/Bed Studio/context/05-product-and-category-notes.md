@@ -1,5 +1,7 @@
 # Product And Category Notes
 
+> Latest source update, 29 July 2026: the 21 July workbook supersedes the 6 July export for planning. It contains 1,074 rows and 143 unique product handles. Size, Feel and Sleeper Type are the intended customer-facing choices. The foam/spring selection column is blank and should not drive navigation.
+
 ## Sources
 
 - Gmail message `19f36c191ee3bb18`, subject `Updated Product back-up`, from `hypnosnz@gmail.com`, dated 6 July 2026.
@@ -114,4 +116,3 @@ Use this structure:
 7. Warranty.
 8. Showroom CTA.
 9. FAQs.
-

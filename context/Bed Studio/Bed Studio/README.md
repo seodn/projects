@@ -1,4 +1,6 @@
-# BedStudio Context Pack
+# Bed Studio Website Production Pack
+
+Updated: 29 July 2026
 
 This is the BedStudio-specific working folder for the new website and launch work.
 
@@ -18,15 +20,27 @@ It keeps BedStudio separate from Budget Beds so the new site can be planned arou
 - `working-sheets/` - CSV planning sheets for pages, products, FAQs, and launch actions.
 - `raw-sources/` - source summaries and redacted notes from meetings/emails.
 
-## Fast Start
+## Production Fast Start
 
 For BedStudio website work, start with:
 
-1. `context/01-bedstudio-brief.md`
-2. `context/02-client-meeting-answers-2026-07-09.md`
-3. `context/03-website-structure.md`
-4. `working-sheets/page-map.csv`
-5. `working-sheets/product-content-matrix.csv`
+1. `internal-handoff-note.md`
+2. `context/09-live-site-baseline-2026-07-29.md`
+3. `context/10-keyword-and-competitor-baseline-2026-07-29.md`
+4. `context/11-prestige-build-spec.md`
+5. `context/12-content-production-roadmap.md`
+6. `working-sheets/BedStudio-Website-SEO-Production-Handover-2026-07-29.xlsx`
+
+The original context files remain in place as supporting history.
+
+## Current Position
+
+- `bedstudio.co.nz` is live as a launch/holding site.
+- The published Shopify theme identified on 29 July is Horizon/Radiant, not Prestige.
+- Prestige is the shortlisted theme for the full build. Confirm purchase/licensing before theme work.
+- The 21 July client workbook is now the latest product source.
+- Customer-facing product selection should prioritise Size, Feel and Sleeper Type.
+- Bed Studio remains a premium, showroom-led brand. Budget Beds remains the value/ecommerce brand.
 
 ## Important Rule
 

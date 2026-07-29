@@ -1,5 +1,7 @@
 # BedStudio Website Structure
 
+> Production update, 29 July 2026: use `11-prestige-build-spec.md` for the approved working sitemap, navigation and Prestige build requirements. This file remains the earlier strategy record.
+
 ## Build Principle
 
 Do not wait for the perfect full catalogue before putting BedStudio online. Use a staged launch:

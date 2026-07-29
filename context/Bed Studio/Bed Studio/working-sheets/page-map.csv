@@ -1,15 +1,20 @@
-Priority,Page,Proposed URL,Primary Goal,SEO Focus,Content Required,Status
-1,Homepage,/,Trust and launch traffic conversion,"bed studio newmarket, beds newmarket, mattresses newmarket","Hero, categories, showroom, NZ-made/custom, offer, FAQs, contact",Planned
-1,Newmarket Showroom,/pages/newmarket-showroom,Local SEO and showroom visits,"bed showroom newmarket, mattress store newmarket","Confirmed address/phone, map, hours, parking/access, photos, suburb copy, FAQs",Address/phone confirmed; hours/map pending
-1,Mattresses,/collections/mattresses,Core category sales and SEO,"mattresses newmarket, mattresses auckland, NZ made mattresses","Buying guide, feel options, size links, product grid, FAQs",Needs product rewrite
-1,Bed Bases,/collections/bed-bases,Core category sales and SEO,"bed bases auckland, NZ made bed base","Base types, standard/storage/custom, delivery, warranty, FAQs",Needs product rewrite
-1,Headboards,/collections/headboards,Core category sales and SEO,"headboards auckland, NZ made headboards","Styles, fabrics, customisation, sizing, lead time, FAQs",Needs product rewrite
-2,Storage Beds,/collections/storage-beds,Space-saving category,"storage beds auckland, storage bed base","Apartment/small-room angle, drawer options, dimensions, FAQs",Planned
-2,Electric Adjustable Beds,/collections/adjustable-beds,Premium/comfort category,"electric adjustable beds auckland","Comfort features, setup, showroom demo, FAQs",Needs careful claims
-2,NZ Made Custom Beds,/pages/nz-made-custom-beds,Authority and premium trust,"NZ made beds auckland, custom beds auckland","Custom size, fabric, material, lead time, showroom advice",Planned
-2,Delivery And Assembly,/pages/delivery-assembly,Objection handling,"bed delivery auckland, mattress delivery auckland","Delivery areas, fees, days, assembly, removal, FAQs",Needs confirmation
-2,Warranty And Returns,/pages/warranty-returns,Trust and policy clarity,"mattress warranty nz, bed returns policy","Warranty by product type, hygiene returns, restocking fee",Needs confirmation
-2,Finance Options,/pages/finance-payment,Payment conversion,"interest free beds, afterpay beds, q card beds","Gem, Afterpay, Q Card, Amex, 24 months terms",Needs confirmation
-3,Mattress Buying Guide,/blogs/guides/mattress-buying-guide,SEO and AI search support,"mattress buying guide nz","Sleeper type, feel, size, budget, showroom advice",Planned
-3,Mattress Sizes NZ,/blogs/guides/mattress-sizes-nz,SEO and product support,"mattress sizes nz, queen mattress size nz","Size table, room guidance, related products",Planned
-3,Plush Vs Medium Vs Firm,/blogs/guides/plush-vs-medium-vs-firm,Comfort education,"plush vs firm mattress, medium mattress nz","Feel comparison, sleeper type, showroom testing",Planned
+Priority,Page,Proposed URL,Primary Goal,SEO Focus,Content Required,Phase,Status
+P0,Homepage,/,Premium brand and conversion,"premium beds Auckland; premium mattresses Auckland","Newmarket hero; categories; SleepMatch; NZ-made proof; products; showroom",Launch,Build in unpublished Prestige
+P0,Newmarket Showroom,/pages/newmarket-showroom,Local visibility and showroom visits,"bed shop Newmarket; mattress store Newmarket","NAP; map; hours; parking; photos; showroom experience",Launch,Hours/map/parking pending
+P0,Mattresses,/collections/mattresses,Core category sales and SEO,mattresses Auckland,"Feel; Sleeper Type; Size; product grid; FAQs",Launch,Required
+P0,Beds & Bases,/collections/beds-and-bases,Core category sales and SEO,"beds Auckland; bed bases Auckland","Base types; fabrics; storage; sizing; products",Launch,Required
+P0,Headboards,/collections/headboards,Core category sales and SEO,headboards Auckland,"Styles; sizes; fabrics; customisation; products",Launch,Required
+P0,Storage Beds,/collections/storage-beds,Space-saving commercial category,storage beds Auckland,"Gas lift; drawers; room planning; delivery; products",Launch,Required
+P0,Adjustable Beds,/collections/adjustable-beds,Premium comfort category,adjustable beds Auckland,"Approved range; compatibility; controls; warranty; showroom trial",Launch,Product range pending
+P0,NZ-Made Beds & Mattresses,/collections/nz-made-beds-and-mattresses,Trust and commercial category,"NZ made beds; NZ made mattresses Auckland","Verified products and origin proof only",Launch,Required
+P0,SleepMatch,/pages/sleepmatch,Guided shopping,"mattress finder; mattress by feel and sleeper","Size; Feel; Sleeper Type selector; disclaimer; showroom CTA",Launch,Planned
+P0,Contact,/pages/contact,Lead and direction conversion,Bed Studio Newmarket contact,"NAP; hours; map; enquiry form",Launch,Existing page requires QA
+P1,About Bed Studio,/pages/about-bed-studio,Brand trust,Bed Studio Newmarket,"Story; people; premium positioning; NZ-made/custom proof",Wave 2,Team proof pending
+P1,Delivery & Assembly,/pages/delivery-and-assembly,Buying confidence,bed delivery Auckland,"Areas; fees; access; setup; removal",Wave 2,Client wording pending
+P1,Warranty & Returns,/pages/warranty-and-returns,Buying confidence,mattress warranty NZ,"Product-specific warranty and returns",Wave 2,Client wording pending
+P1,Finance & Payment,/pages/finance-and-payment-options,Buying confidence,bed finance Auckland,"Approved providers; terms; eligibility",Wave 2,Client wording pending
+P1,FAQs,/pages/faqs,Reduce buying friction,Bed Studio FAQs,"Showroom; products; custom; delivery; warranty",Wave 2,Confirmed answers only
+P2,Plush vs Medium vs Firm,/blogs/sleep-guides/plush-vs-medium-vs-firm-mattress,Guide and internal linking,plush vs medium vs firm mattress,"Comparison; trade-offs; showroom testing",Wave 4,Planned
+P2,Side Sleeper Guide,/blogs/sleep-guides/best-mattress-for-side-sleepers-nz,Guide and commercial support,best mattress for side sleepers NZ,"Evidence-led guidance; SleepMatch; products",Wave 4,Planned
+P2,Back Sleeper Guide,/blogs/sleep-guides/best-mattress-for-back-sleepers-nz,Guide and commercial support,best mattress for back sleepers NZ,"Evidence-led guidance; SleepMatch; products",Wave 4,Planned
+P2,Front Sleeper Guide,/blogs/sleep-guides/best-mattress-for-front-sleepers-nz,Guide and commercial support,best mattress for stomach sleepers NZ,"Evidence-led guidance; SleepMatch; products",Wave 4,Planned

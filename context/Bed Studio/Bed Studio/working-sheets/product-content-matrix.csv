@@ -1,14 +1,12 @@
 Priority,Product Or Category,Source,Positioning Angle,Known Details,Content Work Needed,Status
-1,Mattresses,Fireflies and product export,Premium comfort and guided showroom advice,"NZ-made options, plush/medium/firm, pocket spring, memory foam, latex, gel, hybrid, foam","Build category intro, FAQs, filters by size/feel/sleeper type",Planned
-1,CozyCloud NZ Made Premium Mattress,Product export,NZ-made premium Euro Top mattress,"5-zone pocket spring, plush/medium/firm, customisation, approx 300mm, 10-year warranty in export","Rewrite product page for BedStudio, confirm warranty and lead time",Needs rewrite
-1,CozyCloud NZ Made Premium Mattress & Base,Product export,Premium mattress and base package,"NZ-made mattress and base, split super king example, base options, customisation","Clarify inclusions, base/drawer pricing, delivery, warranty",Needs rewrite
-1,DreamNest NZ Made Quality Mattress & Bed Base,Product export,NZ-made quality mattress/base package,"Pocket spring, Dunlop foam, NZ pine base, plush/medium/firm, 5-year warranty in export","Rewrite with showroom guidance and compare against CozyCloud",Needs rewrite
-1,Queen Beds,Fireflies,High-demand size category,"Queen beds discussed as key sales focus","Create size/category page and connect to products",Planned
-2,Storage Beds,Fireflies and product export,Premium storage and apartment-friendly option,"Storage bases, drawer options, storage base lead time discussed around 2.5 weeks","Create category page with room-space advice",Planned
-2,Extra Deep Drawer Bed Base King NZ Made,Product export,NZ-made storage bed base,"NZ pine, deep drawers, fabric options, king split base, custom colours","Rewrite product page, confirm current dimensions and price",Needs rewrite
-2,Headboards,Fireflies and product export,Custom NZ-made bedroom styling,"Fabric options, custom sizes, lead time around 2.5-3 weeks in export","Create category copy and fabric/customisation guidance",Planned
-2,Mira Headboard Queen NZ Made,Product export,NZ-made customisable headboard,"Horizontal panelled design, fabric options, queen size, struts/wall mounting","Rewrite product page with BedStudio tone",Needs rewrite
-2,Electric Adjustable Beds,Fireflies,Premium comfort and ease-of-use category,"Electric adjustable bases discussed as important premium/comfort category","Create careful category copy avoiding unsupported health claims",Planned
-3,Posture Care Support Plush Mattress,Product export,Soft/plush comfort product,"5-zone pocket springs, Euro top, foam encased, approx 350mm","Rewrite for premium comfort, confirm warranty and availability",Needs rewrite
-3,Split Mattress Options,Fireflies and product export,Couples and flexible room use,"Split super king, zipper-connected options discussed","Create guide section and product FAQ",Planned
-
+P0,Mattresses,21 July client workbook,Premium comfort and guided showroom advice,"Size; Feel; Sleeper Type; 22 rows typed as Mattresses plus uncategorised mattress products","Approve assortment; normalise filters; rewrite category and products",Open
+P0,Beds & Bases,21 July client workbook,NZ-made/custom options where verified,"25 rows typed Bed Bases plus bed/frame products","Separate mattresses; confirm products; rewrite category and products",Open
+P0,Headboards,21 July client workbook,Style/fabric/size customisation,"60 rows typed HeadBoards with many size-specific handles","Decide consolidation; verify fabric/custom claims; rewrite",Open
+P0,Storage Beds,21 July client workbook,Premium space-saving choice,"Gas lift; drawer; hinged base products","Confirm delivery/assembly; build category comparison",Open
+P0,Adjustable Beds,Meeting and client direction,Premium guided showroom category,"Adjustable beds requested but clear launch range is not visible in latest export","Client to confirm products/specs/warranty",Blocked
+P0,NZ-Made,21 July client workbook,Local quality and customisation,"Many titles state NZ Made","Verify every origin claim; do not infer from title alone",Open
+P1,SleepMatch,21 July client email,Customer-friendly guided choice,"Size; Feel; Side/Back/Front sleeper paths","Normalise values; review guidance; add disclaimer and showroom CTA",Open
+P1,Core Products,Production handover workbook,Priority launch assortment,118 products classified Core by rule-based audit,"Client approval; unique copy; metadata; imagery; warranty/lead time QA",Open
+P1,Support Products,Production handover workbook,Add-ons after core range,14 products classified Support by rule-based audit,"Review commercial relevance and cross-sell placement",Open
+P1,Review Products,Production handover workbook,Manual decision required,5 products classified Review by rule-based audit,"Resolve missing type/title/duplicate issues",Open
+P1,Exclude Or Archive Candidates,Production handover workbook,Protect premium positioning,6 sofa/bunk/off-position candidates,"Client review; do not permanently delete without approval",Open

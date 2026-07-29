@@ -1,20 +1,16 @@
 Priority,Workstream,Task,Owner,Source,Status
-1,Brand,Confirm final BedStudio spelling,Client,Open questions,Open
-1,Local SEO,Use confirmed GBP address and phone; confirm hours and map,Digital Neighbour/Client,GBP screenshot and open questions,In progress
-1,Website,Trial Prestige Shopify theme,Digital Neighbour,9 July meeting,Open
-1,Website,Confirm theme purchase,Client,9 July meeting,Open
-1,Website,Connect domain,Digital Neighbour/Client,9 July meeting,Open
-1,Website,Build landing page/homepage,Digital Neighbour,9 July meeting,Open
-1,Products,Import product export as draft products,Digital Neighbour,Product backup email,Open
-1,Products,Confirm priority products and categories,Client,9 July meeting,Open
-1,Content,Rewrite priority product descriptions for BedStudio,Digital Neighbour,Product export,Open
-1,Content,Write delivery warranty returns finance FAQs,Digital Neighbour,9 July meeting,Open
-1,SEO,Create BedStudio metadata and schema plan,Digital Neighbour,SEO plan,Open
-1,SEO,Confirm Google Business Profile status,Client/Digital Neighbour,Open questions,Open
-1,Tracking,Set up GA4 and conversion tracking,Digital Neighbour,Website launch requirements,Open
-2,Launch,Confirm final launch offer wording,Client,9 July meeting,Open
-2,Launch,Prepare Facebook/Meta launch creative,Digital Neighbour/Client,9 July meeting,Open
-2,Launch,Prepare Google Business Profile launch post,Digital Neighbour,SEO plan,Open
-2,Launch,Prepare showroom signage support copy,Client/Digital Neighbour,9 July meeting,Open
-2,QA,Mobile and desktop QA before publishing,Digital Neighbour,Website process,Open
-2,Reporting,Create before/after reporting baseline,Digital Neighbour,Gmail SEO thread,Open
+P0,Theme,Confirm Prestige purchase/licensing and install as unpublished theme,Client/Developer,29 July live-site review,Open
+P0,Theme,Keep Horizon/Radiant holding site stable during production,Developer,29 July live-site review,Open
+P0,Products,Approve Core/Support/Review/Exclude catalogue classifications,Client,21 July product workbook,Open
+P0,Products,Remove Budget Beds wording from approved Bed Studio products,Writer/Merchandising,21 July product workbook,Open
+P0,Products,Normalise Size/Feel/Sleeper values and keep Foam/Spring secondary,Merchandising,21 July client email,Open
+P0,Structure,Build homepage/showroom and six primary collections,Developer/Writer,Prestige build spec,Open
+P0,Local SEO,Confirm hours/map/parking and build Newmarket showroom page,Client/Local SEO,GBP plus open questions,Blocked
+P0,SEO,Verify GSC/GA4 and save formal keyword baseline,SEO,29 July search baseline,Open
+P0,SEO,Write metadata/internal links and validate schema,SEO/Developer,Launch QA,Open
+P0,Migration,Map redirects before changing or removing live URLs,SEO/Developer,Live sitemap review,Open
+P0,QA,Test mobile navigation/filters/forms/cart/checkout/tracking,Developer/QA,Launch QA,Open
+P1,Content,Obtain approved delivery/warranty/returns/finance wording,Client,Open questions,Blocked
+P1,Guidance,Build SleepMatch with educational disclaimer,SEO/UX,21 July client email,Open
+P1,Assets,Approve client imagery and create web-optimised derivatives,Client/Designer,15 July asset email,Open
+P2,Guides,Publish Feel and Sleeper guide cluster,SEO Writer,Keyword map,Open

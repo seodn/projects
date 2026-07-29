@@ -16,6 +16,34 @@
 
 ## Gmail
 
+### Updated Product Workbook And SleepMatch Direction
+
+- Message ID: `19f8435699ac52ce`
+- Thread ID: `19f5fa86b12e0b04`
+- From: `hypnosnz@gmail.com`
+- Subject: `Re: Bed Studio Launch Page Review`
+- Date: 21 July 2026
+- Attachment: `products_export_1.xlsx`
+- Local copy: `../raw-sources/email-attachments/products_export_1-2026-07-21.xlsx`
+- Main use: latest Shopify product source and confirmed Size, Feel and Sleeper Type shopping direction.
+- Notes: the client proposed `SleepMatch` or `Sleep Profile` and supplied sleeper-to-feel guidance. Treat this as educational guidance requiring content review, not medical advice.
+
+### Bed Studio Image Pack
+
+- Thread ID: `19f5fa86b12e0b04`
+- From: `hypnosnz@gmail.com`
+- Date: 15 July 2026
+- Attachments: 11 JPG files and one five-page PDF.
+- Local images: `../assets/client-supplied-2026-07-15/`
+- Local PDF: `../raw-sources/email-attachments/bedstudio-image-map-2026-07-15.pdf`
+- Main use: Bed Studio-specific imagery and MLILY Polar Wave, Carbon Cool and Onyx product reference material.
+
+### Live Site Approval
+
+- Thread ID: `19f5fa86b12e0b04`
+- Dates: 18-20 July 2026
+- Main use: confirmed domain, launch-page title direction, hero image preference, feature-card copy and client approval to publish the holding site.
+
 ### Updated Product Back-up
 
 - Message ID: `19f36c191ee3bb18`

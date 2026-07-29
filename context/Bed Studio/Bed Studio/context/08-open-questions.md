@@ -15,8 +15,8 @@ Opening hours still need client confirmation because the screenshot appears to s
 
 ## Brand And Business
 
-- Final spelling: BedStudio, Bed Studio, or another version?
-- Final domain.
+- Confirm whether public brand styling is `Bed Studio` or `BedStudio` across logo, headings and structured data.
+- Domain confirmed live: `bedstudio.co.nz`.
 - Exact legal/company name.
 - Final email address. Meeting/email context indicates `info@bedstudio.co.nz`, but confirm.
 - Opening hours.
@@ -26,8 +26,8 @@ Opening hours still need client confirmation because the screenshot appears to s
 
 ## Website
 
-- Final Shopify theme choice and purchase approval.
-- Whether Prestige is confirmed.
+- Prestige is shortlisted. Confirm theme purchase/licensing and the implementation start.
+- Current live theme is Horizon/Radiant; confirm whether it stays only as the holding theme.
 - Whether the site is ecommerce, showroom enquiry, or both.
 - Which products launch first.
 - Which products stay draft.
@@ -72,7 +72,8 @@ Opening hours still need client confirmation because the screenshot appears to s
 
 ## Assets
 
-- BedStudio logo files.
+- Confirm which logo file is the final master and obtain vector/SVG if available.
+- Eleven client-supplied image files and a five-page MLILY product PDF were recovered from the 15 July email. Confirm usage rights and intended placement.
 - Showroom exterior photos.
 - Showroom interior photos.
 - Staff/team photos.

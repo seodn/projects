@@ -1,5 +1,7 @@
 # BedStudio Launch Plan
 
+> Current status, 29 July 2026: the domain is already live with a holding site. Treat the next launch as a controlled full-site release from an unpublished Prestige build, not a first domain launch. Use `09-live-site-baseline-2026-07-29.md` and `12-content-production-roadmap.md`.
+
 ## Launch Principle
 
 The website should not wait for a perfect catalogue. Launch a credible landing page first, then build out products and categories in stages.

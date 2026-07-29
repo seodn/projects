@@ -1,5 +1,7 @@
 # BedStudio SEO And AI Search Plan
 
+> Production update, 29 July 2026: use `10-keyword-and-competitor-baseline-2026-07-29.md` for the current public search spot-check and page-to-keyword map. No Search Console or rank-tracker positions were available, so exact rankings remain unconfirmed.
+
 ## Ranking Priority
 
 1. Newmarket.

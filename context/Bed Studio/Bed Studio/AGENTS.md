@@ -2,6 +2,15 @@
 
 This folder is for BedStudio-specific work only.
 
+## Current Production Update — 29 July 2026
+
+- Prestige is shortlisted for the full build, but the live Shopify theme is Horizon/Radiant.
+- Build Prestige as an unpublished theme until all release checks are complete.
+- The latest product source is `raw-sources/email-attachments/products_export_1-2026-07-21.xlsx`.
+- Customer-facing selection should prioritise Size, Feel and Sleeper Type.
+- Use `working-sheets/BedStudio-Website-SEO-Production-Handover-2026-07-29.xlsx` as the current page, keyword, product, content and launch handover.
+- Never publish the full imported catalogue without client approval of the Core, Support, Review and Exclude/archive classifications.
+
 Use this folder when planning, writing, designing, building, or reviewing the BedStudio website, content, SEO, launch campaign, product pages, FAQs, Google Business Profile content, or local visibility work.
 
 Before producing BedStudio-facing work, read:
@@ -14,6 +23,10 @@ Before producing BedStudio-facing work, read:
 - `context/06-delivery-warranty-payments-faqs.md`
 - `context/07-launch-plan.md`
 - `context/08-open-questions.md`
+- `context/09-live-site-baseline-2026-07-29.md`
+- `context/10-keyword-and-competitor-baseline-2026-07-29.md`
+- `context/11-prestige-build-spec.md`
+- `context/12-content-production-roadmap.md`
 - `context/source-index.md`
 
 ## Core BedStudio Position
