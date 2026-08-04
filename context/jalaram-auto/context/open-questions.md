@@ -14,6 +14,10 @@ Confirm these before final website copy, design, or publication.
 
 ## Services
 
+- Should the main website menu follow this exact grouping: Home, Services, Tyre, Battery, WINZ, Hybrid, About, Contact, Gallery, FAQ?
+- Under Services, confirm the two dropdown groups: Mechanical Repairs and Electrical Repair.
+- Under Mechanical Repairs, confirm these menu items: Cam Belt Replacement, Brake And Rotors Skimming, Suspension Works, Clutch, Rebuild Engine.
+- Under Electrical Repair, confirm Air Conditioning Repair as a child item.
 - Is Jalaram Auto an authorised WOF inspection site, and what exact public wording is allowed?
 - Should WOF repairs be listed as a separate service from WOF inspections?
 - Which hybrid makes/models should be mentioned publicly, if any?
@@ -32,7 +36,17 @@ Confirm these before final website copy, design, or publication.
 - Confirm hybrid service starting prices by vehicle type.
 - Confirm WOF price.
 - Confirm puncture repair price, tyre pricing rules, and whether tyre brands should be listed.
+- Confirm pricing for cam belt replacement.
+- Confirm pricing for brake and rotors skimming.
+- Confirm pricing for suspension works.
+- Confirm pricing for clutch repair/replacement.
+- Confirm pricing for rebuild engine / engine rebuild jobs.
+- Confirm pricing for electrical diagnostics and electrical repair.
+- Confirm pricing for air conditioning repair, regas, leak testing, and diagnostics.
+- Confirm battery testing, standard battery replacement, auxiliary battery, and hybrid battery pricing.
+- Confirm WINZ quote/payment process and whether it should be advertised.
 - Confirm accepted payment options: card/EFTPOS, online banking, Afterpay, cash, or finance.
+- Confirm whether Afterpay should be shown in banners and on service pages.
 
 ## Proof And Assets
 
@@ -43,7 +57,10 @@ Confirm these before final website copy, design, or publication.
 - Supply workshop/action photos.
 - Supply before/after photos showing old parts and new parts.
 - Supply MTA and any WOF/NZTA logo permissions.
+- Confirm whether the client meant MTA approved, not FDA approved.
+- Confirm all banner claims: MTA approved, WOF available, Afterpay available, WINZ support, mechanical warranty support, guarantees, and genuine reviews.
 - Confirm whether mechanical warranty/insurance work can be advertised and what wording is compliant.
+- Confirm exact guarantee wording and exclusions.
 
 ## SEO And Tracking
 

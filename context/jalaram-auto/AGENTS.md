@@ -22,6 +22,8 @@ Jalaram Auto is an automotive repair workshop in Glen Eden, West Auckland. The n
 - Treat minor denting/panel beating as a low-priority or excluded service unless the client reconfirms it, because the meeting indicated it is not profitable and only tiny jobs are done.
 - Do not claim wheel alignment as an offered service. The client said alignment is not done.
 - Use founder-led trust, MTA approval, genuine reviews, before/after repair photos, transparent explanations, and quality oil/parts as proof themes.
+- Use the client-requested menu grouping unless later superseded: Home, Services, Tyre, Battery, WINZ, Hybrid, About, Contact, Gallery, FAQ.
+- Treat MTA approval, Afterpay, guarantees, WINZ support, WOF availability, and warranty support as high-priority website banner claims, but verify exact wording before publishing.
 
 ## Content Rules
 
@@ -42,3 +44,5 @@ Before doing future Jalaram Auto website, SEO, content, or design work, read:
 3. `content/website-structure-and-keyword-map.md`
 4. `context/services-and-seo-keywords.md`
 5. `context/location-and-service-area.md`
+6. `context/claims-and-banner-proof-points.md`
+7. `context/client-pricing-request-list.md`
