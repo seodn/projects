@@ -18,6 +18,8 @@ The website must generate more calls, quote requests, and bookings from local se
 - mechanical repairs such as brakes, suspension, clutch, cam belt, transmission, and engine-related issues
 - tyre replacement and puncture repair
 - auto electrical and air conditioning enquiries
+- WINZ quote/support enquiries, if confirmed
+- standard battery and hybrid battery enquiries
 
 ## Target Customers
 
@@ -54,12 +56,14 @@ Secondary positioning:
 
 Primary website service groups:
 
-1. Hybrid battery and hybrid vehicle services.
-2. WOF inspections and WOF repairs.
-3. Car servicing.
-4. Mechanical repairs.
-5. Tyres and puncture repair.
-6. Auto electrical and air conditioning.
+1. Services.
+2. Mechanical Repairs: Cam Belt Replacement, Brake And Rotors Skimming, Suspension Works, Clutch, Rebuild Engine.
+3. Electrical Repair: Air Conditioning Repair.
+4. Tyre: Puncture Repair.
+5. Battery.
+6. WINZ.
+7. Hybrid.
+8. About, Contact, Gallery, and FAQ.
 
 Lower priority or excluded:
 
@@ -77,6 +81,7 @@ Confirmed or strongly supported:
 - Meeting context says reviews are genuine.
 - Meeting context says Jalaram Auto takes before/after photos of changed parts and explains faults to customers.
 - Meeting context says the owner has automotive training and workshop experience from India and New Zealand.
+- Meeting/follow-up context says important banner claims should include approval, Afterpay, guarantees, and support pathways. These must be verified before publishing.
 
 Needs confirmation before publishing strongly:
 
@@ -85,6 +90,9 @@ Needs confirmation before publishing strongly:
 - Exact pricing by vehicle size and service type.
 - Mechanical warranty/insurance wording.
 - Payment options such as Afterpay, online banking, card/EFTPOS, and finance.
+- Exact guarantee wording and exclusions.
+- WINZ quote/payment support wording.
+- Whether "FDA approved" was a misstatement for "MTA approved"; do not publish FDA wording without proof.
 - Team size, team names, and photos.
 - Logo files and current brand colours.
 

@@ -16,15 +16,29 @@ Jalaram Auto needs a local SEO website that makes five things obvious:
 
 The current structure should avoid a flat "all services" list. It should group pages around the way drivers search: urgent local mechanic needs, WOF, car service, hybrid battery issues, tyre punctures, and specific mechanical faults.
 
-## Recommended Primary Navigation
+## Client-Requested Primary Navigation
 
+Use this as the website menu direction from the client meeting follow-up:
+
+- Home
 - Services
-- Hybrid Batteries
-- WOF
-- Tyres
+  - Mechanical Repairs
+    - Cam Belt Replacement
+    - Brake And Rotors Skimming
+    - Suspension Works
+    - Clutch
+    - Rebuild Engine
+  - Electrical Repair
+    - Air Conditioning Repair
+- Tyre
+  - Puncture Repair
+- Battery
+- WINZ
+- Hybrid
 - About
-- Reviews
 - Contact
+- Gallery
+- FAQ
 
 Recommended header CTA:
 
@@ -36,35 +50,35 @@ Optional top bar:
 - 287C West Coast Road, Glen Eden
 - 022 122 1822
 - MTA approved
+- Afterpay available, if confirmed
+- Warranty/guarantee message, exact wording to confirm
 
 ## Page Hierarchy
 
 ```text
 Homepage (/)
 ├── Services (/services)
-│   ├── WOF (/services/wof)
-│   ├── Car Service (/services/car-service)
 │   ├── Mechanical Repairs (/services/mechanical-repairs)
-│   │   ├── Brake Repairs (/services/brake-repairs)
-│   │   ├── Suspension Repairs (/services/suspension-repairs)
-│   │   ├── Clutch And Transmission (/services/clutch-and-transmission)
-│   │   └── Cam Belt Replacement (/services/cam-belt-replacement)
-│   ├── Auto Electrical (/services/auto-electrical)
-│   └── Air Conditioning (/services/air-conditioning)
-├── Hybrid Batteries (/services/hybrid-battery-repair)
-│   ├── Hybrid Battery Reconditioning (/services/hybrid-battery-reconditioning)
-│   └── Hybrid Car Service (/services/hybrid-car-service)
-├── Tyres (/services/tyres)
+│   │   ├── Cam Belt Replacement (/services/cam-belt-replacement)
+│   │   ├── Brake And Rotors Skimming (/services/brake-and-rotors-skimming)
+│   │   ├── Suspension Works (/services/suspension-works)
+│   │   ├── Clutch (/services/clutch-repair)
+│   │   └── Rebuild Engine (/services/rebuild-engine)
+│   └── Electrical Repair (/services/electrical-repair)
+│       └── Air Conditioning Repair (/services/air-conditioning-repair)
+├── Tyre (/services/tyres)
 │   └── Puncture Repair (/services/puncture-repair)
+├── Battery (/services/battery)
+├── WINZ (/winz)
+├── Hybrid (/hybrid)
 ├── Locations (/locations)
 │   ├── Mechanic Glen Eden (/mechanic-glen-eden)
 │   └── Mechanic West Auckland (/mechanic-west-auckland)
-├── Pricing (/pricing)
 ├── About (/about)
-├── Reviews (/reviews)
+├── Contact (/contact)
 ├── Gallery (/gallery)
 ├── FAQs (/faqs)
-└── Contact (/contact)
+└── Reviews (/reviews)
 ```
 
 ## Visual Sitemap
@@ -72,26 +86,26 @@ Homepage (/)
 ```mermaid
 graph TD
     HOME["Homepage /"] --> SERVICES["Services /services"]
-    HOME --> HYBRID["Hybrid Batteries /services/hybrid-battery-repair"]
-    HOME --> TYRES["Tyres /services/tyres"]
+    HOME --> TYRES["Tyre /services/tyres"]
+    HOME --> BATTERY["Battery /services/battery"]
+    HOME --> WINZ["WINZ /winz"]
+    HOME --> HYBRID["Hybrid /hybrid"]
     HOME --> LOCATIONS["Locations /locations"]
     HOME --> ABOUT["About /about"]
-    HOME --> REVIEWS["Reviews /reviews"]
     HOME --> CONTACT["Contact /contact"]
+    HOME --> GALLERY["Gallery /gallery"]
+    HOME --> FAQ["FAQ /faqs"]
 
-    SERVICES --> WOF["WOF /services/wof"]
-    SERVICES --> CARSERVICE["Car Service /services/car-service"]
     SERVICES --> MECH["Mechanical Repairs /services/mechanical-repairs"]
-    SERVICES --> ELECTRICAL["Auto Electrical /services/auto-electrical"]
-    SERVICES --> AC["Air Conditioning /services/air-conditioning"]
+    SERVICES --> ELECTRICAL["Electrical Repair /services/electrical-repair"]
 
-    MECH --> BRAKES["Brake Repairs"]
-    MECH --> SUSPENSION["Suspension Repairs"]
-    MECH --> CLUTCH["Clutch And Transmission"]
+    MECH --> BRAKES["Brake And Rotors Skimming"]
+    MECH --> SUSPENSION["Suspension Works"]
+    MECH --> CLUTCH["Clutch"]
     MECH --> CAMBELT["Cam Belt Replacement"]
+    MECH --> ENGINE["Rebuild Engine"]
 
-    HYBRID --> RECON["Hybrid Battery Reconditioning"]
-    HYBRID --> HYBRIDSERVICE["Hybrid Car Service"]
+    ELECTRICAL --> AC["Air Conditioning Repair"]
 
     TYRES --> PUNCTURE["Puncture Repair"]
 
@@ -105,29 +119,33 @@ graph TD
 | --- | --- | --- | --- | --- |
 | Homepage | `/` | None | Header logo | High |
 | Services Hub | `/services` | Homepage | Header | High |
-| WOF | `/services/wof` | Services | Header / Services dropdown | High |
-| Car Service | `/services/car-service` | Services | Header / Services dropdown | High |
-| Hybrid Battery Repair | `/services/hybrid-battery-repair` | Homepage | Header | High |
-| Hybrid Battery Reconditioning | `/services/hybrid-battery-reconditioning` | Hybrid Battery Repair | Hybrid page links | High |
-| Hybrid Car Service | `/services/hybrid-car-service` | Hybrid Battery Repair | Hybrid page links | Medium |
 | Mechanical Repairs | `/services/mechanical-repairs` | Services | Services dropdown | High |
-| Brake Repairs | `/services/brake-repairs` | Mechanical Repairs | Mechanical page links | Medium |
-| Suspension Repairs | `/services/suspension-repairs` | Mechanical Repairs | Mechanical page links | Medium |
-| Clutch And Transmission | `/services/clutch-and-transmission` | Mechanical Repairs | Mechanical page links | Medium |
-| Cam Belt Replacement | `/services/cam-belt-replacement` | Mechanical Repairs | Mechanical page links | Medium |
-| Auto Electrical | `/services/auto-electrical` | Services | Services dropdown | Medium |
-| Air Conditioning | `/services/air-conditioning` | Services | Services dropdown | Medium |
-| Tyres | `/services/tyres` | Homepage | Header | High |
-| Puncture Repair | `/services/puncture-repair` | Tyres | Tyres page links | High |
+| Cam Belt Replacement | `/services/cam-belt-replacement` | Mechanical Repairs | Services dropdown | Medium |
+| Brake And Rotors Skimming | `/services/brake-and-rotors-skimming` | Mechanical Repairs | Services dropdown | Medium |
+| Suspension Works | `/services/suspension-works` | Mechanical Repairs | Services dropdown | Medium |
+| Clutch | `/services/clutch-repair` | Mechanical Repairs | Services dropdown | Medium |
+| Rebuild Engine | `/services/rebuild-engine` | Mechanical Repairs | Services dropdown | Medium |
+| Electrical Repair | `/services/electrical-repair` | Services | Services dropdown | High |
+| Air Conditioning Repair | `/services/air-conditioning-repair` | Electrical Repair | Services dropdown | Medium |
+| Tyre | `/services/tyres` | Homepage | Header | High |
+| Puncture Repair | `/services/puncture-repair` | Tyre | Tyre dropdown | High |
+| Battery | `/services/battery` | Homepage | Header | High |
+| WINZ | `/winz` | Homepage | Header | High |
+| Hybrid | `/hybrid` | Homepage | Header | High |
+| WOF | `/services/wof` | Services | Services page / footer / contextual | High |
+| Car Service | `/services/car-service` | Services | Services page / footer / contextual | High |
+| Hybrid Battery Repair | `/services/hybrid-battery-repair` | Hybrid | Hybrid page links | High |
+| Hybrid Battery Reconditioning | `/services/hybrid-battery-reconditioning` | Hybrid | Hybrid page links | High |
+| Hybrid Car Service | `/services/hybrid-car-service` | Hybrid | Hybrid page links | Medium |
 | Locations | `/locations` | Homepage | Footer | Medium |
 | Mechanic Glen Eden | `/mechanic-glen-eden` | Locations | Header/footer/contextual | High |
 | Mechanic West Auckland | `/mechanic-west-auckland` | Locations | Footer/contextual | High |
-| Pricing | `/pricing` | Homepage | Header/footer | Medium |
+| Pricing | `/pricing` | Homepage | Footer/contextual | Medium |
 | About | `/about` | Homepage | Header | High |
 | Reviews | `/reviews` | Homepage | Header/footer | High |
-| Gallery | `/gallery` | Homepage | Footer | Medium |
-| FAQs | `/faqs` | Homepage | Footer | Medium |
-| Contact | `/contact` | Homepage | Header CTA/footer | High |
+| Contact | `/contact` | Homepage | Header CTA | High |
+| Gallery | `/gallery` | Homepage | Header/footer | Medium |
+| FAQ | `/faqs` | Homepage | Header/footer | Medium |
 
 ## Page Briefs
 
@@ -268,14 +286,102 @@ Primary keyword:
 
 Sections:
 
-- Brakes and rotors.
-- Suspension.
+- Cam belt replacement.
+- Brake and rotors skimming.
+- Suspension works.
 - Clutch.
-- Transmission.
-- Cam belt.
-- Engine-related work.
+- Rebuild engine / engine-related work.
 - Photo-supported diagnosis.
 - Quote-before-repair trust message.
+
+Child pages:
+
+- `/services/cam-belt-replacement`
+- `/services/brake-and-rotors-skimming`
+- `/services/suspension-works`
+- `/services/clutch-repair`
+- `/services/rebuild-engine`
+
+### Electrical Repair
+
+Target page: `/services/electrical-repair`
+
+Primary keyword:
+
+- electrical repair Glen Eden
+
+Sections:
+
+- Electrical diagnosis.
+- Warning lights and vehicle electrical issues.
+- Battery/alternator/starter-related issues, if confirmed.
+- Air conditioning repair as the key child service.
+- Quote CTA.
+
+### Air Conditioning Repair
+
+Target page: `/services/air-conditioning-repair`
+
+Primary keyword:
+
+- air conditioning repair Glen Eden
+
+Sections:
+
+- Air conditioning inspection.
+- Regas, leak testing, and repair scope after confirmation.
+- Symptoms: warm air, weak airflow, smell, noise, leaks.
+- Pricing and warranty terms after client confirmation.
+ 
+### Battery
+
+Target page: `/services/battery`
+
+Primary keyword:
+
+- car battery Glen Eden
+
+Sections:
+
+- Standard battery testing and replacement, if confirmed.
+- Auxiliary battery support, if confirmed.
+- Hybrid battery pathway linking to `/hybrid`.
+- Battery warning-light diagnosis.
+- Warranty/guarantee terms after confirmation.
+
+### WINZ
+
+Target page: `/winz`
+
+Primary keyword:
+
+- WINZ car repairs Auckland
+
+Sections:
+
+- Explain that customers may be able to request a written quote for WINZ support, exact process to confirm.
+- Services commonly quoted: WOF repairs, mechanical repairs, tyres, battery, and urgent safety repairs.
+- What the customer needs before work starts.
+- Payment approval rules and disclaimers.
+- Call/request quote CTA.
+
+### Hybrid
+
+Target page: `/hybrid`
+
+Primary keyword:
+
+- hybrid mechanic West Auckland
+
+Sections:
+
+- Hybrid battery repair.
+- Hybrid battery reconditioning.
+- Hybrid battery rebuild/replacement options.
+- Hybrid servicing.
+- Symptoms of hybrid battery issues.
+- Warranty/guarantee terms after confirmation.
+- Links to `/services/hybrid-battery-repair`, `/services/hybrid-battery-reconditioning`, and `/services/hybrid-car-service`.
 
 ### Tyres
 
@@ -346,13 +452,16 @@ Sections:
 
 Header nav:
 
+- Home
 - Services
-- Hybrid Batteries
-- WOF
-- Tyres
+- Tyre
+- Battery
+- WINZ
+- Hybrid
 - About
-- Reviews
 - Contact
+- Gallery
+- FAQ
 
 Header CTA:
 
@@ -360,31 +469,33 @@ Header CTA:
 
 Services dropdown:
 
-- WOF
-- Car Service
 - Mechanical Repairs
-- Auto Electrical
-- Air Conditioning
-- Tyres
+  - Cam Belt Replacement
+  - Brake And Rotors Skimming
+  - Suspension Works
+  - Clutch
+  - Rebuild Engine
+- Electrical Repair
+  - Air Conditioning Repair
+
+Tyre dropdown:
+
 - Puncture Repair
-
-Hybrid dropdown or featured nav:
-
-- Hybrid Battery Repair
-- Hybrid Battery Reconditioning
-- Hybrid Car Service
 
 Footer columns:
 
-- Services: WOF, Car Service, Hybrid Battery Repair, Mechanical Repairs, Auto Electrical, Air Conditioning, Tyres, Puncture Repair.
+- Services: Mechanical Repairs, Cam Belt Replacement, Brake And Rotors Skimming, Suspension Works, Clutch, Rebuild Engine, Electrical Repair, Air Conditioning Repair.
+- Specialist: Tyre, Puncture Repair, Battery, WINZ, Hybrid, WOF, Car Service.
 - Locations: Mechanic Glen Eden, Mechanic West Auckland, Henderson, New Lynn, Kelston, Titirangi.
-- Trust: About, Reviews, Gallery, MTA Approved.
+- Trust: About, Gallery, FAQ, Reviews, MTA Approved, Afterpay, Guarantee.
 - Contact: Phone, Address, Hours, Booking/Quote form.
 
 Breadcrumbs:
 
-- Home > Services > WOF
-- Home > Services > Hybrid Battery Repair
+- Home > Services > Mechanical Repairs > Cam Belt Replacement
+- Home > Services > Electrical Repair > Air Conditioning Repair
+- Home > Tyre > Puncture Repair
+- Home > Hybrid > Hybrid Battery Repair
 - Home > Locations > Mechanic Glen Eden
 
 ## Internal Linking Plan
@@ -392,16 +503,21 @@ Breadcrumbs:
 Hub pages:
 
 - `/services` should link to every core service page.
-- `/services/hybrid-battery-repair` should link to hybrid reconditioning, hybrid car service, pricing, reviews, and contact.
-- `/services/mechanical-repairs` should link to brakes, suspension, clutch/transmission, cam belt, WOF, and car service.
+- `/services/mechanical-repairs` should link to cam belt replacement, brake and rotors skimming, suspension works, clutch, rebuild engine, WOF, and car service.
+- `/services/electrical-repair` should link to air conditioning repair, battery, and contact.
 - `/services/tyres` should link to puncture repair, WOF, and contact.
+- `/services/battery` should link to hybrid, electrical repair, pricing, and contact.
+- `/winz` should link to mechanical repairs, WOF, tyre, battery, and contact.
+- `/hybrid` should link to hybrid battery repair, hybrid battery reconditioning, hybrid car service, pricing, reviews, and contact.
 - `/mechanic-glen-eden` should link to WOF, car service, hybrid battery repair, mechanical repairs, tyres, reviews, and contact.
 
 Cross-section links:
 
 - WOF page links to mechanical repairs and tyres for failed inspection fixes.
 - Car service page links to hybrid car service and mechanical repairs.
-- Hybrid battery pages link to reviews and gallery once assets exist.
+- Hybrid pages link to reviews and gallery once assets exist.
+- WINZ page links to the services most likely to need written quotes.
+- Battery page links to Hybrid where the issue is hybrid-specific.
 - About page links to MTA trust, reviews, and hybrid services.
 - Pricing page links to WOF, car service, hybrid battery repair, puncture repair, and quote form.
 
@@ -415,31 +531,35 @@ No orphan pages:
 
 - Homepage
 - Services hub
-- WOF
-- Car Service
-- Hybrid Battery Repair
 - Mechanical Repairs
-- Tyres
+- Electrical Repair
+- Air Conditioning Repair
+- Tyre
 - Puncture Repair
+- Battery
+- WINZ
+- Hybrid
 - Mechanic Glen Eden
 - About
-- Reviews
 - Contact
+- Gallery
 - FAQs
 
 ### Phase 2: Service Expansion
 
+- WOF
+- Car Service
+- Hybrid Battery Repair
 - Hybrid Battery Reconditioning
 - Hybrid Car Service
-- Auto Electrical
-- Air Conditioning
-- Brake Repairs
-- Suspension Repairs
-- Clutch And Transmission
 - Cam Belt Replacement
+- Brake And Rotors Skimming
+- Suspension Works
+- Clutch
+- Rebuild Engine
 - Mechanic West Auckland
 - Pricing
-- Gallery
+- Reviews
 
 ### Phase 3: Content And Suburb Expansion
 
