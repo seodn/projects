@@ -1,82 +1,82 @@
-# Car Service West Auckland From a Trusted Car Mechanic West Auckland Drivers Can Call
+# Car Service West Auckland
 
-## Trusted Glen Eden Workshop
-### Need your car checked without confusing advice?
+## Trusted Mechanic In Glen Eden
+### Servicing, WOF support and repairs explained clearly
 
-Jalaram Auto helps West Auckland drivers with servicing, WOF, hybrid battery repair, tyres and mechanical repairs from its Glen Eden workshop.
+Jalaram Auto is a Glen Eden workshop for servicing, WOF support, hybrid repair, tyres, batteries and mechanical repairs.
 
 - 287C West Coast Road, Glen Eden.
-- MTA-approved repairer, wording to confirm.
-- Quote before extra repair work starts.
-- Free WINZ quotations.
+- MTA-approved repairer, wording to confirm before publishing.
+- Quotes are explained before extra repair work starts.
+- Free WINZ quotations are available.
 
 Call Jalaram Auto
 Request a Quote
 
-## Problem, Symptoms And Need
-### What brings West Auckland drivers to a mechanic?
+## When Your Car Starts Telling You Something Is Wrong
+### Strange noise, warning light or WOF coming up?
 
-People search for car service West Auckland or car mechanic West Auckland when something feels wrong, sounds different or needs checking. The first job is to inspect the vehicle properly and explain what needs attention.
+Most drivers book because the car has started making a noise, a warning light has appeared, the WOF is due, or the service sticker says it is time. Jalaram Auto checks the vehicle, explains what is happening and gives you a clear next step.
 
-- Warning lights, hybrid battery alerts or starting problems.
+- Warning lights, starting problems or hybrid battery alerts.
 - Brake noise, vibration, shaking or poor stopping feel.
-- WOF due dates, failed WOF repairs or road-safety concerns.
-- Punctures, worn tyres or battery problems.
+- Worn tyres, punctures or battery problems.
+- WOF due dates, failed WOF repairs or safety concerns.
 
-## Service Packages
-### Which service package is right for your car?
+## Service Packages For Everyday Driving
+### Basic, full, hybrid and diesel servicing
 
-Service packages help customers compare the right level of care before they call. Use starting-price language because the final quote depends on make, model, oil quantity, parts and inspection findings.
+Regular servicing helps your car stay reliable and easier to maintain, with options for standard cars, SUVs, vans, utes, hybrids and diesel vehicles.
 
 - Basic service starts from $120 plus GST for a standard car.
 - SUV basic service starts from $150 plus GST.
 - Full service starts from $200 plus GST for a standard car.
 - Hybrid car service starts from $120 plus GST, up to 4 litres oil.
 
-## What A Service Includes
-### What gets checked during the service?
+## What Is Included In A Car Service
+### Clear checks, quality oil and practical advice
 
-A clear service explanation helps customers compare value, not only the cheapest price. Show the key inclusions, then link to Service Packages for the full breakdown.
+A good service is more than an oil change. It gives you a better picture of the car's condition and helps catch issues early.
 
 - Basic Service includes premium 5W30 fully synthetic engine oil up to 4 litres, oil filter replacement, general lights check, under-bonnet inspection and under-body inspection.
 - Full Service includes premium engine oil up to 4 litres, oil filter replacement, fluid checks and top-ups, general lights check, air filter service, front and rear brake inspection, spark plug check and a 55-point inspection.
 
-## Mid-Page CTA
-### Not sure what your car needs yet?
+## Not Sure What Your Car Needs?
+### Tell us the symptom and we will guide the next step
 
-If you can describe the symptom, the team can guide the next step. Call with the vehicle make, model and what you are noticing.
+You do not need to know the exact repair before calling. Describe the noise, light, smell, shake or reminder, and the team can guide the next step.
 
 - Request a quote for service, WOF, tyres, brakes or hybrid battery work.
-- Ask whether WINZ quotation support applies to your repair.
+- Ask about WINZ quotation support if repair cost is a concern.
 
 Call Jalaram Auto
 Get My Car Checked
 
-## Mechanical Repairs
-### Need a mechanic for brakes, suspension, clutch or engine work?
+## Mechanical Repairs When Something Feels Off
+### Brakes, suspension, clutch, cam belt and engine work
 
-Mechanical repair copy should help drivers who know the likely issue and those who only know the symptom. Position these services around careful inspection, clear pricing guidance and quote-before-repair confidence.
+If the car is noisy, pulling, shaking or not driving normally, it is better to inspect it early. Jalaram Auto can check, explain and quote before repair work begins.
 
 - Brake pads start from $120 plus GST.
 - Rotor skimming starts from $150 plus GST.
 - Diagnostic scan is $50 incl. GST.
 - Labour is $95 per hour plus GST.
-- Menu pages include Brake and Rotor Skimming, Suspension Works, Cam Belt Replacement, Clutch Works and Engine Rebuild.
+- Services include Brake and Rotor Skimming, Suspension Works, Cam Belt Replacement, Clutch Works and Engine Rebuild.
 
-## Hybrid Repair
-### Does your hybrid warning light or battery health concern need attention?
+## Hybrid Repair And Battery Support
+### Options before replacing the whole battery
 
-Hybrid repair is a strong homepage differentiator. Make it clear that hybrid owners can ask for diagnosis, battery health checks, reconditioning, secondhand batteries and brand-new battery pricing.
+Hybrid owners often worry that a battery warning means a full replacement. Jalaram Auto can help with health checks, reconditioning, secondhand batteries and brand-new hybrid batteries.
 
 - Hybrid battery health check from $70 plus GST.
 - Hybrid battery reconditioning starts from $750 plus GST.
 - Secondhand hybrid batteries start from $600 plus GST.
 - Brand-new hybrid batteries are available by make and model.
 
-## Tyres, Battery And Air Conditioning
-### Can one workshop help with smaller urgent jobs too?
+## Tyres, Batteries And Air Conditioning
+### Small problems can still stop your day
 
-Not every customer arrives with a major repair. Some need a puncture fixed, a tyre quote, a battery checked or an air conditioning issue diagnosed.
+Some repairs affect whether you can drive safely today. Jalaram Auto can help with punctures, tyres, auxiliary battery checks and air conditioning service.
 
 - Puncture repair starts from $40.
 - Tyres start from $85.
@@ -84,64 +84,65 @@ Not every customer arrives with a major repair. Some need a puncture fixed, a ty
 - Auxiliary battery test is free.
 - A/C gas refill starts from $150 plus GST.
 
-## Benefits And Outcomes
-### What should customers feel after booking with Jalaram Auto?
+## Why West Auckland Drivers Choose Jalaram Auto
+### Local, practical and easy to talk to
 
-The homepage should sell the outcome, not only the service list. Customers want the car checked, the issue explained and the repair handled fairly.
+The right mechanic does more than repair the car. You want someone who explains the issue and helps you make a sensible decision before money is spent.
 
-- More confidence before approving repair work.
-- Better understanding of what failed, what was replaced and why.
-- A Glen Eden option for service, WOF support and urgent repairs.
-- Hybrid battery options instead of one default answer.
+- You get a clear explanation before extra repairs begin.
+- Starting prices help you understand likely costs.
+- Hybrid battery repair options may reduce the need for immediate replacement.
+- Photos, old parts and inspection notes can help show what was found.
 
-## Trust And Lead Signals
-### Why should a new visitor trust this workshop?
+## Trust Signals Before You Book
+### Proof matters when choosing a mechanic
 
-Trust is why the homepage needs proof near every major decision point. Lead with local signals, then support them with verified photos, reviews and approved wording.
+Customers want to know the workshop is real, local and accountable. Jalaram Auto builds confidence with local proof and clear explanations.
 
-- MTA-approved repairer, with final logo and wording to confirm.
-- Genuine Google reviews, with current count and permissioned quotes to confirm.
-- Owner-led local workshop story connected to Chirag's experience.
-- Before-and-after photos and old-part explanations where helpful.
-- Afterpay, guarantee, WOF authority and warranty claims to verify before banners go live.
+- MTA-approved repairer, with logo and exact wording to confirm.
+- Genuine Google reviews, with current count and approved review quotes to add.
+- Owner-led Glen Eden workshop connected to Chirag's experience.
+- Before-and-after photos and old-part explanations where available.
+- Afterpay, guarantee, WOF authority and warranty wording to verify before publishing.
+- Free WINZ quotations for eligible repair support.
 
-## Customer Testimonial
-### What should the testimonial section show?
+## What Customers Say
+### Genuine reviews from local customers
 
-Use real Google review quotes once the client approves them. Until then, include a marked placeholder so the layout has social proof without inventing a quote.
+Genuine Google review quotes will be added once review permissions are confirmed, especially reviews mentioning clear communication, honest advice, WOF help, hybrid work, fair pricing or fast service.
 
-- Placeholder testimonial: "Real customer review to be added after client approval."
-- Include reviewer first name or initial only if allowed.
+- "Real customer review to be added after client approval."
+- Include star rating and service type where available.
 
-## Repair Process
-### What happens after a customer contacts the workshop?
+## What Happens After You Call
+### A simple process from enquiry to repair
 
-A simple process reduces hesitation for people comparing car mechanic West Auckland options. Booking does not mean approving every repair immediately.
+Booking with Jalaram Auto does not mean approving every repair on the spot. The team checks the car first, explains the findings and quotes before extra work begins.
 
-- Call or send an enquiry with the vehicle make, model and issue.
+- Call or send an enquiry with your vehicle make, model and issue.
 - Bring the car to the Glen Eden workshop.
-- The team inspects the vehicle and explains the findings.
-- You receive a quote before extra work starts.
+- The vehicle is inspected and the findings are explained.
+- You receive a quote before extra repair work starts.
 
 ## Common Questions
-### What do West Auckland drivers ask before booking?
+### Quick answers before you book
 
-The FAQ should answer practical questions around pricing, hybrid support, WOF, WINZ and puncture repair.
+These are common questions West Auckland drivers ask before booking a service, WOF support, puncture repair or hybrid battery check.
 
 - Do you offer car service in West Auckland? Yes. Jalaram Auto services vehicles from its Glen Eden workshop for West Auckland drivers.
 - How much does a basic service start from? Basic service starts from $120 plus GST for a standard car.
 - Do you work on hybrid vehicles? Yes. Hybrid service, battery health checks, reconditioning and battery options are available.
-- Do you provide WINZ quotations? Yes. WINZ quotations are free. Customers should confirm approval before repair work begins.
+- Do you provide WINZ quotations? Yes. WINZ quotations are free. WINZ approval needs to be confirmed before repair work begins.
 - Can you repair punctures? Yes. Puncture repair starts from $40, depending on tyre condition and safe repair location.
 
-## Final Booking CTA
-### Ready to book car service West Auckland drivers can trust?
+## Book Your Car Service
+### Ready to get your car checked?
 
-Call Jalaram Auto or request a quote with your vehicle make, model and the issue you are noticing. The next step is a clear inspection and quote.
+Call Jalaram Auto or request a quote with your vehicle make, model and the issue you are noticing. You will get practical advice and a clear next step.
 
-- Book a service package.
-- Ask about hybrid repair or battery options.
-- Get help with WOF, tyres, brakes, air conditioning or mechanical repair.
+- Book a basic, full, hybrid or diesel service.
+- Ask about WOF support, tyres, brakes or air conditioning.
+- Get hybrid battery advice before choosing repair or replacement.
 
 Call Jalaram Auto
 Request a Quote
