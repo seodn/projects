@@ -36,24 +36,26 @@ Business job:
 
 | Page | Primary keyword | Secondary keywords | Notes |
 | --- | --- | --- | --- |
-| `/services/mechanical-repairs` | mechanical repairs Glen Eden | car repairs Glen Eden, suspension repair, clutch repair, cam belt replacement | Parent for mechanical repair subservices. |
-| `/services/cam-belt-replacement` | cam belt replacement Glen Eden | timing belt replacement Auckland, cam belt service | Candidate page if profitable and searched. |
-| `/services/brake-and-rotors-skimming` | brake and rotors skimming Glen Eden | brake skimming, brake rotor skimming, brake repair West Auckland | Client-requested menu item. Confirm exact service scope and pricing. |
-| `/services/suspension-works` | suspension works Glen Eden | suspension repair, shock absorbers, suspension noise | Client-requested menu item. |
-| `/services/clutch-repair` | clutch repair Glen Eden | clutch replacement, clutch mechanic West Auckland | Client-requested menu item. |
-| `/services/rebuild-engine` | rebuild engine Auckland | engine rebuild Glen Eden, rebuilt engine West Auckland | Client-requested menu item. Confirm whether this should be public and how to price it. |
-| `/services/electrical-repair` | electrical repair Glen Eden | auto electrical Glen Eden, car electrical repairs, battery warning light | Parent for electrical services. |
-| `/services/air-conditioning-repair` | air conditioning repair Glen Eden | car AC repair, air conditioning regas, car aircon repair West Auckland | Child page under Electrical Repair. Confirm regas/leak-test scope. |
-| `/services/tyres` | tyre Glen Eden | tyres Glen Eden, new tyres Glen Eden, tyre replacement West Auckland | Top-level menu item should be singular "Tyre" per client direction. |
-| `/services/puncture-repair` | puncture repair Glen Eden | tyre puncture repair, flat tyre repair, puncture repair West Auckland | Explain tread-area punctures versus sidewall damage. |
-| `/services/battery` | car battery Glen Eden | battery replacement Glen Eden, battery testing, auxiliary battery, battery warning light | Top-level menu item. Split standard battery and hybrid battery language clearly. |
-| `/winz` | WINZ car repairs Auckland | WINZ car repair quote, WINZ mechanic Auckland, WINZ tyres, WINZ WOF repairs | Top-level menu item. Confirm process and wording before publishing. |
-| `/hybrid` | hybrid mechanic West Auckland | hybrid battery repair Auckland, hybrid battery reconditioning, hybrid car service | Top-level menu item for all hybrid services. |
-| `/services/hybrid-battery-repair` | hybrid battery repair Auckland | hybrid battery repair West Auckland, hybrid battery replacement, hybrid battery service near me | Support page under Hybrid. |
-| `/services/hybrid-battery-reconditioning` | hybrid battery reconditioning | hybrid battery rebuild, hybrid battery cell replacement, Toyota hybrid battery repair | Support page under Hybrid if enough content exists. |
-| `/services/hybrid-car-service` | hybrid car service Auckland | hybrid mechanic West Auckland, hybrid mechanic near me | Support page under Hybrid. |
-| `/services/wof` | WOF Glen Eden | warrant of fitness Glen Eden, WOF West Auckland, WOF repairs Glen Eden | Keep as SEO/support page even if not in main menu. Confirm NZTA/WOF wording. |
-| `/services/car-service` | car service Glen Eden | oil change Glen Eden, basic car service, full car service, hybrid car service | Keep as SEO/support page even if not in main menu. Include client-supplied starting prices. |
+| `/service-packages` | car service Glen Eden | car service West Auckland, service packages, basic car service, full car service, hybrid car service, diesel car service | Header item with no dropdown. Include client-supplied starting prices and inclusions. |
+| `/hybrid-repair` | hybrid mechanic West Auckland | hybrid battery repair Auckland, hybrid battery reconditioning, hybrid car service | Header parent for hybrid services. |
+| `/hybrid-repair/hybrid-battery-repair` | hybrid battery repair Auckland | hybrid battery repair West Auckland, hybrid battery replacement, hybrid battery service near me | Dropdown item under Hybrid Repair. |
+| `/hybrid-repair/buy-new-batteries` | hybrid battery replacement Auckland | buy new hybrid battery Auckland, new hybrid battery West Auckland, hybrid battery replacement West Auckland | Dropdown item under Hybrid Repair. Explain brand-new battery availability and model-based pricing. |
+| `/hybrid-repair/hybrid-car-service` | hybrid car service Auckland | hybrid mechanic West Auckland, hybrid mechanic near me | Dropdown item under Hybrid Repair. |
+| `/mechanical-repair` | mechanical repairs Glen Eden | mechanical repairs West Auckland, auto mechanical repairs West Auckland, car repairs Glen Eden | Header parent for mechanical repair subservices. |
+| `/mechanical-repair/brake-and-rotor-skimming` | brake repairs West Auckland | brake rotor skimming, brake and rotor skimming Glen Eden, brake skimming West Auckland | Dropdown item under Mechanical Repair. Confirm exact service scope and pricing. |
+| `/mechanical-repair/suspension-works` | suspension works Glen Eden | suspension repair, shock absorbers, suspension noise | Dropdown item under Mechanical Repair. |
+| `/mechanical-repair/cam-belt-replacement` | cam belt replacement Glen Eden | timing belt replacement Auckland, cam belt service | Dropdown item under Mechanical Repair. |
+| `/mechanical-repair/clutch-works` | clutch works Glen Eden | clutch repair Glen Eden, clutch replacement, clutch mechanic West Auckland | Dropdown item under Mechanical Repair. |
+| `/mechanical-repair/engine-rebuild` | engine rebuild Auckland | engine rebuild Glen Eden, rebuilt engine West Auckland | Dropdown item under Mechanical Repair. Confirm whether this should be public and how to price it. |
+| `/auto-electrical-repairs` | auto electrical repairs Glen Eden | auto electrician repair West Auckland, car electrical repairs, battery warning light | Header parent for electrical services. |
+| `/auto-electrical-repairs/air-conditioning` | air conditioning repair Glen Eden | car AC repair, air conditioning regas, car aircon repair West Auckland | Dropdown item under Auto Electrical Repairs. Confirm regas/leak-test scope. |
+| `/tyres` | tyres Glen Eden | new tyres Glen Eden, tyre replacement West Auckland, tyre repair Glen Eden | Header parent for tyre services. |
+| `/tyres/new-tyres` | new tyres Glen Eden | tyres from $85, tyre balancing Glen Eden, EV tyres West Auckland | Dropdown item under Tyres. |
+| `/tyres/puncture-repair` | puncture repair Glen Eden | tyre puncture repair, flat tyre repair, puncture repair West Auckland | Dropdown item under Tyres. Explain tread-area punctures versus sidewall damage. |
+| `/warrant-of-fitness-wof` | WOF Glen Eden | warrant of fitness Glen Eden, WOF West Auckland, WOF repairs Glen Eden | Header item. Confirm NZTA/WOF wording and pricing. |
+| `/windscreen` | windscreen repair Glen Eden | windscreen replacement West Auckland, car windscreen Auckland | Header item. Confirm service scope and pricing. |
+| `/general-faq` | mechanic FAQ Glen Eden | WOF FAQ, car service FAQ, hybrid battery FAQ, tyre repair FAQ | Header/footer item for common customer questions. |
+| `/winz` | WINZ car repairs Auckland | WINZ car repair quote, WINZ mechanic Auckland, WINZ tyres, WINZ WOF repairs | Footer/contextual support page unless client restores it to header nav. Confirm process and wording before publishing. |
 
 ## Local Pages
 

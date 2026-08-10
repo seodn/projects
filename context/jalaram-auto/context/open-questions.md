@@ -14,12 +14,18 @@ Confirm these before final website copy, design, or publication.
 
 ## Services
 
-- Should the main website menu follow this exact grouping: Home, Services, Tyre, Battery, WINZ, Hybrid, About, Contact, Gallery, FAQ?
-- Under Services, confirm the two dropdown groups: Mechanical Repairs and Electrical Repair.
-- Under Mechanical Repairs, confirm these menu items: Cam Belt Replacement, Brake And Rotors Skimming, Suspension Works, Clutch, Rebuild Engine.
-- Under Electrical Repair, confirm Air Conditioning Repair as a child item.
+- Confirm the updated main website menu: Home Page, Service Packages, Hybrid Repair, Mechanical Repair, Auto Electrical Repairs, Tyres, Warrant of Fitness (WOF), Windscreen, About, Contact, General FAQ.
+- Confirm Service Packages should have no dropdown.
+- Under Hybrid Repair, confirm these dropdown items: Hybrid Battery Repair, Buy New Batteries, Hybrid Car Service.
+- Confirm "Buy New Batteries" means brand-new hybrid batteries, or whether it should also include secondhand hybrid batteries and auxiliary/standard car batteries.
+- Under Mechanical Repair, confirm these dropdown items: Brake and Rotor Skimming, Suspension Works, Cam Belt Replacement, Clutch Works, Engine Rebuild.
+- Confirm whether the public menu label should be "Auto Electrical Repairs" or "Auto Electrician Repair"; current recommendation is "Auto Electrical Repairs".
+- Under Auto Electrical Repairs, confirm Air Conditioning as the only dropdown item at launch.
+- Under Tyres, confirm these dropdown items: New Tyres and Puncture Repair.
+- Confirm WINZ, Battery, Gallery, and Reviews should stay as footer/contextual links rather than main header items.
 - Is Jalaram Auto an authorised WOF inspection site, and what exact public wording is allowed?
 - Should WOF repairs be listed as a separate service from WOF inspections?
+- What windscreen work is done in-house: chip repair, replacement, leak repair, wiper-related checks, or referral only?
 - Which hybrid makes/models should be mentioned publicly, if any?
 - For hybrid batteries, can the site claim repair, rebuild, reconditioning, replacement, cell replacement, testing, and diagnostics?
 - Does Jalaram Auto service EVs, or only hybrid vehicles?

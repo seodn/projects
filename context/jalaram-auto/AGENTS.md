@@ -18,11 +18,13 @@ Jalaram Auto is an automotive repair workshop in Glen Eden, West Auckland. The n
 
 - Lead with local search intent: mechanic Glen Eden, WOF Glen Eden, car service Glen Eden, hybrid mechanic near me, hybrid battery repair, and tyre puncture repair.
 - Make hybrid battery repair and hybrid battery reconditioning a primary differentiator. Meeting context says this is a standout service in the local area.
-- Build a service architecture that separates hybrid, WOF, servicing, mechanical repairs, electrical/air conditioning, and tyres.
+- Build a service architecture that separates service packages, hybrid repair, mechanical repair, auto electrical repairs, air conditioning, tyres, WOF, and windscreen.
 - Treat minor denting/panel beating as a low-priority or excluded service unless the client reconfirms it, because the meeting indicated it is not profitable and only tiny jobs are done.
 - Do not claim wheel alignment as an offered service. The client said alignment is not done.
 - Use founder-led trust, MTA approval, genuine reviews, before/after repair photos, transparent explanations, and quality oil/parts as proof themes.
-- Use the client-requested menu grouping unless later superseded: Home, Services, Tyre, Battery, WINZ, Hybrid, About, Contact, Gallery, FAQ.
+- Use the latest client-requested header menu unless later superseded: Home Page, Service Packages, Hybrid Repair, Mechanical Repair, Auto Electrical Repairs, Tyres, Warrant of Fitness (WOF), Windscreen, About, Contact, General FAQ.
+- Header dropdowns: Hybrid Repair has Hybrid Battery Repair, Buy New Batteries, Hybrid Car Service; Mechanical Repair has Brake and Rotor Skimming, Suspension Works, Cam Belt Replacement, Clutch Works, Engine Rebuild; Auto Electrical Repairs has Air Conditioning; Tyres has New Tyres and Puncture Repair. Service Packages has no dropdown.
+- Treat WINZ support, battery support, gallery, and reviews as footer/contextual items unless the client asks to restore them to header navigation.
 - Treat MTA approval, Afterpay, guarantees, WINZ support, WOF availability, and warranty support as high-priority website banner claims, but verify exact wording before publishing.
 
 ## Content Rules
