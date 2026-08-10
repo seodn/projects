@@ -1,6 +1,6 @@
 # Jalaram Auto Open Questions
 
-Last updated: 4 August 2026.
+Last updated: 10 August 2026.
 
 Confirm these before final website copy, design, or publication.
 
@@ -31,20 +31,17 @@ Confirm these before final website copy, design, or publication.
 
 ## Pricing And Payment
 
-- Confirm starting price for basic service for sedans/hatchbacks.
-- Confirm starting price for basic service for SUVs.
-- Confirm hybrid service starting prices by vehicle type.
+- Confirm whether supplied prices that say only "GST" mean plus GST or incl. GST.
 - Confirm WOF price.
-- Confirm puncture repair price, tyre pricing rules, and whether tyre brands should be listed.
 - Confirm pricing for cam belt replacement.
-- Confirm pricing for brake and rotors skimming.
 - Confirm pricing for suspension works.
 - Confirm pricing for clutch repair/replacement.
 - Confirm pricing for rebuild engine / engine rebuild jobs.
 - Confirm pricing for electrical diagnostics and electrical repair.
-- Confirm pricing for air conditioning repair, regas, leak testing, and diagnostics.
-- Confirm battery testing, standard battery replacement, auxiliary battery, and hybrid battery pricing.
-- Confirm WINZ quote/payment process and whether it should be advertised.
+- Confirm whether brake pad price is per axle and whether rotor skimming price is per pair, per axle, or full job.
+- Confirm standard car battery replacement pricing, separate from auxiliary battery pricing.
+- Confirm brand-new hybrid battery price ranges by common make/model, if publishable.
+- Confirm WINZ quote/payment process beyond free quotation and whether it should be advertised.
 - Confirm accepted payment options: card/EFTPOS, online banking, Afterpay, cash, or finance.
 - Confirm whether Afterpay should be shown in banners and on service pages.
 

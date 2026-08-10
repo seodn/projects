@@ -1,6 +1,6 @@
 # Jalaram Auto Claims And Banner Proof Points
 
-Last updated: 4 August 2026.
+Last updated: 10 August 2026.
 
 Status: Working claim register for website banners, trust strips, service-page badges, footer proof, and conversion sections. Do not publish any unverified claim as fact.
 
@@ -17,7 +17,9 @@ These are the high-visibility claims that should appear across the site once con
 - Before/after photos provided for repairs where useful.
 - Old parts and repair issues explained clearly to customers.
 - Hybrid battery repair and reconditioning available.
-- WINZ quotes/support available, exact process to confirm.
+- Free WINZ quotations available.
+- Free auxiliary battery test.
+- Auxiliary batteries from `$180` with 3-year warranty, GST wording and warranty conditions to confirm.
 
 ## Important Note On "FDA Approved"
 
@@ -31,6 +33,8 @@ Use short, scannable badges:
 
 - MTA Approved
 - Afterpay Available
+- Free WINZ Quotes
+- Free Auxiliary Battery Test
 - WOF Available
 - Glen Eden Workshop
 
@@ -48,6 +52,8 @@ Optional supporting trust bullets after confirmation:
 - Mechanical warranty support.
 - Genuine Google reviews.
 - Repair photos and clear explanations.
+- Free WINZ quotations.
+- Free auxiliary battery test.
 
 ### Service Pages
 
@@ -58,8 +64,8 @@ Use service-relevant proof:
 - Air Conditioning Repair: regas, leak testing, and repair scope to confirm.
 - Tyre: new tyres, puncture repair, safety check, sidewall repair rules.
 - Battery: battery testing, replacement, hybrid battery repair/reconditioning split.
-- WINZ: quote support, documentation, approved payment pathway if confirmed.
-- Hybrid: hybrid battery repair, reconditioning, rebuild, replacement, diagnostics, and warranty terms if confirmed.
+- WINZ: free quotations, documentation, approved payment pathway to confirm.
+- Hybrid: hybrid battery health check from `$70`, reconditioning from `$750`, secondhand hybrid batteries from `$600`, brand-new hybrid batteries by quote, and warranty terms to confirm.
 
 ### Footer Trust Strip
 
@@ -69,6 +75,8 @@ Recommended trust strip:
 - Genuine Reviews
 - Afterpay Available
 - Warranty Support
+- Free WINZ Quotes
+- Free Auxiliary Battery Test
 - Glen Eden, West Auckland
 
 Remove or rewrite any item not confirmed.
@@ -82,9 +90,9 @@ Remove or rewrite any item not confirmed.
 | Afterpay available | Payment-friction reducer | Merchant account/payment confirmation | "Afterpay available" |
 | Guarantee | Reduces repair anxiety | Written guarantee policy | "Workmanship guarantee available on eligible repairs" |
 | Mechanical warranty support | Converts warranty customers | Accepted providers/process and compliant wording | "We can support eligible mechanical warranty claims" |
-| WINZ support | Important conversion path for customers using WINZ | Process, quote requirements, payment terms | "WINZ quotes available" |
+| WINZ support | Important conversion path for customers using WINZ | Process, quote requirements, payment terms | "Free WINZ quotations available" |
 | Genuine reviews | Trust and local ranking support | Current Google rating/count and review permission | "Trusted by local drivers with genuine Google reviews" |
-| Hybrid battery reconditioning | Differentiator and SEO opportunity | Final service scope, makes/models, process | "Hybrid battery repair and reconditioning" |
+| Hybrid battery reconditioning | Differentiator and SEO opportunity | Warranty, makes/models, process | "Hybrid battery reconditioning from $750" once GST wording is confirmed |
 | Before/after photos | Transparency proof | Example photos and client approval | "We show repair evidence where helpful" |
 
 ## Claims To Avoid Until Verified

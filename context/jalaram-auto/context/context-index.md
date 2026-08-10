@@ -1,6 +1,6 @@
 # Jalaram Auto Context Index
 
-Last updated: 4 August 2026.
+Last updated: 10 August 2026.
 
 Use this file as the routing layer for future Jalaram Auto website, SEO, and content work.
 
@@ -11,7 +11,7 @@ Use this file as the routing layer for future Jalaram Auto website, SEO, and con
 - `location-and-service-area.md` - Glen Eden location, nearby West Auckland service areas, and local SEO rules.
 - `services-and-seo-keywords.md` - service taxonomy, keyword ownership, and service inclusion/exclusion notes.
 - `claims-and-banner-proof-points.md` - important website banner claims, trust badges, proof requirements, and claims to avoid.
-- `client-pricing-request-list.md` - detailed pricing checklist to request from the client before publishing service prices.
+- `client-pricing-request-list.md` - client-supplied service pricing, recommended website wording, and remaining pricing questions.
 - `open-questions.md` - items that need client confirmation before publishing.
 
 ## Research Files
@@ -28,7 +28,7 @@ Use this file as the routing layer for future Jalaram Auto website, SEO, and con
 ## Confirm Before Publishing
 
 - Final service list and whether minor denting/panel beating should be removed entirely.
-- Exact WOF, car service, hybrid service, and tyre pricing.
+- WOF pricing and remaining GST wording for prices where the client wrote only "GST".
 - Detailed mechanical, electrical, air conditioning, battery, hybrid, WINZ, guarantee, and payment pricing rules.
 - Accepted payment options, including Afterpay, online banking, card/EFTPOS, and any finance options.
 - Exact warranty language and whether mechanical warranty/insurance claims can be described publicly.

@@ -1,8 +1,8 @@
 # Product Marketing Context - Jalaram Auto
 
-Last updated: 4 August 2026.
+Last updated: 10 August 2026.
 
-Status: V1 drafted from the referenced meeting transcript, repository conventions, and public business listings. Confirm open items before publishing.
+Status: V1 drafted from the referenced meeting transcript, repository conventions, public business listings, and client-supplied pricing. Confirm remaining open items before publishing.
 
 ## Product Overview
 
@@ -14,7 +14,7 @@ Status: V1 drafted from the referenced meeting transcript, repository convention
 
 **Product type:** Local automotive service business.
 
-**Business model:** Workshop service revenue from inspections, servicing, repairs, parts, tyres, and hybrid battery work. Pricing should use "starting from" language until the client approves final service prices.
+**Business model:** Workshop service revenue from inspections, servicing, repairs, parts, tyres, standard/auxiliary batteries, hybrid battery work, and WINZ-supported quote pathways. Client-supplied pricing supports "starts from" public pricing, with GST wording confirmed for some items and still to confirm for others.
 
 ## Target Audience
 
@@ -185,7 +185,38 @@ Status: V1 drafted from the referenced meeting transcript, repository convention
 | Hybrid capability | Dedicated hybrid battery repair and reconditioning context from meeting |
 | Transparency | Photos of old/new parts and clear explanation of faults |
 | Local convenience | 287C West Coast Road, Glen Eden, Auckland |
-| Practical value | Starting prices for basic service once confirmed |
+| Practical value | Client-supplied starting prices: basic service from $120 plus GST, full service from $200 plus GST, puncture repair from $40, tyres from $85, hybrid battery health check from $70, and hybrid battery reconditioning from $750 |
+
+## Pricing Context
+
+Use "starts from" / "from" language. Current client-supplied prices include:
+
+- Basic service for standard car: starts from `$120 plus GST`.
+- Basic service for SUV: starts from `$150`, GST wording to confirm.
+- Basic service for van/ute: starts from `$180`, GST wording to confirm.
+- Full service for standard car: starts from `$200 plus GST`.
+- Full service for SUV: starts from `$250 plus GST`.
+- Hybrid car service: starts from `$120 plus GST` up to 4 litres oil.
+- Diesel car service: starts from `$180 plus GST` up to 4 litres oil.
+- Brake pads: starts from `$120 plus GST`.
+- Rotor skimming: starts from `$150 plus GST`.
+- Diagnostic scan: `$50 incl. GST`.
+- Labour: `$95` per hour, GST wording to confirm.
+- A/C gas refill: starts from `$150`, GST wording to confirm.
+- A/C gas leak test: starts from `$80`, GST wording to confirm.
+- Vacuum test: starts from `$95`, GST wording to confirm.
+- Compressor oil fill: starts from `$45`, GST wording to confirm.
+- Puncture repair: from `$40`, GST wording to confirm.
+- Tyres: from `$85`, GST wording to confirm.
+- Tyre balancing: `$25` per tyre, GST wording to confirm.
+- Tyre disposal fee: from `$6.65` per tyre, GST wording to confirm.
+- Auxiliary battery test: free.
+- Auxiliary battery: starts from `$180`, GST wording to confirm, with 3-year warranty.
+- Hybrid battery health check: `$70`, GST wording to confirm.
+- Hybrid battery reconditioning: starts from `$750`, GST wording to confirm.
+- Secondhand hybrid battery: starts from `$600`, GST wording to confirm; price depends on make and model.
+- Brand-new hybrid batteries: available; price depends on make and model.
+- WINZ quotations: free.
 
 ## Goals
 
