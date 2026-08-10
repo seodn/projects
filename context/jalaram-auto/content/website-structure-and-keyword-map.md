@@ -38,10 +38,10 @@ Use this as the website menu direction from the client meeting follow-up:
   - New Tyres
   - Puncture Repair
 - Warrant of Fitness (WOF)
-- Windscreen
+- WINZ
 - About
 - Contact
-- General FAQ
+- FAQ
 
 Menu notes:
 
