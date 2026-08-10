@@ -1,8 +1,8 @@
 # Jalaram Auto Website Structure And Keyword Map
 
-Status: Website structure working plan. Confirm services, pricing, assets, and compliance wording before publication.
+Status: Website structure working plan. Client supplied core pricing on 10 August 2026. Confirm remaining services, GST wording, assets, and compliance wording before publication.
 
-Last updated: 4 August 2026.
+Last updated: 10 August 2026.
 
 ## Strategic Summary
 
@@ -168,7 +168,7 @@ Sections:
 - Service cards: WOF, car service, hybrid battery repair, mechanical repairs, tyres, auto electrical, air conditioning.
 - Hybrid battery proof section explaining repair, reconditioning, rebuild, and replacement options in plain language.
 - Why choose Jalaram Auto: genuine reviews, MTA approval, before/after photos, owner-led service, quality oil/parts.
-- Starting-price teaser linking to `/pricing`.
+- Starting-price teaser linking to `/pricing`, using client-supplied prices.
 - Glen Eden and West Auckland service-area section.
 - Owner story preview with link to About.
 - Reviews/testimonials.
@@ -228,8 +228,13 @@ Sections:
 - Basic service.
 - Full service.
 - Hybrid car servicing.
-- Sedan/hatchback starting price after approval.
-- SUV starting price after approval.
+- Standard car basic service from `$120 plus GST`.
+- SUV basic service from `$150`, GST wording to confirm.
+- Van/ute basic service from `$180`, GST wording to confirm.
+- Standard car full service from `$200 plus GST`.
+- SUV full service from `$250 plus GST`.
+- Hybrid car service from `$120 plus GST` up to 4 litres oil.
+- Diesel car service from `$180 plus GST` up to 4 litres oil.
 - Quality oil and parts.
 - Service records and reminders.
 - CTA to request a quote by make/model.
@@ -273,7 +278,7 @@ Sections:
 - When it can be suitable.
 - When replacement may be better.
 - Safety and testing.
-- Cost range or starting-price guidance after approval.
+- Client-supplied starting price: hybrid battery reconditioning from `$750`, GST wording to confirm.
 - CTA for diagnosis.
 
 ### Mechanical Repairs
@@ -293,6 +298,10 @@ Sections:
 - Rebuild engine / engine-related work.
 - Photo-supported diagnosis.
 - Quote-before-repair trust message.
+- Diagnostic scan `$50 incl. GST`.
+- Labour `$95` per hour, GST wording to confirm.
+- Brake pads from `$120 plus GST`.
+- Rotor skimming from `$150 plus GST`.
 
 Child pages:
 
@@ -329,9 +338,12 @@ Primary keyword:
 Sections:
 
 - Air conditioning inspection.
-- Regas, leak testing, and repair scope after confirmation.
+- A/C gas refill from `$150`, GST wording to confirm.
+- A/C gas leak test from `$80`, GST wording to confirm.
+- Vacuum test from `$95`, GST wording to confirm.
+- Compressor oil fill from `$45`, GST wording to confirm.
 - Symptoms: warm air, weak airflow, smell, noise, leaks.
-- Pricing and warranty terms after client confirmation.
+- Warranty terms after client confirmation.
  
 ### Battery
 
@@ -343,8 +355,9 @@ Primary keyword:
 
 Sections:
 
-- Standard battery testing and replacement, if confirmed.
-- Auxiliary battery support, if confirmed.
+- Auxiliary battery test free.
+- Auxiliary battery from `$180`, GST wording to confirm, with 3-year warranty.
+- Standard battery testing and replacement pricing to confirm.
 - Hybrid battery pathway linking to `/hybrid`.
 - Battery warning-light diagnosis.
 - Warranty/guarantee terms after confirmation.
@@ -359,7 +372,7 @@ Primary keyword:
 
 Sections:
 
-- Explain that customers may be able to request a written quote for WINZ support, exact process to confirm.
+- Free WINZ quotations.
 - Services commonly quoted: WOF repairs, mechanical repairs, tyres, battery, and urgent safety repairs.
 - What the customer needs before work starts.
 - Payment approval rules and disclaimers.
@@ -379,6 +392,11 @@ Sections:
 - Hybrid battery reconditioning.
 - Hybrid battery rebuild/replacement options.
 - Hybrid servicing.
+- Hybrid car service from `$120 plus GST` up to 4 litres oil.
+- Hybrid battery health check `$70`, GST wording to confirm.
+- Hybrid battery reconditioning from `$750`, GST wording to confirm.
+- Secondhand hybrid battery from `$600`, GST wording to confirm; price depends on make/model.
+- Brand-new hybrid batteries available; price depends on make/model.
 - Symptoms of hybrid battery issues.
 - Warranty/guarantee terms after confirmation.
 - Links to `/services/hybrid-battery-repair`, `/services/hybrid-battery-reconditioning`, and `/services/hybrid-car-service`.
@@ -396,6 +414,10 @@ Sections:
 - New tyres.
 - Tyre checks.
 - Puncture repair.
+- Tyres from `$85`, GST wording to confirm.
+- Tyre balancing `$25` per tyre, GST wording to confirm.
+- Tyre disposal fee from `$6.65` per tyre, GST wording to confirm.
+- Brands include Bridgestone, Ceat, Zeta, Roadx, Black Hawk, Hi-Fily, King Boss, EV tyres, and more.
 - When a tyre cannot be repaired.
 - Link to `/services/puncture-repair`.
 
@@ -411,6 +433,7 @@ Sections:
 
 - Repairable tread-area punctures.
 - Sidewall damage is not repairable.
+- Puncture repair from `$40`, GST wording to confirm.
 - Safety check.
 - Quote/visit CTA.
 - Add clear photo or diagram of repairable tyre area.

@@ -1,6 +1,6 @@
 # Jalaram Auto Client Brief
 
-Last updated: 4 August 2026.
+Last updated: 10 August 2026.
 
 ## Business Snapshot
 
@@ -82,12 +82,27 @@ Confirmed or strongly supported:
 - Meeting context says Jalaram Auto takes before/after photos of changed parts and explains faults to customers.
 - Meeting context says the owner has automotive training and workshop experience from India and New Zealand.
 - Meeting/follow-up context says important banner claims should include approval, Afterpay, guarantees, and support pathways. These must be verified before publishing.
+- Client supplied service, tyre, A/C, battery, hybrid, labour, diagnostic, and WINZ quotation pricing on 10 August 2026.
+
+Confirmed pricing themes:
+
+- Basic service starts from `$120 plus GST`.
+- Full service starts from `$200 plus GST`.
+- Hybrid car service starts from `$120 plus GST` up to 4 litres oil.
+- Diesel car service starts from `$180 plus GST` up to 4 litres oil.
+- Puncture repair starts from `$40`.
+- Tyres start from `$85`.
+- Auxiliary battery test is free.
+- Hybrid battery health check is `$70`.
+- Hybrid battery reconditioning starts from `$750`.
+- WINZ quotations are free.
 
 Needs confirmation before publishing strongly:
 
 - Exact Google review count and rating.
 - Exact MTA wording and whether NZTA/WOF authority can be claimed separately.
-- Exact pricing by vehicle size and service type.
+- Exact GST wording for prices where the client wrote only "GST" rather than "plus GST" or "incl. GST".
+- WOF price and recheck price.
 - Mechanical warranty/insurance wording.
 - Payment options such as Afterpay, online banking, card/EFTPOS, and finance.
 - Exact guarantee wording and exclusions.

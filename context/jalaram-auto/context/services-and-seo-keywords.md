@@ -1,6 +1,6 @@
 # Jalaram Auto Services And SEO Keyword Map
 
-Last updated: 4 August 2026.
+Last updated: 10 August 2026.
 
 This is a working keyword and service map for the Jalaram Auto website rebuild. Refine with Google Search Console, Google Business Profile, rank tracking, and live keyword-volume data once available.
 
@@ -53,7 +53,7 @@ Business job:
 | `/services/hybrid-battery-reconditioning` | hybrid battery reconditioning | hybrid battery rebuild, hybrid battery cell replacement, Toyota hybrid battery repair | Support page under Hybrid if enough content exists. |
 | `/services/hybrid-car-service` | hybrid car service Auckland | hybrid mechanic West Auckland, hybrid mechanic near me | Support page under Hybrid. |
 | `/services/wof` | WOF Glen Eden | warrant of fitness Glen Eden, WOF West Auckland, WOF repairs Glen Eden | Keep as SEO/support page even if not in main menu. Confirm NZTA/WOF wording. |
-| `/services/car-service` | car service Glen Eden | oil change Glen Eden, basic car service, full car service, hybrid car service | Keep as SEO/support page even if not in main menu. Include starting prices after approval. |
+| `/services/car-service` | car service Glen Eden | oil change Glen Eden, basic car service, full car service, hybrid car service | Keep as SEO/support page even if not in main menu. Include client-supplied starting prices. |
 
 ## Local Pages
 
