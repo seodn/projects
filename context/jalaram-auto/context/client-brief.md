@@ -56,14 +56,25 @@ Secondary positioning:
 
 Primary website service groups:
 
-1. Services.
-2. Mechanical Repairs: Cam Belt Replacement, Brake And Rotors Skimming, Suspension Works, Clutch, Rebuild Engine.
-3. Electrical Repair: Air Conditioning Repair.
-4. Tyre: Puncture Repair.
-5. Battery.
-6. WINZ.
-7. Hybrid.
-8. About, Contact, Gallery, and FAQ.
+1. Home Page.
+2. Service Packages, with no dropdown.
+3. Hybrid Repair: Hybrid Battery Repair, Buy New Batteries, Hybrid Car Service.
+4. Mechanical Repair: Brake and Rotor Skimming, Suspension Works, Cam Belt Replacement, Clutch Works, Engine Rebuild.
+5. Auto Electrical Repairs: Air Conditioning.
+6. Tyres: New Tyres, Puncture Repair.
+7. Warrant of Fitness (WOF).
+8. Windscreen.
+9. About, Contact, and General FAQ.
+
+Footer or contextual support items:
+
+- WINZ quote support.
+- Battery support, including auxiliary battery testing and replacement.
+- Gallery and reviews once approved assets and review quotes are available.
+
+Naming note:
+
+- Use "Auto Electrical Repairs" as the public menu label. Use "auto electrician repair" as an SEO phrase in copy only where it reads naturally.
 
 Lower priority or excluded:
 
