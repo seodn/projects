@@ -23,7 +23,7 @@ Use this as the website menu direction from the client meeting follow-up:
 - Home Page
 - Services
   - Service Packages
-  - Mechanical Repair
+  - Car Mechanical Repair
     - Brake and Rotor Skimming
     - Suspension Works
     - Cam Belt Replacement
@@ -38,7 +38,7 @@ Use this as the website menu direction from the client meeting follow-up:
 - Tyres
   - New Tyres
   - Puncture Repair
-- Warrant of Fitness (WOF)
+- WOF
 - WINZ
 - About
 - Contact
