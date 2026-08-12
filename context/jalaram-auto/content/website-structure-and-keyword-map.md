@@ -32,7 +32,7 @@ Use this as the website menu direction from the client meeting follow-up:
   - Auto Electrical
     - Auto Electrical Repairs
     - Air Conditioning
-- Hybrid Repair
+- Hybrid Repairs
    - Hybrid Battery Repair
    - Hybrid Car Service
 - Battery Services
