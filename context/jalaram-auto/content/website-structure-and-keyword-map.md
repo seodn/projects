@@ -24,13 +24,13 @@ Use this as the website menu direction from the client meeting follow-up:
 - Services
   - Service Packages
   - Mechanical Repair
-   - Brake and Rotor Skimming
-   - Suspension Works
-   - Cam Belt Replacement
-   - Clutch Works
-   - Engine Rebuild
+    - Brake and Rotor Skimming
+    - Suspension Works
+    - Cam Belt Replacement
+    - Clutch Works
+    - Engine Rebuild
   - Auto Electrical Repairs
-   - Air Conditioning
+    - Air Conditioning
 - Hybrid Repair
    - Hybrid Battery Repair
    - Buy New Batteries
