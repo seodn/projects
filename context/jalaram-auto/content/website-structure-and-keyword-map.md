@@ -21,19 +21,20 @@ The current structure should avoid a flat "all services" list. It should group p
 Use this as the website menu direction from the client meeting follow-up:
 
 - Home Page
-- Service Packages
+- Services
+  - Service Packages
+  - Mechanical Repair
+   - Brake and Rotor Skimming
+   - Suspension Works
+   - Cam Belt Replacement
+   - Clutch Works
+   - Engine Rebuild
+  - Auto Electrical Repairs
+   - Air Conditioning
 - Hybrid Repair
-  - Hybrid Battery Repair
-  - Buy New Batteries
-  - Hybrid Car Service
-- Mechanical Repair
-  - Brake and Rotor Skimming
-  - Suspension Works
-  - Cam Belt Replacement
-  - Clutch Works
-  - Engine Rebuild
-- Auto Electrical Repairs
-  - Air Conditioning
+   - Hybrid Battery Repair
+   - Buy New Batteries
+   - Hybrid Car Service
 - Tyres
   - New Tyres
   - Puncture Repair
