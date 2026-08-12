@@ -23,18 +23,20 @@ Use this as the website menu direction from the client meeting follow-up:
 - Home Page
 - Services
   - Service Packages
-  - Car Mechanical Repair
+  - Car Mechanical Repairs
     - Brake and Rotor Skimming
     - Suspension Works
     - Cam Belt Replacement
     - Clutch Works
     - Engine Rebuild
-  - Auto Electrical Repairs
+  - Auto Electrical
+    - Auto Electrical Repairs
     - Air Conditioning
 - Hybrid Repair
    - Hybrid Battery Repair
-   - Buy New Batteries
    - Hybrid Car Service
+- Battery Services
+ - Buy New Batteries
 - Tyres
   - New Tyres
   - Puncture Repair
