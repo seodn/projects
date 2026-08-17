@@ -42,6 +42,7 @@ Use this as the website menu direction from the client meeting follow-up:
   - Puncture Repair
 - WOF
 - WINZ
+- Gallery
 - About
 - Contact
 - FAQ
