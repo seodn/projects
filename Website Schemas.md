@@ -1,55 +1,119 @@
 # Website Schema
 
-## Solar Control
-
-```html
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "https://www.solarcontrol.co.nz/#website",
-  "url": "https://www.solarcontrol.co.nz/",
-  "name": "Solar Control",
-  "alternateName": "Solar Control Ltd",
-  "description": "Professional window tinting and solar control window film solutions in Christchurch and Canterbury.",
-  "inLanguage": "en-NZ"
-}
-</script>
-```
-
 
 ## PRA Developments Australia
 
 ```html
-<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "https://pradevelopments.com.au/#website",
-  "url": "https://pradevelopments.com.au/",
-  "name": "PRA Developments",
-  "alternateName": "PRA Developments Australia",
-  "description": "Perth property developer creating high-quality homes, townhouse developments, turnkey homes, and investment-ready properties.",
-  "inLanguage": "en-AU"
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://pradevelopments.com.au/#localbusiness",
+      "name": "PRA Developments",
+      "image": "https://pradevelopments.com.au/_next/image?url=%2Fmain-logo.png&w=640&q=75",
+      "url": "https://pradevelopments.com.au/",
+      "telephone": "+61424715722",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Perth",
+        "addressRegion": "WA",
+        "addressCountry": "AU"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -27.437434758351362,
+        "longitude": 115.79511772624329
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/pra-developments/",
+        "https://www.instagram.com/pra_aus/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://pradevelopments.com.au/#website",
+      "url": "https://pradevelopments.com.au/",
+      "name": "PRA Developments",
+      "alternateName": "PRA Developments Australia",
+      "description": "Perth property developer creating high-quality homes, townhouse developments, turnkey homes, and investment-ready properties.",
+      "inLanguage": "en-AU",
+      "publisher": {
+        "@id": "https://pradevelopments.com.au/#localbusiness"
+      }
+    }
+  ]
 }
-</script>
 ```
 
 ## PRA Developments New Zealand
 
 ```html
-<script type="application/ld+json">
+
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "https://pradevelopments.co.nz/#website",
-  "url": "https://pradevelopments.co.nz/",
-  "name": "PRA Developments",
-  "alternateName": "PRA Developments New Zealand",
-  "description": "Christchurch property developer creating modern homes with premium finishes, low-maintenance living, and high-end residential design.",
-  "inLanguage": "en-NZ"
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.pradevelopments.co.nz/#localbusiness",
+      "name": "PRA Developments",
+      "image": "https://www.pradevelopments.co.nz/_next/image?url=%2Fmain-logo.png&w=640&q=75",
+      "url": "https://www.pradevelopments.co.nz/",
+      "telephone": "+64 27 269 6357",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Christchurch",
+        "addressCountry": "NZ"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -43.52864856995918,
+        "longitude": 172.63393056293592
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.pradevelopments.co.nz/#website",
+      "url": "https://www.pradevelopments.co.nz/",
+      "name": "PRA Developments",
+      "alternateName": "PRA Developments New Zealand",
+      "description": "Christchurch property developer creating modern homes with premium finishes, low-maintenance living, and high-end residential design.",
+      "inLanguage": "en-NZ",
+      "publisher": {
+        "@id": "https://www.pradevelopments.co.nz/#localbusiness"
+      }
+    }
+  ]
 }
-</script>
+
 ```
 
 ## PVC Fencing Sydney
@@ -88,15 +152,45 @@
 ## Fence Planet
 
 ```html
-<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "https://www.fenceplanet.com.au/#website",
-  "url": "https://www.fenceplanet.com.au/",
-  "name": "Fence Planet",
-  "description": "Sydney PVC fencing and gate website offering supply and installation solutions for residential properties, including Hampton style PVC fencing.",
-  "inLanguage": "en-AU"
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.fenceplanet.com.au/#localbusiness",
+      "name": "Fence Planet",
+      "image": "https://www.fenceplanet.com.au/assets/brand/fence-planet-logo.webp",
+      "url": "https://www.fenceplanet.com.au/",
+      "telephone": "0450 363 735",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4/51 Glossop St",
+        "addressLocality": "St Marys",
+        "addressRegion": "NSW",
+        "postalCode": "2760",
+        "addressCountry": "AU"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -33.75788300022343,
+        "longitude": 150.78006733920495
+      },
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=100054371914674",
+        "https://www.instagram.com/fenceplanet/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.fenceplanet.com.au/#website",
+      "url": "https://www.fenceplanet.com.au/",
+      "name": "Fence Planet",
+      "description": "Sydney PVC fencing and gate website offering supply and installation solutions for residential properties, including Hampton style PVC fencing.",
+      "inLanguage": "en-AU",
+      "publisher": {
+        "@id": "https://www.fenceplanet.com.au/#localbusiness"
+      }
+    }
+  ]
 }
-</script>
 ```
