@@ -211,20 +211,28 @@ Priority: High
 
 ### 3. Pagination pages are indexable
 
-Paginated collection pages appear to be indexable, such as:
+Paginated collection URLs are indexable, for example:
 
 `/collections/all?page=23`
 
 Issue:
-- Paginated URLs can create index bloat.
-- They often have duplicate or weak metadata.
-- They may compete with the main collection page.
-- The indexed page title appears as “Products”, which is too generic.
+- Pagination pages are appearing in Google’s index.
+- These pages are low-value because they mainly contain product lists, filters, and duplicate content.
+- This can create index bloat.
+- It can also split ranking signals away from the main collection page.
 
 Fix:
-- Review pagination indexability.
-- Add correct canonical tags where needed.
-- Keep the main collection page as the preferred indexable URL.
-- Avoid allowing low-value paginated pages to appear in search results unless intentionally optimised.
+- Add a `noindex, follow` robots meta tag to paginated pages.
+- This should be added in the Shopify theme code.
 
-Priority: High
+Implementation:
+Go to Shopify Admin:
+
+Online Store → Themes → Edit Code → `layout/theme.liquid`
+
+Add this code just before the closing `</head>` tag:
+
+```liquid
+{% if current_page > 1 %}
+  <meta name="robots" content="noindex, follow">
+{% endif %}
