@@ -259,42 +259,8 @@ User-agent: AhrefsBotCrawl-delay: 10
 
 ---
 
-### 4. Mobile performance is very poor
 
-Live mobile PageSpeed results for the homepage show poor performance.
-
-**Measured results:**
-
-| Metric | Result |
-|---|---:|
-| Performance score | 42/100 |
-| First Contentful Paint | 4.2 seconds |
-| Largest Contentful Paint | 12.5 seconds |
-| Total Blocking Time | 620 ms |
-| Speed Index | 9.9 seconds |
-| Total transfer | 3,419 KiB |
-
-**Issue:**
-
-- Mobile LCP is far above the recommended target.
-- JavaScript execution and main-thread work are heavy.
-- Render-blocking resources, unused JavaScript, inefficient cache lifetimes, excessive preconnects and image-delivery issues were reported.
-
-**Fix:**
-
-- Prioritise the above-the-fold/LCP image.
-- Remove or defer non-critical theme and app CSS/JavaScript.
-- Delay third-party analytics/chat scripts where possible.
-- Remove unused Shopify app code.
-- Reduce preconnects to only essential origins.
-- Optimise fonts and image delivery.
-- Re-test homepage, collection pages and product pages after changes.
-
-**Priority:** Critical
-
----
-
-### 5. Duplicate, indexable, self-canonical URL pairs exist
+### 4. Duplicate, indexable, self-canonical URL pairs exist
 
 The following duplicate URL pairs are indexable and self-canonical:
 
@@ -327,7 +293,7 @@ The following duplicate URL pairs are indexable and self-canonical:
 
 ---
 
-### 6. BreadcrumbList structured data is invalid or misleading
+### 5. BreadcrumbList structured data is invalid or misleading
 
 Rendered pages contain a `BreadcrumbList` with 26 items representing the global navigation/footer instead of the current page’s actual breadcrumb path.
 
@@ -349,7 +315,7 @@ Rendered pages contain a `BreadcrumbList` with 26 items representing the global 
 
 ---
 
-### 7. Conflicting New Zealand and Australia location information
+### 6. Conflicting New Zealand and Australia location information
 
 The site has conflicting location/entity signals.
 
@@ -373,7 +339,7 @@ The site has conflicting location/entity signals.
 
 ---
 
-### 8. 29 URLs have missing, empty or duplicate H1s
+### 7. 29 URLs have missing, empty or duplicate H1s
 
 A total of 29 URLs have H1 issues.
 
