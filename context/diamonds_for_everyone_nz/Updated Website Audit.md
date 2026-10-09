@@ -175,22 +175,25 @@ Remove or correct the return statement.
 
 The website pages are not following a proper H1, H2, H3 heading sequence.
 
-Issue:
+**Issue:**
+
 - H1 tags are not placed in the correct sequence.
 - Some pages start with H2 or H3 elements before the main page heading.
 - Header, cart, menu, filter and product-count headings appear before the actual page heading.
 - Some collection/content pages also appear to be missing clear H1 tags.
 - The heading structure is not clean across homepage, collection pages, product pages and content pages.
 
-Fix:
+**Fix:**
+
 - Keep one clear H1 on each important page.
 - Ensure the H1 appears before H2 and H3 headings in the main content structure.
 - Use H2 for main page sections.
 - Use H3 only under relevant H2 sections.
 - Header, cart, menu, filter and product-count elements should not interrupt the heading sequence.
 
-Priority: High
+**Priority:** High
 
+---
 
 ### 2. Pagination pages are indexable
 
@@ -198,20 +201,23 @@ Paginated collection URLs are indexable, for example:
 
 `/collections/all?page=23`
 
-Issue:
+**Issue:**
+
 - Pagination pages are appearing in Google’s index.
 - These pages are low-value because they mainly contain product lists, filters, and duplicate content.
 - This can create index bloat.
 - It can also split ranking signals away from the main collection page.
 
-Fix:
+**Fix:**
+
 - Add a `noindex, follow` robots meta tag to paginated pages.
 - This should be added in the Shopify theme code.
 
-Implementation:
+**Implementation:**
+
 Go to Shopify Admin:
 
-Online Store → Themes → Edit Code → `layout/theme.liquid`
+`Online Store → Themes → Edit Code → layout/theme.liquid`
 
 Add this code just before the closing `</head>` tag:
 
@@ -219,3 +225,198 @@ Add this code just before the closing `</head>` tag:
 {% if current_page > 1 %}
   <meta name="robots" content="noindex, follow">
 {% endif %}
+```
+
+**Priority:** High
+
+---
+
+### 3. Robots.txt syntax is malformed site-wide
+
+Important robots.txt directives are concatenated on the same line, including:
+
+```text
+User-agent: *Disallow: /a/downloads/-/*
+User-agent: adsbot-googleDisallow: /checkouts/
+User-agent: NutchDisallow: /
+User-agent: AhrefsBotCrawl-delay: 10
+```
+
+**Issue:**
+
+- The user-agent values become invalid because directives are not properly separated.
+- This can cause the associated `Disallow` rules to be ignored.
+- Crawl controls for carts, search, filtered collections, preview URLs and other low-value paths may become unreliable.
+
+**Fix:**
+
+- Inspect `robots.txt.liquid`.
+- Check for Liquid whitespace-stripping operators such as `{%-` or `-%}`.
+- Render each `User-agent`, `Disallow`, `Crawl-delay` and `Sitemap` directive on its own line.
+- Validate the live robots.txt file after deployment.
+
+**Priority:** Critical
+
+---
+
+### 4. Mobile performance is very poor
+
+Live mobile PageSpeed results for the homepage show poor performance.
+
+**Measured results:**
+
+| Metric | Result |
+|---|---:|
+| Performance score | 42/100 |
+| First Contentful Paint | 4.2 seconds |
+| Largest Contentful Paint | 12.5 seconds |
+| Total Blocking Time | 620 ms |
+| Speed Index | 9.9 seconds |
+| Total transfer | 3,419 KiB |
+
+**Issue:**
+
+- Mobile LCP is far above the recommended target.
+- JavaScript execution and main-thread work are heavy.
+- Render-blocking resources, unused JavaScript, inefficient cache lifetimes, excessive preconnects and image-delivery issues were reported.
+
+**Fix:**
+
+- Prioritise the above-the-fold/LCP image.
+- Remove or defer non-critical theme and app CSS/JavaScript.
+- Delay third-party analytics/chat scripts where possible.
+- Remove unused Shopify app code.
+- Reduce preconnects to only essential origins.
+- Optimise fonts and image delivery.
+- Re-test homepage, collection pages and product pages after changes.
+
+**Priority:** Critical
+
+---
+
+### 5. Duplicate, indexable, self-canonical URL pairs exist
+
+The following duplicate URL pairs are indexable and self-canonical:
+
+```text
+/collections/mens-wedding-band
+/collections/mens-wedding-band-1
+
+/products/1-11ct-e-vs1-round-igi-lab
+/products/1-11ct-e-vs1-round-igi-lab-1
+
+/products/radiant-three-stone-ring
+/products/radiant-three-stone-ring-1
+```
+
+**Issue:**
+
+- Each URL is in the sitemap and canonicals to itself.
+- Search engines receive no consolidation signal.
+- Duplicate titles and meta descriptions are also present.
+- Ranking signals and internal links can split between duplicate URLs.
+
+**Fix:**
+
+- Choose the preferred URL in each pair.
+- 301 redirect the duplicate URL to the preferred URL.
+- Remove duplicate URLs from navigation and sitemap.
+- Update internal links to point to the preferred URLs.
+
+**Priority:** High
+
+---
+
+### 6. BreadcrumbList structured data is invalid or misleading
+
+Rendered pages contain a `BreadcrumbList` with 26 items representing the global navigation/footer instead of the current page’s actual breadcrumb path.
+
+**Issue:**
+
+- The same 26-item breadcrumb list appears across the site.
+- It appears on the homepage and product pages.
+- This does not represent the real page hierarchy.
+- Google may ignore the markup, treat it as invalid or display misleading breadcrumb paths.
+
+**Fix:**
+
+- Emit one actual breadcrumb path per page.
+- Example product breadcrumb: `Home > Engagement Rings > Amber Celeste Pavé Asscher Diamond Ring`
+- The homepage should not contain a 26-item breadcrumb trail.
+- Validate representative templates in Google Rich Results Test after deployment.
+
+**Priority:** High
+
+---
+
+### 7. Conflicting New Zealand and Australia location information
+
+The site has conflicting location/entity signals.
+
+**Issue:**
+
+- LocalBusiness schema and footer identify the business as Level 8, 139 Quay Street, Auckland 1010.
+- The site-wide FAQ answer says: “We are based in Brisbane, Australia”.
+- This contradiction appears on New Zealand pages and in FAQ structured data.
+
+**Impact:**
+
+- This creates trust, local relevance and entity-consistency issues.
+- It may confuse search engines about whether the site represents a New Zealand or Australian business entity.
+
+**Fix:**
+
+- Make the NZ business location, service area, contact details, FAQs, Organization/LocalBusiness schema, About page and Google Business Profile consistent.
+- If the NZ entity serves customers from an Australian office, explain that clearly instead of using conflicting primary-location claims.
+
+**Priority:** High
+
+---
+
+### 8. 29 URLs have missing, empty or duplicate H1s
+
+A total of 29 URLs have H1 issues.
+
+**Issue:**
+
+- 25 content pages have no H1.
+- The homepage and `/pages/diamond-collection` contain an empty H1.
+- `/collections/ring-builder` and `/pages/gemstones-collection` each contain two H1s, one of which is empty.
+
+**Pages with no H1:**
+
+```text
+/pages/about-us
+/pages/blogs-page
+/pages/book-appointment
+/pages/book-virtual-appointment
+/pages/contact-us
+/pages/custom-form
+/pages/custom-made-engagement-rings
+/pages/diamonds-search
+/pages/faqs
+/pages/jewellery-care-guide
+/pages/lab-vs-natural-what-you-need-to-know
+/pages/our-bespoke-process
+/pages/payment-plans
+/pages/price-match-policy
+/pages/privacy-policy
+/pages/return-refund-policy
+/pages/returns-repairs
+/pages/ring-builder
+/pages/ring-size-guide-nz
+/pages/shipping-policy
+/pages/sustainability
+/pages/terms-conditions
+/pages/valentines-day-jewellery-2026-rings-necklaces-earrings
+/pages/valuations-appraisals
+/pages/womens-day-special
+```
+
+**Fix:**
+
+- Update the relevant Shopify page templates and sections.
+- Every indexable page should have one visible, descriptive H1.
+- Remove empty heading elements from theme components.
+
+**Priority:** High
