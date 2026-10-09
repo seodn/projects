@@ -191,25 +191,8 @@ Fix:
 
 Priority: High
 
-### 2. Meta descriptions are missing across pages
 
-Meta descriptions appear to be missing or not properly added across important pages.
-
-Issue:
-- Search snippets are being pulled from page body content, filters, product listings and random page text.
-- Collection pages show filter/product text instead of a proper written meta description.
-- This indicates missing, empty or weak meta descriptions across pages.
-
-Fix:
-- Add a unique meta description to every indexable page.
-- Meta descriptions should be page-specific and not duplicated.
-- Collection meta descriptions should describe the collection, not filters or product counts.
-- Product meta descriptions should describe the product clearly.
-- Page meta descriptions should summarise the page content.
-
-Priority: High
-
-### 3. Pagination pages are indexable
+### 2. Pagination pages are indexable
 
 Paginated collection URLs are indexable, for example:
 
