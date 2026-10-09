@@ -31,6 +31,7 @@ Images and alt text | Localisation issues | Medium
 ### 11. Homepage lacks a useful H1
 
 - The parsed homepage appears to contain an empty heading around the header or hero.
+- H1 is not in Sequence
 - Hero and navigation content use repeated lower-level engagement-ring headings.
 - Add one descriptive homepage H1 based on the approved keyword map.
 - Possible directions include “Lab-Grown and Natural Diamond Jewellery in New Zealand” or “Lab-Grown Diamond Engagement Rings NZ”.
