@@ -255,6 +255,45 @@ User-agent: AhrefsBotCrawl-delay: 10
 - Render each `User-agent`, `Disallow`, `Crawl-delay` and `Sitemap` directive on its own line.
 - Validate the live robots.txt file after deployment.
 
+**Correct robots.txt format:**
+
+Each directive must appear on its own line.
+
+```text
+User-agent: *
+Disallow: /a/downloads/-/*
+Disallow: /admin
+Disallow: /cart
+Disallow: /orders
+Disallow: /checkouts/
+Disallow: /checkout
+Disallow: /account
+Disallow: /search
+Disallow: /challenge
+Disallow: /collections/*sort_by*
+Disallow: /collections/*filter*
+Disallow: /collections/*+*
+Disallow: /blogs/*+*
+Disallow: /*?*oseid=*
+Disallow: /*preview_theme_id*
+Disallow: /*preview_script_id*
+Disallow: /policies/
+
+User-agent: adsbot-google
+Disallow: /checkouts/
+Disallow: /checkout
+Disallow: /carts
+Disallow: /orders
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+Sitemap: https://diamondsforeveryone.co.nz/sitemap.xml
+```
+
 **Priority:** Critical
 
 ---
