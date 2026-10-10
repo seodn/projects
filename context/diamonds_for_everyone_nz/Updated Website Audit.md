@@ -300,19 +300,166 @@ Rendered pages contain a `BreadcrumbList` with 26 items representing the global 
 **Issue:**
 
 - The same 26-item breadcrumb list appears across the site.
-- It appears on the homepage and product pages.
+- It appears on the homepage, collection pages and product pages.
+- This breadcrumb is not showing the actual page path.
+- Instead of showing the product/category hierarchy, it is showing navigation/footer items.
 - This does not represent the real page hierarchy.
-- Google may ignore the markup, treat it as invalid or display misleading breadcrumb paths.
+- Google may ignore the markup, treat it as invalid, or display misleading breadcrumb paths in search results.
+
+**Example of incorrect BreadcrumbList pattern:**
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://diamondsforeveryone.co.nz/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Engagement Rings",
+      "item": "https://diamondsforeveryone.co.nz/collections/engagement-rings"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Wedding Rings",
+      "item": "https://diamondsforeveryone.co.nz/collections/wedding-rings"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Diamonds",
+      "item": "https://diamondsforeveryone.co.nz/pages/diamond-collection"
+    }
+  ]
+}
+```
+
+The issue is that this is acting like a navigation/menu list instead of a true breadcrumb path.
+
+**Correct product breadcrumb example:**
+
+For product pages, breadcrumb schema should show the exact path to that product.
+
+Example product:
+
+`Amber Celeste Pavé Asscher Diamond Ring`
+
+Correct visible breadcrumb:
+
+```text
+Home > Engagement Rings > Amber Celeste Pavé Asscher Diamond Ring
+```
+
+Correct JSON-LD example:
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://diamondsforeveryone.co.nz/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Engagement Rings",
+      "item": "https://diamondsforeveryone.co.nz/collections/engagement-rings"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Amber Celeste Pavé Asscher Diamond Ring",
+      "item": "https://diamondsforeveryone.co.nz/products/amber-celeste-pave-asscher-diamond-ring"
+    }
+  ]
+}
+```
+
+**Correct collection breadcrumb example:**
+
+For collection pages, breadcrumb schema should show the path to that collection.
+
+Example collection:
+
+`Hidden Halo Engagement Rings`
+
+Correct visible breadcrumb:
+
+```text
+Home > Engagement Rings > Hidden Halo Engagement Rings
+```
+
+Correct JSON-LD example:
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://diamondsforeveryone.co.nz/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Engagement Rings",
+      "item": "https://diamondsforeveryone.co.nz/collections/engagement-rings"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hidden Halo Engagement Rings",
+      "item": "https://diamondsforeveryone.co.nz/collections/hidden-halo"
+    }
+  ]
+}
+```
+
+**Where this should be fixed:**
+
+This should be fixed at template level, not manually page by page.
+
+Apply the correction to:
+
+- Product page template
+- Collection page template
+- Page template, where breadcrumbs are used
+
+Specific page types affected:
+
+- Product pages
+- Collection pages
+- Content pages
+- Homepage, where the 26-item breadcrumb should be removed completely
 
 **Fix:**
 
-- Emit one actual breadcrumb path per page.
-- Example product breadcrumb: `Home > Engagement Rings > Amber Celeste Pavé Asscher Diamond Ring`
-- The homepage should not contain a 26-item breadcrumb trail.
-- Validate representative templates in Google Rich Results Test after deployment.
+- Remove the global 26-item BreadcrumbList from the site template.
+- Do not use navigation/footer links as breadcrumb schema.
+- Add one actual breadcrumb path per page.
+- Product pages should use the correct product hierarchy.
+- Collection pages should use the correct collection hierarchy.
+- Content pages should use a simple path such as `Home > Page Name`.
+- Blog articles should use a path such as `Home > Blog > Article Name`.
+- The homepage should not contain BreadcrumbList schema.
+- Apply the same correct breadcrumb logic across all product and collection pages.
+- Validate product, collection, page and article templates in Google Rich Results Test after deployment.
 
 **Priority:** High
-
 ---
 
 ### 6. Conflicting New Zealand and Australia location information
