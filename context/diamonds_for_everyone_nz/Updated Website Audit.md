@@ -299,34 +299,31 @@ Sitemap: https://diamondsforeveryone.co.nz/sitemap.xml
 ---
 
 
-### 4. Duplicate, indexable, self-canonical URL pairs exist
+### 4. Duplicate pages should be removed
 
-The following duplicate URL pairs are indexable and self-canonical:
+The website has duplicate pages with `-1` versions. These duplicate URLs should be removed or redirected to the main URLs.
 
-```text
-/collections/mens-wedding-band
-/collections/mens-wedding-band-1
+**Confirmed duplicate pages:**
 
-/products/1-11ct-e-vs1-round-igi-lab
-/products/1-11ct-e-vs1-round-igi-lab-1
-
-/products/radiant-three-stone-ring
-/products/radiant-three-stone-ring-1
-```
+| Main URL to keep | Duplicate URL to remove or redirect |
+|---|---|
+| `/collections/mens-wedding-band` | `/collections/mens-wedding-band-1` |
+| `/products/1-11ct-e-vs1-round-igi-lab` | `/products/1-11ct-e-vs1-round-igi-lab-1` |
+| `/products/radiant-three-stone-ring` | `/products/radiant-three-stone-ring-1` |
 
 **Issue:**
 
-- Each URL is in the sitemap and canonicals to itself.
-- Search engines receive no consolidation signal.
-- Duplicate titles and meta descriptions are also present.
-- Ranking signals and internal links can split between duplicate URLs.
+- These duplicate pages have almost the same URL structure.
+- The `-1` versions are unnecessary duplicate pages.
+- Duplicate pages can confuse search engines and split ranking signals.
 
 **Fix:**
 
-- Choose the preferred URL in each pair.
-- 301 redirect the duplicate URL to the preferred URL.
-- Remove duplicate URLs from navigation and sitemap.
-- Update internal links to point to the preferred URLs.
+- Keep the main URL.
+- Remove the duplicate `-1` URL.
+- Add a 301 redirect from each duplicate URL to the main URL.
+- Remove the duplicate URLs from the sitemap if they are present.
+- Update internal links so they point only to the main URL.
 
 **Priority:** High
 
